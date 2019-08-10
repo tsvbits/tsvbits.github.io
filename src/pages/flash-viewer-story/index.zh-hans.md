@@ -1,7 +1,7 @@
 ---
-title: Maybe Absolute Links?
-date: '2019-07-27'
-spoiler: A weird error message
+title: How did we make Flash Viewer at ActiveReports
+date: '2019-08-12'
+spoiler: Open sourcing PageFX compiler
 ---
 
 An error message suddenly appeared from Gatsby while building this site
