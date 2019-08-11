@@ -53,9 +53,10 @@
     "format": "prettier --write '{gatsby-*.js,src/**/*.{js,jsx,json,css}}'",
     "develop": "gatsby develop",
     "start": "npm run develop",
-    "clean": "rm -rf public && rm -rf .cache",
-    "build": "npm run clean && gatsby build && echo \"tsvbits.com\" >> public/CNAME",
-    "predeploy": "npm run build",
+    "clean": "gatsby clean",
+    "build": "gatsby build && echo \"tsvbits.com\" >> public/CNAME && cp travis-jekyll.yml public/.travis.yml",
+    "rebuild": "npm run clean && npm run build",
+    "predeploy": "npm run rebuild",
     "deploy": "gh-pages --dist public --branch master --add --dotfiles",
     "dry": "yarn build && cp now.json public/ && cd public && now"
   },
