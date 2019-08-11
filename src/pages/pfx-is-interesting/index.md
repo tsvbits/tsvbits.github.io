@@ -11,9 +11,11 @@ Its code is available on [github](https://github.com/GrapeCity/pagefx) now.
 
 ## What makes this project interesting for compiler writers?
 
-Here is my top 4 reasons:
+Here is my top reasons:
 - It has a lot of IL code generation
-- It has direct instruction level translation between byte code formats
+- It has direct instruction-level translation between byte code formats
+- It incrementally compiles only classes and methods called from program entry point
+- It has smart linker that resolves dependency graph and emits only required resources extracted and transcoded (deserialized and serialized) from SWF files
 - It has experimental generation of JavaScript code by implementing a little CIL interpretter in JavaScript
 - It has experimental CIL interpretter written in C#
 
