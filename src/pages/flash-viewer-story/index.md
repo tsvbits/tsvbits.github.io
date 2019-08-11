@@ -43,8 +43,6 @@ In Jan 2009 the project was closed. Actually active development was stopped but 
 
 I've joined [Data Dynamics Reports](https://www.componentsource.com/product/data-dynamics-reports) dev team to build Flash Viewer for our new reporting system.
 
-Funny fact. The compiler was used almost ten years without any fixes to build Flash Viewer until drop of its support. I know it had bugs, but it was enough for Flash Viewer.
-
 ## Going open source
 
 I've just wrote a few emails recently with idea to publish code of the [PageFX at github](https://github.com/GrapeCity/pagefx). And there were no conerns with that from HQ side.
@@ -66,11 +64,17 @@ Also master branch includes interesting experiments:
 - CIL interpreter written in pure C# on top of PFX infrastructure
 - Port of [Starling game engine](https://gamua.com/starling/)
 
-You might find interesting [this old project](https://github.com/sergeyt/cil.js).
+You might find also interesting [this old project](https://github.com/sergeyt/cil.js) available on github.
 It has declarative [CIL reader](https://github.com/sergeyt/cil.js/blob/master/src/runtime/meta.js) written in JavaScript.
 This could be a starting point for full CIL interpreter in JavaScript.
 
-If someone interested to get more details about the project please [email me](mailto:stodyshev@gmail.com).
+If someone interested to get more details about PageFX project please [email me](mailto:stodyshev@gmail.com).
 I can write a series of blog posts perhaps someone may find it interesting.
+
+## Funny facts
+
+Few facts:
+- PFX compiler was used almost ten years without any fixes to build Flash Viewer until drop of its support. I know it had bugs, but it was enough for Flash Viewer
+- GrapeCity invested a lot of money to Flash technology building Active Reports Server with highly complex Flash Designer for semantic reports
 
 P.S. All dates might be a little bit wrong. Sorry for that)
