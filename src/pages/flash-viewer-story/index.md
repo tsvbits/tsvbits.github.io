@@ -66,6 +66,11 @@ Also master branch includes interesting experiments:
 - CIL interpreter written in pure C# on top of PFX infrastructure
 - Port of [Starling game engine](https://gamua.com/starling/)
 
+You might find interesting [this old project](https://github.com/sergeyt/cil.js).
+It has [CIL reader](https://github.com/sergeyt/cil.js/blob/master/src/runtime/meta.js) written in JavaScript.
+This could be a starting point for full CIL interpreter in JavaScript.
+
 If someone interested to get more details about the project please [email me](mailto:stodyshev@gmail.com).
+I can write a series of blog posts perhaps someone may find it interesting.
 
 P.S. All dates might be a little bit wrong. Sorry for that)
