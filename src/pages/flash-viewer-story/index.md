@@ -39,8 +39,11 @@ In July-August 2008 [Yuri Kashnikov](https://twitter.com/kayuri) joined me to he
 - Interop with libraries built by ActionScript compiler (ASC)
 - Debugger for Visual Studio 2008
 
-In Jan 2009 the project was closed. Active development was stopped. Flash Viewer for Active Reports was born and released.
+In Jan 2009 the project was closed. Actually active development was stopped but it was still used to compile Flash Viewer for Active Reports. And it was released that year.
+
 I've joined [Data Dynamics Reports](https://www.componentsource.com/product/data-dynamics-reports) dev team to build Flash Viewer for our new reporting system.
+
+Funny fact. The compiler was used almost ten years without any fixes to build Flash Viewer until drop of its support. I know it had bugs, but it was enough for Flash Viewer.
 
 ## Going open source
 
