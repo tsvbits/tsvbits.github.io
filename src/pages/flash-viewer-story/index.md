@@ -4,6 +4,8 @@ date: '2019-08-11'
 spoiler: Open sourcing PageFX compiler
 ---
 
+__TL;DR__ GrapeCity opens compiler used to build ActiveReports Flash Viewer
+
 It was not easy path. First we implemented a cross compiler from [.NET](https://en.wikipedia.org/wiki/Common_Intermediate_Language) to [Flash Player](https://www.adobe.com/content/dam/acom/en/devnet/pdf/avm2overview.pdf) byte code.
 
 And this post is about this cross compiling tool.
@@ -62,3 +64,5 @@ Also master branch includes interesting experiments:
 - Port of [Starling game engine](https://gamua.com/starling/)
 
 If someone interested to get more details about the project please [email me](mailto:stodyshev@gmail.com).
+
+P.S. All dates might be a little bit wrong. Sorry for that)
