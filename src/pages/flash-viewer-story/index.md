@@ -57,7 +57,7 @@ BTW in 2009 I've made an experimental branch with a lot of interesting changes b
 - Reuse of Mono MDB reader, i.e. managed reader of debug symbols. Previously we use COM library runnable only on Windows
 - Multi-targeting on Flash Player 9.0 and higher, i.e. Flash APIs are declared in separate assemblies auto-generated as part of build process
 - Multi-targeting on Flex SDK 3.3 and higher. Interop assemblies for Flex SDK are also auto-generated
-- Faster lazy parsing of assemblies with less memory consumption
+- Faster lazy parsing of assemblies into immutable data structures with less memory consumption
 
 Also master branch includes interesting experiments:
 - JavaScript code generation (a lot of tests were passing)
