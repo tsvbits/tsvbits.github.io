@@ -54,7 +54,7 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "clean": "rm -rf public && rm -rf .cache",
-    "build": "npm run clean && gatsby build",
+    "build": "npm run clean && gatsby build && cp -f CNAME public/",
     "predeploy": "npm run build",
     "deploy": "gh-pages --dist public --add --dotfiles",
     "dry": "yarn build && cp now.json public/ && cd public && now"
