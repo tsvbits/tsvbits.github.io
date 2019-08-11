@@ -54,7 +54,7 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "clean": "gatsby clean",
-    "build": "gatsby build && echo \"tsvbits.com\" >> public/CNAME && echo \"\" >> public/.nojekyll && cp travis-jekyll.yml public/.travis.yml",
+    "build": "gatsby build && echo \"tsvbits.com\" >> public/CNAME && echo \"\" >> public/.nojekyll",
     "rebuild": "npm run clean && npm run build",
     "predeploy": "npm run rebuild",
     "deploy": "gh-pages --dist public --branch master --add --dotfiles",
