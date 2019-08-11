@@ -55,8 +55,8 @@ I think this project might be interesting for education purposes for Microsoft R
 
 BTW in 2009 I've made an experimental branch with a lot of interesting changes but they probably are not stable since not used in production:
 
-- I've made PFX compiler to be cross-platform/runnable on mono VM and compatible with mono c# compiler
-- Reuse of Mono MDB reader, i.e. managed PDB (debug symbols) reader
+- I've made PFX compiler to be cross-platform/runnable on Mono VM and compatible with Mono C# compiler
+- Reuse of Mono MDB reader, i.e. managed reader of debug symbols. Previously we use COM library runnable only on Windows
 - Multi-targeting on Flash Player 9.0 and higher, i.e. Flash APIs are declared in separate assemblies auto-generated as part of build process
 - Multi-targeting on Flex SDK 3.3 and higher. Interop assemblies for Flex SDK are also auto-generated
 - Faster lazy parsing of assemblies with less memory consumption
