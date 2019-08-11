@@ -67,7 +67,7 @@ Also master branch includes interesting experiments:
 - Port of [Starling game engine](https://gamua.com/starling/)
 
 You might find interesting [this old project](https://github.com/sergeyt/cil.js).
-It has [CIL reader](https://github.com/sergeyt/cil.js/blob/master/src/runtime/meta.js) written in JavaScript.
+It has declarative [CIL reader](https://github.com/sergeyt/cil.js/blob/master/src/runtime/meta.js) written in JavaScript.
 This could be a starting point for full CIL interpreter in JavaScript.
 
 If someone interested to get more details about the project please [email me](mailto:stodyshev@gmail.com).
