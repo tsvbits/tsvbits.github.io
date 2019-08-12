@@ -8,7 +8,7 @@
     "url": "https://github.com/tsvbits/tsvbits.github.io/issues"
   },
   "dependencies": {
-    "gatsby": "^2.13.57",
+    "gatsby": "^2.13.58",
     "gatsby-plugin-catch-links": "^2.1.2",
     "gatsby-plugin-feed": "^2.3.6",
     "gatsby-plugin-google-analytics": "^2.1.7",
@@ -21,12 +21,12 @@
     "gatsby-remark-autolink-headers": "2.1.3",
     "gatsby-remark-copy-linked-files": "^2.1.5",
     "gatsby-remark-external-links": "^0.0.4",
-    "gatsby-remark-images": "^3.1.8",
+    "gatsby-remark-images": "^3.1.10",
     "gatsby-remark-prismjs": "^3.3.5",
     "gatsby-remark-responsive-iframe": "^2.2.4",
     "gatsby-remark-smartypants": "^2.1.2",
     "gatsby-source-filesystem": "^2.1.9",
-    "gatsby-transformer-remark": "^2.6.12",
+    "gatsby-transformer-remark": "^2.6.13",
     "gatsby-transformer-sharp": "^2.2.6",
     "lodash": "^4.17.15",
     "prismjs": "^1.17.1",
@@ -40,10 +40,10 @@
   "devDependencies": {
     "eslint": "^4.19.1",
     "eslint-plugin-react": "^7.11.1",
-    "gh-pages": "^1.2.0",
-    "husky": "^1.3.1",
+    "gh-pages": "2.0.1",
+    "husky": "^3.0.3",
     "lint-staged": "^8.1.0",
-    "prettier": "^1.14.2"
+    "prettier": "^1.18.2"
   },
   "homepage": "https://tsvbits.com",
   "license": "MIT",
