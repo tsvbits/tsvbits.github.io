@@ -45,10 +45,6 @@ I've joined [Data Dynamics Reports](https://www.componentsource.com/product/data
 
 ## Going open source
 
-I've just wrote a few emails recently with idea to publish code of the [PageFX at github](https://github.com/GrapeCity/pagefx). And there were no conerns with that from HQ side.
-
-BTW in 2013 I have already discussed opening source of PageFX and on that moment company was not ready by some reasons.
-
 I think this project might be interesting for education purposes for Microsoft Research students or any other universities.
 
 BTW in 2009 I've made an experimental branch with a lot of interesting changes but they probably are not stable since not used in production:
@@ -71,10 +67,8 @@ This could be a starting point for full CIL interpreter in JavaScript.
 If someone interested to get more details about PageFX project please [email me](mailto:stodyshev@gmail.com).
 I can write a series of blog posts perhaps someone may find it interesting.
 
-## Funny facts
+## Funny fact
 
-Few facts:
-- PFX compiler was used almost ten years without any fixes to build Flash Viewer until drop of its support. I know it had bugs, but it was enough for Flash Viewer
-- GrapeCity invested a lot of money to Flash technology building Active Reports Server with highly complex Flash Designer for semantic reports
+PFX compiler was used almost ten years without any fixes to build Flash Viewer until drop of its support. I know it had bugs, but it was enough for Flash Viewer
 
 P.S. All dates might be a little bit wrong. Sorry for that)
