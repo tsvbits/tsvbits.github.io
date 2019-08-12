@@ -69,24 +69,26 @@
 
                 setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'));
               })();
-            </script><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group" id="gatsby-focus-wrapper"><div style="color:var(--textNormal);background:var(--bg);transition:color 0.2s ease-out, background 0.2s ease-out;min-height:100vh"><div style="margin-left:auto;margin-right:auto;max-width:42rem;padding:2.625rem 1.3125rem"><header style="display:flex;justify-content:space-between;align-items:center;margin-bottom:2.625rem"><h3 style="font-family:Montserrat, sans-serif;margin-top:0;margin-bottom:0;height:42px;line-height:2.625rem"><a style="box-shadow:none;text-decoration:none;color:var(--textLink)" href="/">tsvbits</a></h3><div style="height:24px"></div></header><main><article><header><h1 style="color:var(--textTitle)">Why PageFX is interesting for compiler writers?</h1><p style="font-size:0.83255rem;line-height:1.75rem;display:block;margin-bottom:1.75rem;margin-top:-1.4rem">August 12, 2019<!-- --> • ☕️ 1 min read</p></header><div><p><strong>TL;DR</strong> PageFX compiler is really interesting</p>
+            </script><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group" id="gatsby-focus-wrapper"><div style="color:var(--textNormal);background:var(--bg);transition:color 0.2s ease-out, background 0.2s ease-out;min-height:100vh"><div style="margin-left:auto;margin-right:auto;max-width:42rem;padding:2.625rem 1.3125rem"><header style="display:flex;justify-content:space-between;align-items:center;margin-bottom:2.625rem"><h3 style="font-family:Montserrat, sans-serif;margin-top:0;margin-bottom:0;height:42px;line-height:2.625rem"><a style="box-shadow:none;text-decoration:none;color:var(--textLink)" href="/">tsvbits</a></h3><div style="height:24px"></div></header><main><article><header><h1 style="color:var(--textTitle)">Why PageFX is interesting for compiler writers?</h1><p style="font-size:0.83255rem;line-height:1.75rem;display:block;margin-bottom:1.75rem;margin-top:-1.4rem">August 12, 2019<!-- --> • ☕️ 1 min read</p></header><div><p><strong>TL;DR</strong> PageFX compiler is really interesting because it is compiler</p>
 <p>In my previous post I’ve shortly written about PageFX cross compiler.
 Its code is available on <a href="https://github.com/GrapeCity/pagefx" target="_blank" rel="nofollow noopener noreferrer">github</a> now.</p>
 <h2 id="what-makes-this-project-interesting-for-compiler-writers"><a href="#what-makes-this-project-interesting-for-compiler-writers" aria-label="what makes this project interesting for compiler writers permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>What makes this project interesting for compiler writers?</h2>
 <p>Here is my top reasons:</p>
 <ul>
-<li>It has a lot of IL code generation</li>
+<li>Compilers are complicated things and so it is interesting for learning</li>
+<li>It has a lot of IL code generation (only getting native strings support were not easy to do)</li>
 <li>It has direct instruction-level translation between byte code formats</li>
 <li>It incrementally compiles only classes and methods called from program entry point</li>
 <li>It has smart linker that resolves dependency graph and emits only required resources extracted and transcoded (deserialized and serialized) from SWF files</li>
 <li>It has experimental generation of JavaScript code by implementing a little CIL interpretter in JavaScript</li>
 <li>It has experimental CIL interpretter written in C#</li>
 </ul>
+<p>So please go ahead and learn PageFX reading its codebase.</p>
 <p>You might also find interesting <a href="https://github.com/sergeyt/cil.js" target="_blank" rel="nofollow noopener noreferrer">this old project</a> available on github.
 It has declarative <a href="https://github.com/sergeyt/cil.js/blob/master/src/runtime/meta.js" target="_blank" rel="nofollow noopener noreferrer">CIL reader</a> written in JavaScript.
 This could be a starting point for full CIL interpreter in JavaScript.
-You can take <a href="">this CIL interpretter</a> and complete it.
-Feel free to fork and play.</p>
+You can take <a href="https://github.com/GrapeCity/pagefx/blob/master/source/libs/Core/JavaScript/core.js" target="_blank" rel="nofollow noopener noreferrer">this CIL interpretter</a> as example and complete it.
+Feel free to fork and play anyway.</p>
 <p>If someone interested to get more details about PageFX project please <a href="mailto:stodyshev@gmail.com" target="_blank" rel="nofollow noopener noreferrer">email me</a>.
 I can write a series of blog posts perhaps someone may find it interesting.</p>
 <p>P.S. Anyone wanted to compile PageFX with latest C# compiler? Please send pull request :)</p></div><footer><p><a href="https://mobile.twitter.com/search?q=https%3A%2F%2Ftsvbits.com%2Fpfx-is-interesting%2F" target="_blank" rel="noopener noreferrer">Discuss on Twitter</a> • <a href="https://github.com/tsvbits/tsvbits.com/edit/dev/src/pages/pfx-is-interesting/index.md" target="_blank" rel="noopener noreferrer">Edit on GitHub</a></p></footer></article></main><aside><div style="margin:90px 0 40px 0;font-family:system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;,
