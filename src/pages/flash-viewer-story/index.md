@@ -35,18 +35,18 @@ The project was successfully used to build our multi-platform report viewer as p
 
 ## Going open source
 
-I think this project might be interesting for education purposes for Microsoft Research students or any other universities.
+This project might be interesting for education purposes for Microsoft Research students or any other universities.
 
-BTW in 2009 I've made an experimental branch with a lot of interesting changes but they probably are not stable since not used in production:
+I've made an experimental branch with additional changes that were not used in production:
 
-- I've made PFX compiler to be cross-platform/runnable on Mono VM and compatible with Mono C# compiler
+- PFX compiler to be cross-platform/runnable on Mono VM and compatible with Mono C# compiler
 - Reuse of Mono MDB reader, i.e. managed reader of debug symbols. Previously we use COM library runnable only on Windows
 - Multi-targeting on Flash Player 9.0 and higher, i.e. Flash APIs are declared in separate assemblies auto-generated as part of build process
 - Multi-targeting on Flex SDK 3.3 and higher. Interop assemblies for Flex SDK are also auto-generated
 - Faster lazy parsing of assemblies into immutable data structures with less memory consumption
 
-Also master branch includes interesting experiments:
-- JavaScript code generation (a lot of tests were passing)
+In addition master branch includes these interesting experiments:
+- JavaScript code generation (many tests were passing)
 - CIL interpreter written in pure C# on top of PFX infrastructure
 - Port of [Starling game engine](https://gamua.com/starling/)
 
@@ -55,7 +55,7 @@ It has declarative [CIL reader](https://github.com/sergeyt/cil.js/blob/master/sr
 This could be a starting point for full CIL interpreter in JavaScript.
 
 If someone interested to get more details about PageFX project please [email me](mailto:stodyshev@gmail.com).
-I can write a series of blog posts perhaps someone may find it interesting.
+I can write a series of blog posts on the topic.
 
 ## Funny facts
 
