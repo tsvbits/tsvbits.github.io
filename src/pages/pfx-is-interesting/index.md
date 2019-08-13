@@ -6,7 +6,7 @@ spoiler: PageFX is easy to learn
 
 __TL;DR__ PageFX compiler is really interesting because it is compiler
 
-In my previous post I've shortly written about PageFX cross compiler.
+In [my previous post](/flash-viewer-story/) I've shortly written about PageFX cross compiler.
 Its code is available on [github](https://github.com/GrapeCity/pagefx) now.
 
 ## What makes this project interesting for compiler writers?

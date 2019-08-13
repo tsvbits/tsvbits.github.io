@@ -55,11 +55,11 @@ It has declarative [CIL reader](https://github.com/sergeyt/cil.js/blob/master/sr
 This could be a starting point for full CIL interpreter in JavaScript.
 
 If someone interested to get more details about PageFX project please [email me](mailto:stodyshev@gmail.com).
-I can write a series of blog posts on the topic.
+I can write a series of blog posts on [the topic](/pfx-is-interesting/).
 
 ## Funny facts
 
 - Initial prototype was hacked by [olegzee](https://twitter.com/olegzeee) in July 2008 in few weeks during his vacation
 - PFX compiler was used almost ten years after discontinue of development. Without any fixes it compiled flash report viewer on build machines until drop of its support. I know it had bugs, but it was enough for this report viewer
 
-P.S. All dates might be a little bit wrong. Sorry for that)
+P.S. All dates might be a little bit wrong. Sorry for that
