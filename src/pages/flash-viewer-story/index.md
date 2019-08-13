@@ -13,18 +13,17 @@ It was called [PageFX](https://github.com/GrapeCity/pagefx) later also called PF
 
 ## History
 
-I started this project in June of 2007 by invitation from [Scott Willeke](https://scott.willeke.com/). Initial idea was to create a framework for building rich internet applications using Adobe Flash Player as alternative technology for [Microsoft Silverlight](https://www.microsoft.com/silverlight/).
+I started this project in June of 2007 by invitation from [Scott Willeke](https://scott.willeke.com/). Initial idea of guys from [Data Dynamics](https://en.wikipedia.org/wiki/Data_Dynamics) was to create a multi-platform WPF implementation for building rich internet applications using Adobe Flash Player. Flash Player was selected before Microsoft presented [Silverlight](https://www.microsoft.com/silverlight/).
 
-I don't know all reasons why guys from [Data Dynamics](https://en.wikipedia.org/wiki/Data_Dynamics) decided to build such crazy cross compiler. I can guess only few:
+First prototype was implemented by Ferhat Buyukkokten (VP Development). He made initial proof of concept of PFX compiler with implementation of most of WPF visual elements. 
 
-First Ferhat Buyukkokten (VP Development) liked hacking and coding crazy projects. He made initial proof of concept of PFX compiler.
+Also on that time Flash was popular and there were millions of flash resources on the internet (games, ads, etc). Silverlight was passing first baby-born steps. And for DD flash looked as promissing technology.
 
-Secondly flash was popular on that time and there were millions of flash resources on the internet (games, ads, etc). Silverlight was passing first baby-born steps. So flash was a promissing technology.
-
-After three monthes trying to implement an real-world app on top of PageFX I convinced Scott to rewrite the compiler from scratch having only the following as basis:
+After three monthes unsuccessfull attempt to implement a real-world app on top of PageFX I convinced Scott to rewrite the compiler from scratch having only the following as basis:
 - [.NET CLI ECMA-335 spec](https://www.ecma-international.org/publications/files/ECMA-ST/ECMA-335.pdf) - this doc describes format of .NET executable files
 - [AVM overview doc](https://www.adobe.com/content/dam/acom/en/devnet/pdf/avm2overview.pdf) - this doc describes format of byte code parsed and executed by ActionScript Virtual Machine
 - [AVM source code](https://github.com/adobe/avmplus) - initial version was hosted at [Mozilla](https://hg.mozilla.org/tamarin-central)
+- also I've showed CIL, SWF, ABC readers I've done so far as artifact of my learning CIL and ABC executable file formats
 
 I made few major iterations to make the compiler.
 First iteration was not successful though a lot of test cases worked. I've tried to build .NET decompiler first and then translate it to AVM byte code.
