@@ -39,9 +39,30 @@ Working to make Web Components with efficient and asynchronous data processing a
 * Optimized RDL report engine making it faster up to 10x times together with super dev team
 * Principal developer of [PageFX compiler](https://github.com/GrapeCity/pagefx) from .NET to AVM (Flash Player VM) bytecode successfully used to build multi-platform report viewer
 
-### Full Stack Software Engineer at IAE
+### Full Stack Software Engineer at Institute of Automation and Electrometry
 <p style="margin-top:-28px;color:var(--textLink);">June 2002 - August 2007</p>
 
 * PhD student at laboratory of diffractive optics
 * Automation of laser writing machines
 * Development of computer aided tools for interferometry and tomography
+
+## Education
+
+### PhD student at Institute of Automation and Electrometry, Novosibirsk
+<p style="margin-top:-28px;color:var(--textLink);">June 2004  –  August 2007</p>
+
+* Abstract control system
+* Made user interfaces in C# WinForms (previosly implemented in C++ WFC) for CLWS server
+
+### Master at Novosibirsk State University
+<p style="margin-top:-28px;color:var(--textLink);">September 1999  –  June 2004</p>
+
+Computers, Complexes, Systems and Networks. GPA: 4+
+
+## References
+* Oleg Zaimkin from DataWorks (oleg.zaimkin@grapecity.com)
+* Yuriy Kashnikov from Xored (yuriy.kashnikov@protonmail.com)
+
+## Hobbies
+* Playing table tennis
+* Travelling with family
