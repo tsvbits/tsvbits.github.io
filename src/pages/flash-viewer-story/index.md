@@ -59,7 +59,7 @@ I can write a series of blog posts on [the topic](/pfx-is-interesting/).
 
 ## Funny facts
 
-- Initial prototype was hacked by [olegzee](https://twitter.com/olegzeee) in July 2008 in few weeks during his vacation
+- Initial prototype of Flash Viewer was hacked by [olegzee](https://twitter.com/olegzeee) in July 2008 in few weeks during his vacation
 - PFX compiler was used almost ten years after discontinue of development. Without any fixes it compiled flash report viewer on build machines until drop of its support. I know it had bugs, but it was enough for this report viewer
 
 P.S. All dates might be a little bit wrong. Sorry for that
