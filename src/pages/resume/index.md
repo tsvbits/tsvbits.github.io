@@ -19,7 +19,7 @@ I love to work on complex projects improving both user and developer experiences
 
 When working on a project I particularly care about continuous improvement bit by bit.
 I care about finding efficient and simple solutions.
-I care about making consistent interfaces that easy to use correctly and hard to use incorectly.
+I care about making consistent interfaces that easy to use correctly and hard to use incorrectly.
 
 I’m currently working at GrapeCity and just keep going.
 
