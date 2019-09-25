@@ -12,12 +12,14 @@ Location: Berdsk, Russia<br>
 Email: stodyshev@gmail.com<br>
 Latest update: 14 August 2019<br>
 
-I've been writing computer programs with passion for half of my life (17 years profressionally).
+I've been writing computer programs with passion for half of my life (17 years professionally).
 I've been being involved in challenging projects using various technologies ranging from server side applications, compilers and report engines.
 
 I love to work on complex projects improving both user and developer experiences and bring a strong technical leadership to a team.
 
-When working on a project I particularly care about continuous improvement bit by bit. I care about performance, quality, extensibility, maintainability, simplicity and usability of consistent interfaces that easy to use correctly and hard to use incorectly.
+When working on a project I particularly care about continuous improvement bit by bit.
+I care about finding efficient and simple solutions.
+I care about making consistent interfaces that easy to use correctly and hard to use incorectly.
 
 I’m currently working at GrapeCity and just keep going.
 
