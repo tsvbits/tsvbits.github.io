@@ -12,16 +12,26 @@ Location: Berdsk, Russia<br>
 Email: stodyshev@gmail.com<br>
 Latest update: 14 August 2019<br>
 
-I've been writing computer programs with passion for half of my life (17 years professionally).
-I've been being involved in challenging projects using various technologies ranging from server side applications, compilers and report engines.
+I've been writing computer programs with passion for half of my life.
+I might literally write million lines of code :)
+I love to work on complex projects with positive and smart people around me improving both user and developer experiences and bring a strong technical leadership to a team.
+I've been being involved in challenging projects ranging from distributed systems, report engines and even low-level compilers [like this one](https://github.com/GrapeCity/pagefx).
+I am proactive and pragmatic problem solver and getting things done is important to me.
 
-I love to work on complex projects improving both user and developer experiences and bring a strong technical leadership to a team.
-
-When working on a project I particularly care about continuous improvement bit by bit.
+When working on a project I particularly care about just making bits better every day.
 I care about finding efficient and simple solutions.
-I care about making consistent interfaces that easy to use correctly and hard to use incorrectly.
+I care about making interfaces that [easy to use correctly and hard to use incorrectly](https://www.aristeia.com/Papers/IEEE_Software_JulAug_2004_revised.htm).
 
 I’m currently working at GrapeCity and just keep going.
+
+## Skills
+
+* Languages: JavaScript, TypeScript, C#, Java, Go, C/C++, Python, Bash
+* Frameworks: Spring, ASP.NET, Redux, Angular, Vue
+* Paradigms: Object-oriented Programming (OOP), Functional Programming, Unit Testing, Aspect-oriented Programming, Microservices Architecture
+* Libraries/APIs: React
+* Tools: Git
+* Platforms: Linux, Windows, Docker, Azure Service Fabric
 
 ## Experience
 
