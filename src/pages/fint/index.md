@@ -3,7 +3,7 @@ title: .NET CIL interpreter in F#
 date: '2019-11-01'
 ---
 
-I've prepared compact [.NET CIL](https://en.wikipedia.org/wiki/Common_Intermediate_Language) interpreter called [Fint](https://github.com/sergeyt/fint) in pure F# for [NSK .NET meetup #6](https://meetup.com/NskDotNet).
+I've prepared compact [.NET CIL](https://en.wikipedia.org/wiki/Common_Intermediate_Language) interpreter called [Fint](https://github.com/sergeyt/fint) in pure F# for [NskDotNet Meetup #6](https://www.meetup.com/NskDotNet/events/265652338/).
 
 It can run C# programs with the following features at this point:
 - all control flow statements (if, for, switch, etc)
