@@ -26,7 +26,7 @@ I’m currently working at GrapeCity and just keep going.
 
 ## Skills
 
-* Languages: JavaScript, TypeScript, C#, Java, Go, C/C++, Python, Bash, SQL
+* Languages: JavaScript, TypeScript, C#, F#, Java, Go, C/C++, Python, Bash, SQL
 * Frameworks: Spring, .NET, ASP.NET, Redux, Angular, Vue
 * Paradigms: Object-oriented Programming (OOP), Functional Programming, Unit Testing, Aspect-oriented Programming, Microservices Architecture
 * Libraries/APIs: React
