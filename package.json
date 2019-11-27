@@ -41,9 +41,9 @@
     "eslint": "^4.19.1",
     "eslint-plugin-react": "^7.11.1",
     "gh-pages": "2.0.1",
-    "husky": "^3.0.5",
+    "husky": "^3.1.0",
     "lint-staged": "^8.1.0",
-    "prettier": "^1.18.2"
+    "prettier": "^1.19.1"
   },
   "homepage": "https://tsvbits.com",
   "license": "MIT",
