@@ -18,15 +18,18 @@ Latest update: 27 November 2019<br>
 
 I've been writing computer programs with passion for half of my life.
 I might literally write million lines of code :)
-I love to work on complex projects with positive and smart people around me improving both user and developer experiences and bring a strong technical leadership to a team.
-I've been being involved in challenging projects ranging from distributed systems, report engines and even low-level compilers [like this one](https://github.com/GrapeCity/pagefx).
+
 I am proactive and pragmatic problem solver and getting things done is important to me.
 
-When working on a project I particularly care about just making bits better every day.
-I care about finding efficient and simple solutions.
+I love working on complex projects with positive and smart people around me.
+I usually tend to improve both user and developer experiences and bring a strong technical leadership to a team.
+
+I've been being involved in challenging projects ranging from distributed systems, report engines and even low-level compilers [like this one](https://github.com/GrapeCity/pagefx).
+
+When working on a project I particularly care about finding efficient and simple solutions.
 I care about making interfaces that [easy to use correctly and hard to use incorrectly](https://www.aristeia.com/Papers/IEEE_Software_JulAug_2004_revised.htm).
 
-I’m currently working at GrapeCity and just keep going.
+I’m currently happily employed by GrapeCity Inc and just keep going and doing good bits.
 
 ### Skills
 
