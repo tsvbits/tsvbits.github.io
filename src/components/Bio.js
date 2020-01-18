@@ -26,8 +26,8 @@ class Bio extends React.Component {
           Personal blog by{' '}
           <a href="https://github.com/sergeyt">Sergey Todyshev</a>. I&nbsp;may
           write few words here from time to time. You can{' '}
-          <a ref="mailto:stodyshev@gmail.com">email me</a> to get consulting in
-          English about things that <a href="/resume">I might be expert in</a>.
+          <a ref="mailto:stodyshev@gmail.com">email me</a> to get{' '}
+          <a href="/support">technical support</a>
         </p>
       </div>
     );
