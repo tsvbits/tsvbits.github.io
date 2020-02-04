@@ -56,8 +56,14 @@ I’m currently happily employed by GrapeCity Inc and just keep going.
 #### PhD student at Institute of Automation and Electrometry, Novosibirsk
 <p style="margin-top:-28px;color:var(--textLink);">June 2004  –  August 2007</p>
 
-* Abstract control system
-* Made user interfaces in C# WinForms (previosly implemented in C++ WFC) for CLWS server
+Put hands on implementation of:
+* Modernization of software to control IAE circle laser writing systems
+* Hardware abstraction layers
+* Abstract control systems
+* CLWS client/server architecture
+* User interfaces in C++ MFC (Microsoft Foundation Classes)
+* User interfaces in C# WinForms for CLWS server
+* Computer aided tools for interferometry and tomography
 
 #### Master at Novosibirsk State University
 <p style="margin-top:-28px;color:var(--textLink);">September 1999  –  June 2004</p>
@@ -80,7 +86,7 @@ Working to make Web Components with efficient and asynchronous data processing a
 <p style="margin-top:-28px;color:var(--textLink);">June 2007 - January 2016</p>
 
 * Worked to make better ActiveReports Server platform and ActiveReports product lines.
-* Optimized RDL report engine making it faster up to 10x times together with super dev team
+* Particularly optimized RDL report engine making it faster up to 10x times together with super dev team
 * Principal developer of [PageFX compiler](https://github.com/GrapeCity/pagefx) from .NET to AVM (Flash Player VM) bytecode successfully used to build multi-platform report viewer
 
 #### Full Stack Software Engineer at Institute of Automation and Electrometry
