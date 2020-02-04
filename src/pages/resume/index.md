@@ -21,7 +21,7 @@ Latest update: 27 November 2019<br>
 I've been writing computer programs with passion for half of my life.
 I wrote a lot of software and fix thousands of bugs. And I am still engineer.
 
-I am small fish like those engineers working hard with dedication.
+I am small fish like those engineers who working hard and dedication driven.
 This makes me having mindset to solve problems pragmatically and proactively.
 
 I love working on complex projects with positive and smart people around me.
