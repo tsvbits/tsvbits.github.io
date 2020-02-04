@@ -39,11 +39,11 @@
     "typography-theme-wordpress-2016": "^0.16.19"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-plugin-react": "^7.11.1",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.18.3",
     "gh-pages": "2.0.1",
-    "husky": "^4.0.10",
-    "lint-staged": "^8.1.0",
+    "husky": "^4.2.1",
+    "lint-staged": "^10.0.7",
     "prettier": "^1.19.1"
   },
   "homepage": "https://tsvbits.com",
