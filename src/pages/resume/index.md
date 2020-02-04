@@ -21,7 +21,8 @@ Latest update: 27 November 2019<br>
 I've been writing computer programs with passion for half of my life.
 I wrote a lot of software and fix thousands of bugs. And I am still engineer.
 
-I am small fish like many engineers who are ready to work hard with dedication to get solve problems proactively and pragmatically.
+I am small fish like those engineers working hard with dedication.
+This makes me having mindset to solve problems pragmatically and proactively.
 
 I love working on complex projects with positive and smart people around me.
 
@@ -31,8 +32,8 @@ I've been being involved in challenging projects ranging from
 * [report engines](https://www.grapecity.com/activereports)
 * [distributed systems](https://www.spirent.com/products/lab-as-a-service-automation-velocity)
 
-When working on a project I particularly care about finding efficient and simple solutions.
-I care about making interfaces that [easy to use correctly and hard to use incorrectly](https://www.aristeia.com/Papers/IEEE_Software_JulAug_2004_revised.htm).
+When working on a particular project I care about finding efficient and simple solutions.
+I care about making interfaces that are [easy to use correctly and hard to use incorrectly](https://www.aristeia.com/Papers/IEEE_Software_JulAug_2004_revised.htm).
 
 I’m currently happily employed by GrapeCity Inc and just keep going.
 
