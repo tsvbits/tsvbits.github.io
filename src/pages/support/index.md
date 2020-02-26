@@ -10,4 +10,4 @@ If you want to chat about getting a support contract or hire me for your company
 ## One Hour Consultation
 * Get support and advice on things where [I have strong expertise](/resume)
 * One or more hours of dedicated time with an expert
-* $100 secure one-time payment through PayPal
+* $50 secure one-time payment through PayPal
