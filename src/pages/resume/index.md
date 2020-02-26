@@ -22,7 +22,7 @@ I've been writing computer programs with passion for half of my life.
 I wrote a lot of software and fix thousands of bugs.
 And I am still engineer writing code almost every day.
 
-I am small fish like those engineers who working hard and dedication driven.
+I am small fish like those engineers who working hard and dedication driven to get useful things done.
 This makes me having mindset to solve problems pragmatically and proactively.
 
 I love working on complex projects with positive and smart people around me.
