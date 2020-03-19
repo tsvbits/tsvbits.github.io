@@ -23,11 +23,10 @@ class Bio extends React.Component {
           }}
         />
         <p style={{ maxWidth: 310 }}>
-          Personal blog by{' '}
-          <a href="https://github.com/sergeyt">Sergey Todyshev</a>. I&nbsp;may
-          write few words here from time to time. You can{' '}
+          Hello, my name is <a href="https://github.com/sergeyt">SergeyT</a>. I
+          am software engineer. You can{' '}
           <a ref="mailto:stodyshev@gmail.com">email me</a> to get{' '}
-          <a href="/support">technical support</a>
+          <a href="/support">technical support</a> or even hire me
         </p>
       </div>
     );
