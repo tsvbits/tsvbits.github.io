@@ -49,55 +49,57 @@ I’m currently happily employed by GrapeCity Inc and just keep going.
 
 ### Languages
 
-* English - Level B2 (IELTS academic)
+* English - B2 (IELTS academic)
 * Russian - native
 
 ### Education
 
 #### PhD student at Institute of Automation and Electrometry, Novosibirsk
-<p style="margin-top:-28px;color:var(--textLink);">June 2004  –  August 2007</p>
+<p style="margin-top:-28px;color:var(--hr);">June 2004  –  August 2007</p>
 
 Put hands on implementation of:
-* Modernization of software to control IAE circle laser writing systems
-* Hardware abstraction layers
+* Modernization of software to control [IAE](https://www.iae.nsk.su/en/) [circle laser writing systems](/clws)
+* [Hardware abstraction layers](/devicemanager)
 * Abstract control systems
-* CLWS client/server architecture
+* [CLWS](/clws) client/server architecture
 * User interfaces in C++ MFC (Microsoft Foundation Classes)
-* User interfaces in C# WinForms for CLWS server
-* Computer aided tools for interferometry and tomography
+* User interfaces in C# WinForms for [CLWS](/clws) server
+* Computer aided tools for interferometry
+* Computer aided tools for [tomography](/voxcat)
 
 #### Master at Novosibirsk State University
-<p style="margin-top:-28px;color:var(--textLink);">September 1999  –  June 2004</p>
+<p style="margin-top:-28px;color:var(--hr);">September 1999  –  June 2004</p>
 
 Computers, Complexes, Systems and Networks. GPA: 4+
 
 ### Work Experience
 
-#### Software Team Lead at GrapeCity
-<p style="margin-top:-28px;color:var(--textLink);">October 2018 - present</p>
+#### Tech Lead at GrapeCity
+<p style="margin-top:-28px;color:var(--hr);">October 2018 - present</p>
 
 Working to make Web Components with efficient and asynchronous data processing and visualization on the client
 
-#### Software Tech Lead at Xored
-<p style="margin-top:-28px;color:var(--textLink);">January 2016 - June 2018</p>
+#### Tech Lead at Xored
+<p style="margin-top:-28px;color:var(--hr);">January 2016 - June 2018</p>
 
 * Worked to make [Spirent Velocity](https://www.spirent.com/products/velocity) to be the best LaaS solution
 
 #### Full Stack Software Engineer at DataWorks
-<p style="margin-top:-28px;color:var(--textLink);">June 2007 - January 2016</p>
+<p style="margin-top:-28px;color:var(--hr);">June 2007 - January 2016</p>
 
 * Worked to make better ActiveReports Server platform and ActiveReports product lines.
 * Particularly optimized RDL report engine making it faster up to 10x times together with super dev team
 * Principal developer of [PageFX compiler](https://github.com/GrapeCity/pagefx) from .NET to AVM (Flash Player VM) bytecode successfully used to build multi-platform report viewer
 
 #### Full Stack Software Engineer at Institute of Automation and Electrometry
-<p style="margin-top:-28px;color:var(--textLink);">June 2002 - August 2007</p>
+<p style="margin-top:-28px;color:var(--hr);">June 2002 - August 2007</p>
 
 * PhD student at laboratory of diffractive optics
 * Automation of laser writing machines
 * Development of computer aided tools for interferometry and tomography
 
 ### References
+* Scott Willeke from Smartsheet (scott@willeke.com)
 * Oleg Zaimkin from DataWorks (oleg.zaimkin@grapecity.com)
 * Yuriy Kashnikov from Xored (yuriy.kashnikov@protonmail.com)
 
