@@ -26,3 +26,5 @@ When working on a particular project I care about finding efficient and simple s
 I care about making friendly interfaces that are [easy to use correctly and hard to use incorrectly](https://www.aristeia.com/Papers/IEEE_Software_JulAug_2004_revised.htm).
 
 I’m currently happily employed by GrapeCity Inc and just keep going.
+
+See [full resume](/resume)
