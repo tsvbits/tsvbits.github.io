@@ -40,6 +40,9 @@ class Footer extends React.Component {
           linkedin
         </a>
         &bull; <a href="/resume/">resume</a>
+        <span style={{ fontSize: 'smaller', marginLeft: 100 }}>
+          icons by <a href="https://simpleicons.org/">simple icons</a>
+        </span>
       </footer>
     );
   }
