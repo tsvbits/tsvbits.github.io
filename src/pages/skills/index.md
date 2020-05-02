@@ -3,6 +3,18 @@ title: Skills
 date: '2020-05-02'
 ---
 
+<style>
+table {
+    table-layout: fixed;
+}
+th::nth-child(2), td:nth-child(2) {
+    text-align: center;
+}
+td:nth-child(2) {
+    padding-left: 30px;
+}
+</style>
+
 #### Paradigms
 
 | Paradigm                     | Years |
