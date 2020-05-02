@@ -274,3 +274,35 @@ table {
 table td {
   padding: 8px;
 }
+
+/*
+ Page Header
+*/
+
+div.root-header {
+  display: flex;
+  align-items: center;
+
+  h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .internet-links {
+    a.icon {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1;
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none !important;
+      text-size-adjust: none;
+      background-image: none;
+      text-shadow: none;
+      margin-top: 10px;
+
+      img {
+        margin: 0;
+      }
+    }
+  }
+}

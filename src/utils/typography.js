@@ -1,5 +1,5 @@
 import '../fonts/fonts-shared.css';
-import './global.css';
+import './global.scss';
 
 import Typography from 'typography';
 import theme from 'typography-theme-twin-peaks';
