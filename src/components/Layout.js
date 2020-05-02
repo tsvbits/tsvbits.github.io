@@ -9,6 +9,7 @@ class Layout extends React.Component {
   state = {
     theme: null,
   };
+
   componentDidMount() {
     this.setState({ theme: window.__theme });
     window.__onThemeChange = () => {
@@ -53,7 +54,7 @@ class Layout extends React.Component {
             }}
           >
             <Header location={this.props.location} title={this.props.title} />
-            <ThemeSwitch />
+            <ThemeSwitch theme={this.state.theme} />
           </header>
           {children}
         </div>

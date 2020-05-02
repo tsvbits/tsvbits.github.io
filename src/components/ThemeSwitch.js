@@ -1,18 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Toggle from './Toggle';
 
 // TODO replace with svg
 import sun from '../assets/sun.png';
 import moon from '../assets/moon.png';
 
-export default function ThemeSwitch() {
-  const [theme, setTheme] = useState(window.__theme);
-  useEffect(() => {
-    window.__onThemeChange = () => {
-      setTheme(window.__theme);
-    };
-  });
-
+export default function ThemeSwitch({ theme }) {
   return theme !== null ? (
     <Toggle
       icons={{
