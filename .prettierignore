@@ -1,1 +1,15 @@
 *.md
+.cache
+.*
+*.lock
+**/*.js.map
+**/*.jpg
+**/*.png
+**/*.ico
+**/*.pdf
+**/*.ttf
+**/*.eot
+**/*.woff
+**/*.woff2
+**/*.txt
+**/*.xml
