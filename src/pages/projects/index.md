@@ -7,7 +7,7 @@ This page lists projects that I've been involved as software engineer.
 Some of them are still being used by somebody.
 
 ## Fint
-<p style="margin-top:-28px;color:var(--hr);">2019</p>
+:calendar:<span class="calendar">`2019 - now`</span>
 
 It is compact [.NET CIL](https://en.wikipedia.org/wiki/Common_Intermediate_Language) interpreter written in pure F#.
 See [this post](/fint) to get more details about this project.
@@ -15,19 +15,19 @@ See [this post](/fint) to get more details about this project.
 Status **experimental**, **incomplete**
 
 ## Spirent Velocity
-<p style="margin-top:-28px;color:var(--hr);">2016-2018</p>
+:calendar:<span class="calendar">`2016 - 2018`</span>
 
 I had a great opportunity to be a developer of [Spirent Velocity automation platform](https://www.spirent.com/products/lab-as-a-service-automation-velocity). Talented dev team. I had a fun time.
 
 ## ActiveReports
-<p style="margin-top:-28px;color:var(--hr);">2010-2015</p>
+:calendar:<span class="calendar">`2010 - 2015`</span>
 
 I had a great opportunity to be a developer of [ActiveReports](https://www.grapecity.com/activereports) - one of the advanced and complete reporting platform for .NET. Talented dev team. I had a fun time.
 
 Here I was one of major driver to dramatically boost performance of this report generator.
 
 ## PageFX
-<p style="margin-top:-28px;color:var(--hr);">2007-2008</p>
+:calendar:<span class="calendar">`2007 - 2008`</span>
 
 It is binary-level compiler from [.NET CIL](https://en.wikipedia.org/wiki/Common_Intermediate_Language) to [Adobe Flash Player VM](https://www.adobe.com/content/dam/acom/en/devnet/pdf/avm2overview.pdf) byte code used in [ActiveReports](https://www.grapecity.com/activereports).
 It is recently [open sourced](/flash-viewer-story).
@@ -40,7 +40,7 @@ I am proud how this compiler was stable and it worked without changes for years.
 Status **dead**, but it can be reanimated for example to allow using C# to develop applications for [Adobe Integrated Runtime](https://get.adobe.com/air/)
 
 ## Circle Laser Writing Systems
-<p style="margin-top:-28px;color:var(--hr);">2002-2007</p>
+:calendar:<span class="calendar">`2002 - 2007`</span>
 
 At [IAE](https://www.iae.nsk.su/en/) at laboratory of diffractive optics I've been developing different software components to manage [CLWS](http://denktech.com/img/pclws300.jpg) resources. One of the major component is Device Manager. It is a component to manage hardware drivers called devices.
 
@@ -49,7 +49,7 @@ See [this post](/clws) to get more details about this project.
 Status **still-used** in the laboratory of diffractive options.
 
 ## voXcat for DiOptic
-<p style="margin-top:-28px;color:var(--hr);">2002</p>
+:calendar:<span class="calendar">`2002 - 2003`</span>
 
 CAT means Computer Aided Tomography. It is tomography analysis software.
 Implemented in C++ using Microsoft Foundation Classes.

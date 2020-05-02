@@ -3,7 +3,7 @@ title: Skills
 date: '2020-05-02'
 ---
 
-## Paradigms
+#### Paradigms
 
 | Paradigm                     | Years |
 | ---------------------------- |:-----:|
@@ -14,7 +14,7 @@ date: '2020-05-02'
 | Aspect-Oriented Programming  | 10+   |
 | Microservices Architecture   | 5+    |
 
-## Programming Languages
+#### Programming Languages
 
 | Language      | Years |
 | ------------- |:-----:|
@@ -29,7 +29,7 @@ date: '2020-05-02'
 | SQL           | 10+   |
 | Rust          | 0.5   |
 
-## Web Tools
+#### Web Tools
 
 | Technology    | Years |
 | ------------- |:-----:|
@@ -38,7 +38,7 @@ date: '2020-05-02'
 | Angular       | 1     |
 | Vue           | 1     |
 
-## Backend Technologies
+#### Backend Technologies
 
 | Technology           | Years |
 | -------------------- |:-----:|
@@ -47,7 +47,7 @@ date: '2020-05-02'
 | Spring               | 3+    |
 | Azure Service Fabric | 0.5   |
 
-## Tools
+#### Tools
 
 | Tool                 | Years |
 | -------------------- |:-----:|

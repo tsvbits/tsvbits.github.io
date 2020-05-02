@@ -43,7 +43,7 @@ See [more detailed list](/skills)
 ### Education
 
 #### PhD student at Institute of Automation and Electrometry, Novosibirsk
-:calendar: `Jun 2004  – Aug 2007`
+:calendar:<span class="calendar">`Jun 2004  – Aug 2007`</span>
 
 Put hands on implementation of:
 * Modernization of software to control [IAE](https://www.iae.nsk.su/en/) [circle laser writing systems](/clws)
@@ -56,36 +56,40 @@ Put hands on implementation of:
 * Computer aided tools for [tomography](/voxcat)
 
 #### Master at Novosibirsk State University
-:calendar: `Sep 1999  –  Jun 2004`
+:calendar:<span class="calendar">`Sep 1999  –  Jun 2004`</span>
 
 Computers, Complexes, Systems and Networks. GPA: 4+
 
 ### Professional Experience
-:calendar: `Jan 2002 - now`
+:calendar:<span class="calendar">`Jan 2002 - now`</span>
 
 #### Tech Lead at GrapeCity
-:calendar: `Oct 2018 - now`
+:calendar:<span class="calendar">`Oct 2018 - now`</span>
 
 Working to make Web Components with efficient and asynchronous data processing and visualization on the client
 
 #### Tech Lead at Xored
-:calendar: `Jan 2016 - Jun 2018`
+:calendar:<span class="calendar">`Jan 2016 - Jun 2018`</span>
 
 * Making [Spirent Velocity](https://www.spirent.com/products/velocity) to be the best LaaS solution
 
 #### Full Stack Software Engineer at DataWorks
-:calendar: `Jun 2007 - Jan 2016`
+:calendar:<span class="calendar">`Jun 2007 - Jan 2016`</span>
 
 * Worked to make better ActiveReports Server platform and ActiveReports product lines.
 * Particularly optimized RDL report engine making it faster up to 10x times together with super dev team
 * Principal developer of [PageFX compiler](https://github.com/GrapeCity/pagefx) from .NET to AVM (Flash Player VM) bytecode successfully used to build multi-platform report viewer
 
 #### Full Stack Software Engineer at Institute of Automation and Electrometry
-:calendar: `Jun 2002 - Aug 2007`
+:calendar:<span class="calendar">`Jun 2002 - Aug 2007`</span>
 
 * PhD student at laboratory of diffractive optics
 * Automation of laser writing machines
 * Development of computer aided tools for interferometry and tomography
+
+#### Projects
+
+See [my projects](/projects)
 
 ### References
 * Scott Willeke from Smartsheet (scott@willeke.com)

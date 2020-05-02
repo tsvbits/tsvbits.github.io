@@ -5,10 +5,10 @@ body {
 body.light {
   --bg: #ffffff;
   --header: #9eb3c9;
-  --textNormal: #222;
-  --textTitle: #9eb3c9;
-  --textLink: hsl(211, 28%, 70%);
-  --textLinkLighter: hsl(211, 33%, 75%);
+  --textNormal: #333;
+  --textTitle: #333;
+  --textLink: #4078c0;
+  --textLinkLighter: #4078c0;
   --hr: hsla(0, 0%, 0%, 0.2);
   --inlineCode-bg: rgba(255, 229, 100, 0.2);
   --inlineCode-text: #1a1a1a;
@@ -18,13 +18,35 @@ body.dark {
   -webkit-font-smoothing: antialiased;
 
   --bg: #282c35;
-  --header: #ffffff;
+  --header: #fff;
   --textNormal: rgba(255, 255, 255, 0.88);
-  --textTitle: #ffffff;
-  --textLink: #9eb3c9;
+  --textTitle: #fff;
+  --textLink: #fff;
   --hr: hsla(0, 0%, 100%, 0.2);
   --inlineCode-bg: hsl(222, 14%, 25%);
   --inlineCode-text: #e6e6e6;
+}
+
+body.dark a {
+  text-shadow: none;
+}
+
+body.dark blockquote {
+  border-left-color: white;
+  color: white;
+}
+
+body.dark h1 {
+  color: white;
+}
+body.dark h2 {
+  color: white;
+}
+body.dark h3 {
+  color: white;
+}
+body.dark h4 {
+  color: white;
 }
 
 /*
@@ -236,4 +258,19 @@ pre[data-line] {
 .gatsby-highlight pre[class*='language-'] {
   float: left;
   min-width: 100%;
+}
+
+span.calendar .language-text {
+  background-color: transparent;
+  font-style: italic;
+  font-size: small;
+}
+
+table {
+  border-spacing: 0;
+  line-height: 1rem;
+}
+
+table td {
+  padding: 8px;
 }
