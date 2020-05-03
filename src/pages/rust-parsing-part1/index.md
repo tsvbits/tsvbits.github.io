@@ -12,3 +12,7 @@ I am writing few parsers in Rust. And here are few notes about that atm.
 
 I'd like to try interning strings to have zero-allocation lexer and expressions used in the app.
 Each token just a slice to interned string in the global cache.
+
+## Interesting links
+
+- [Parsing series of integers with SIMD](http://0x80.pl/articles/simd-parsing-int-sequences.html)
