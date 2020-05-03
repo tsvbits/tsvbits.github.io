@@ -71,7 +71,7 @@ Working to make Web Components with efficient and asynchronous data processing a
 #### Tech Lead at [Xored](http://www.xored.com/)
 :calendar:<span class="calendar">`Jan 2016 - Jun 2018`</span>
 
-* Making [Spirent Velocity](https://www.spirent.com/products/velocity) to be the best LaaS solution
+* Making [Velocity](/velocity) to be the best LaaS solution
 
 #### Full Stack Software Engineer at [DataWorks](http://dataworks.co/)
 :calendar:<span class="calendar">`Jun 2007 - Jan 2016`</span>
