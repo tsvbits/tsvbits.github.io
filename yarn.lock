@@ -3574,7 +3574,7 @@ compare-versions@^3.6.0:
   resolved "https://registry.yarnpkg.com/compare-versions/-/compare-versions-3.6.0.tgz#1a5689913685e5a87637b8d3ffca75514ec41d62"
   integrity sha512-W6Af2Iw1z4CB7q4uU4hv646dW9GQuBM+YpC0UvUCWSD8w90SJjp+ujJuXaEMtAXBtSqGfMPuFOVn4/+FlaqfBA==
 
-compass-vertical-rhythm@^1.4.5:
+compass-vertical-rhythm@^1.2.1, compass-vertical-rhythm@^1.4.5:
   version "1.4.5"
   resolved "https://registry.yarnpkg.com/compass-vertical-rhythm/-/compass-vertical-rhythm-1.4.5.tgz#4baa8d7068fda164d3675d706775d7547e8750f5"
   integrity sha512-bJo3IYX7xmmZCDYjrT2XolaiNjGZ4E2JvUGxpdU0ecbH4ZLK786wvc8aHKVrGrKct9JlkmJbUi8YLrQWvOc+uA==
@@ -14277,11 +14277,12 @@ typography-normalize@^0.16.19:
   resolved "https://registry.yarnpkg.com/typography-normalize/-/typography-normalize-0.16.19.tgz#58e0cf12466870c5b27006daa051fe7307780660"
   integrity sha512-vtnSv/uGBZVbd4e/ZhZB9HKBgKKlWQUXw74+ADIHHxzKp27CEf8PSR8TX1zF2qSyQ9/qMdqLwXYz8yRQFq9JLQ==
 
-typography-theme-twin-peaks@^0.16.19:
+typography-theme-moraga@^0.16.19:
   version "0.16.19"
-  resolved "https://registry.yarnpkg.com/typography-theme-twin-peaks/-/typography-theme-twin-peaks-0.16.19.tgz#e8444702e3c25b7107a4c6918dd72c664c31405b"
-  integrity sha512-F0XsKQU1hNEfzoE9gCJLgbp5Whxv0+Skkp8axCcqCg1AP4MI5WrljjIj8bQOsUA/TjipvCb9wm5FmGR1ZalO8A==
+  resolved "https://registry.yarnpkg.com/typography-theme-moraga/-/typography-theme-moraga-0.16.19.tgz#275238a92d08d540f937b8d38590ebfb7b22d858"
+  integrity sha512-POIMoW6xqRTGeBtT0cbrrzL+eKj7Z+A+Wzu5kvtgJFY7lZ7KA9TcJBB2YuspLd2yHq5YMxiUBDQiHedb19ttww==
   dependencies:
+    compass-vertical-rhythm "^1.2.1"
     gray-percentage "^2.0.0"
     typography-breakpoint-constants "^0.16.19"
 

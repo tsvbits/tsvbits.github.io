@@ -39,7 +39,7 @@
     "react-typography": "^0.16.19",
     "simple-icons": "^2.10.0",
     "typography": "^0.16.19",
-    "typography-theme-twin-peaks": "^0.16.19"
+    "typography-theme-moraga": "^0.16.19"
   },
   "devDependencies": {
     "eslint": "^6.8.0",

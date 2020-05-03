@@ -2,7 +2,7 @@ import '../fonts/fonts-shared.css';
 import './global.scss';
 
 import Typography from 'typography';
-import theme from 'typography-theme-twin-peaks';
+import theme from 'typography-theme-moraga';
 
 theme.overrideThemeStyles = () => ({
   hr: {
