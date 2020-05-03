@@ -14,10 +14,15 @@ See [this post](/fint) to get more details about this project.
 
 Status **experimental**, **incomplete**
 
+## LingvoGraph
+:calendar:<span class="calendar">`2018 - now`</span>
+
+Student driven project for learning second languages and approaching latest technologies. [More about it](/lingvograph).
+
 ## Spirent Velocity
 :calendar:<span class="calendar">`2016 - 2018`</span>
 
-I had a great opportunity to be a developer of [Spirent Velocity automation platform](https://www.spirent.com/products/lab-as-a-service-automation-velocity). Talented dev team. I had a fun time.
+I had a great opportunity to be a developer of [Spirent Velocity automation platform](/velocity). Talented dev team. I had a fun time.
 
 ## ActiveReports
 :calendar:<span class="calendar">`2010 - 2015`</span>
