@@ -1,6 +1,7 @@
 ---
 title: .NET CIL interpreter in F#
 date: '2019-11-01'
+spoiler: Hardcore tiny project for dotnet NSK meetup 
 ---
 
 I've prepared compact [.NET CIL](https://en.wikipedia.org/wiki/Common_Intermediate_Language) interpreter called [Fint](https://github.com/sergeyt/fint) in pure F# for [NskDotNet Meetup #6](https://www.meetup.com/NskDotNet/events/265652338/).

@@ -1,6 +1,7 @@
 ---
 title: voXcat for DiOptic
 date: '2020-03-19'
+spoiler: Tomography Analysis Software implemented in C++
 ---
 
 ## What is it?

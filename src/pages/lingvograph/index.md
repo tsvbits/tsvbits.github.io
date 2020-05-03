@@ -1,6 +1,7 @@
 ---
 title: LingvoGraph
 date: '2020-05-03'
+spoiler: Modern wordnet
 ---
 
 You can find more info in [this landing page](/https://lingvograph.netlify.app/)

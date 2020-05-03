@@ -1,6 +1,7 @@
 ---
 title: Projects
 date: '2020-03-19'
+spoiler: My major projects written by bare hands :)
 ---
 
 This page lists projects that I've been involved as software engineer.

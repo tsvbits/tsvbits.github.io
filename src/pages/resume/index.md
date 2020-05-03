@@ -1,6 +1,7 @@
 ---
 title: Resume
 date: '2019-08-14'
+spoiler: Latest version of online CV
 ---
 
 Latest updated: :calendar: 3 May 2020<br>
