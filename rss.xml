@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Sergey Todyshev's Blog RSS Feed]]></title><description><![CDATA[Personal blog by Sergey Todyshev]]></description><link>https://tsvbits.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 03 May 2020 00:41:13 GMT</lastBuildDate><item><title><![CDATA[Skills]]></title><link>https://tsvbits.com/skills/</link><guid isPermaLink="false">https://tsvbits.com/skills/</guid><pubDate>Sat, 02 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;style&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Sergey Todyshev's Blog RSS Feed]]></title><description><![CDATA[Personal blog by Sergey Todyshev]]></description><link>https://tsvbits.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 03 May 2020 03:18:51 GMT</lastBuildDate><item><title><![CDATA[Skills]]></title><link>https://tsvbits.com/skills/</link><guid isPermaLink="false">https://tsvbits.com/skills/</guid><pubDate>Sat, 02 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;style&gt;
 table {
     table-layout: fixed;
 }
@@ -193,7 +193,25 @@ I care about making friendly interfaces that are &lt;a href=&quot;https://www.ar
 &lt;p&gt;I’m currently happily employed by GrapeCity Inc and just keep going.&lt;/p&gt;
 &lt;p&gt;See &lt;a href=&quot;https://tsvbits.com/resume&quot;&gt;full resume&lt;/a&gt;&lt;/p&gt;
                 &lt;div style=&quot;margin-top=55px; font-style: italic;&quot;&gt;(This is an article posted to my blog at tsvbits.com. You can read it online by &lt;a href=&quot;https://tsvbits.com/cover/&quot;&gt;clicking here&lt;/a&gt;.)&lt;/div&gt;
-              </content:encoded></item><item><title><![CDATA[Device Manager]]></title><link>https://tsvbits.com/devicemanager/</link><guid isPermaLink="false">https://tsvbits.com/devicemanager/</guid><pubDate>Fri, 20 Mar 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;TBD&lt;/p&gt;
+              </content:encoded></item><item><title><![CDATA[Device Manager]]></title><link>https://tsvbits.com/devicemanager/</link><guid isPermaLink="false">https://tsvbits.com/devicemanager/</guid><pubDate>Fri, 20 Mar 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;what-is-it&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#what-is-it&quot; aria-label=&quot;what is it permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What is it?&lt;/h2&gt;
+&lt;p&gt;Device Manager is a set of software components that helps to abstract devices for &lt;a href=&quot;https://tsvbits.com/clws&quot;&gt;Circle Laser Writing System&lt;/a&gt;.
+I was doing this project in laboratory of diffractive optics at &lt;a href=&quot;https://www.iae.nsk.su/en/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;IA&amp;#x26;E SB RAS&lt;/a&gt; as part of my education at &lt;a href=&quot;https://www.nsu.ru/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;NSU&lt;/a&gt;.
+I have fantastic time here learning system-level programming and I produced amazing work that is still used.
+Most of user interfaces I implemented are used without major changes.&lt;/p&gt;
+&lt;h2 id=&quot;architecture&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#architecture&quot; aria-label=&quot;architecture permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Architecture&lt;/h2&gt;
+&lt;p&gt;Device Manager consists from:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SDK to implement devices in C++&lt;/li&gt;
+&lt;li&gt;Core module that loads device libraries and manages their configurations&lt;/li&gt;
+&lt;li&gt;TCP server with custom command-based protocol for remote control and configuration&lt;/li&gt;
+&lt;li&gt;UI client implemented in C#&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;features&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#features&quot; aria-label=&quot;features permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Features&lt;/h2&gt;
+&lt;p&gt;Device Manager is very useful :)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It allows multiple configurations of virtual devices (aka virtual machines). The whole &lt;a href=&quot;https://tsvbits.com/clws&quot;&gt;CLWS&lt;/a&gt; is represented as single virtual device with multiple device interfaces that can be linked to interfaces of real or software-emulated devices&lt;/li&gt;
+&lt;li&gt;It can load and apply configurations at runtime without recompiling control program&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&quot;device-manager-screenshots&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#device-manager-screenshots&quot; aria-label=&quot;device manager screenshots permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Device Manager Screenshots&lt;/h2&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -385,7 +403,15 @@ I care about making friendly interfaces that are &lt;a href=&quot;https://www.ar
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
                 &lt;div style=&quot;margin-top=55px; font-style: italic;&quot;&gt;(This is an article posted to my blog at tsvbits.com. You can read it online by &lt;a href=&quot;https://tsvbits.com/devicemanager/&quot;&gt;clicking here&lt;/a&gt;.)&lt;/div&gt;
-              </content:encoded></item><item><title><![CDATA[voXcat for DiOptic]]></title><link>https://tsvbits.com/voxcat/</link><guid isPermaLink="false">https://tsvbits.com/voxcat/</guid><pubDate>Thu, 19 Mar 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;It is tomography analysis software.&lt;/p&gt;
+              </content:encoded></item><item><title><![CDATA[voXcat for DiOptic]]></title><link>https://tsvbits.com/voxcat/</link><guid isPermaLink="false">https://tsvbits.com/voxcat/</guid><pubDate>Thu, 19 Mar 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;what-is-it&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#what-is-it&quot; aria-label=&quot;what is it permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What is it?&lt;/h2&gt;
+&lt;p&gt;It is tomography analysis software implemented during my education at &lt;a href=&quot;https://www.nsu.ru/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;NSU&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;implementation-details&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#implementation-details&quot; aria-label=&quot;implementation details permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Implementation details&lt;/h2&gt;
+&lt;p&gt;Implemented using:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;C++&lt;/li&gt;
+&lt;li&gt;Microsoft Foundation Classes&lt;/li&gt;
+&lt;li&gt;OpenGL&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&quot;screenshots&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#screenshots&quot; aria-label=&quot;screenshots permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Screenshots&lt;/h2&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -504,197 +530,16 @@ Implemented in C++ using Microsoft Foundation Classes.
 It was first paid contract.
 See &lt;a href=&quot;https://tsvbits.com/voxcat&quot;&gt;this post&lt;/a&gt; to get more details about this project.&lt;/p&gt;
                 &lt;div style=&quot;margin-top=55px; font-style: italic;&quot;&gt;(This is an article posted to my blog at tsvbits.com. You can read it online by &lt;a href=&quot;https://tsvbits.com/projects/&quot;&gt;clicking here&lt;/a&gt;.)&lt;/div&gt;
-              </content:encoded></item><item><title><![CDATA[Circle Laser Writing System]]></title><link>https://tsvbits.com/clws/</link><guid isPermaLink="false">https://tsvbits.com/clws/</guid><pubDate>Thu, 19 Mar 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;TBD&lt;/p&gt;
-&lt;h2 id=&quot;device-manager-screenshots&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#device-manager-screenshots&quot; aria-label=&quot;device manager screenshots permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Device Manager Screenshots&lt;/h2&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;https://tsvbits.com/static/fe2d02d2464c2a9850d23d720f793e10/55843/img1.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 79.72972972972973%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAQABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdylQhh//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQABBQJf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGRABAAMBAQAAAAAAAAAAAAAAARARIQBB/9oACAEBAAE/IQ1rgog90n//2gAMAwEAAgADAAAAEFMP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGhABAAMBAQEAAAAAAAAAAAAAAQARMUFRkf/aAAgBAQABPxAguD5KwVa6xC8hBWjyWexS9n//2Q==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Device Manager&quot;
-        title=&quot;Screen 1&quot;
-        src=&quot;https://tsvbits.com/static/fe2d02d2464c2a9850d23d720f793e10/1c72d/img1.jpg&quot;
-        srcset=&quot;https://tsvbits.com/static/fe2d02d2464c2a9850d23d720f793e10/a80bd/img1.jpg 148w,https://tsvbits.com/static/fe2d02d2464c2a9850d23d720f793e10/1c91a/img1.jpg 295w,https://tsvbits.com/static/fe2d02d2464c2a9850d23d720f793e10/1c72d/img1.jpg 590w,https://tsvbits.com/static/fe2d02d2464c2a9850d23d720f793e10/a8a14/img1.jpg 885w,https://tsvbits.com/static/fe2d02d2464c2a9850d23d720f793e10/55843/img1.jpg 928w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;
-&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;https://tsvbits.com/static/f2c764f20c8549c5ed34323db0f2f4f7/55843/img2.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 79.72972972972973%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAQABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe5ZoA//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAEFAl//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAYEAADAQEAAAAAAAAAAAAAAAAAAREhQf/aAAgBAQABPyFLXDiILK6KIqP/2gAMAwEAAgADAAAAEGPP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGxABAAICAwAAAAAAAAAAAAAAAQAhEUExUWH/2gAIAQEAAT8QILQryFtlzxbEQiY3dRFTvMe6f//Z&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Device Manager&quot;
-        title=&quot;Screen 2&quot;
-        src=&quot;https://tsvbits.com/static/f2c764f20c8549c5ed34323db0f2f4f7/1c72d/img2.jpg&quot;
-        srcset=&quot;https://tsvbits.com/static/f2c764f20c8549c5ed34323db0f2f4f7/a80bd/img2.jpg 148w,https://tsvbits.com/static/f2c764f20c8549c5ed34323db0f2f4f7/1c91a/img2.jpg 295w,https://tsvbits.com/static/f2c764f20c8549c5ed34323db0f2f4f7/1c72d/img2.jpg 590w,https://tsvbits.com/static/f2c764f20c8549c5ed34323db0f2f4f7/a8a14/img2.jpg 885w,https://tsvbits.com/static/f2c764f20c8549c5ed34323db0f2f4f7/55843/img2.jpg 928w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;
-&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;https://tsvbits.com/static/da3611d1583d7be3d178bca141f508b6/55843/img3.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 79.72972972972973%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAQABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAd1VICD/xAAVEAEBAAAAAAAAAAAAAAAAAAARIP/aAAgBAQABBQIr/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAFhABAQEAAAAAAAAAAAAAAAAAARBB/9oACAEBAAE/IQBcv//aAAwDAQACAAMAAAAQ4M//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAbEAACAgMBAAAAAAAAAAAAAAAAARFBEDFRYf/aAAgBAQABPxCVLdeEvo2+kq9YZ//Z&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Device Manager&quot;
-        title=&quot;Screen 3&quot;
-        src=&quot;https://tsvbits.com/static/da3611d1583d7be3d178bca141f508b6/1c72d/img3.jpg&quot;
-        srcset=&quot;https://tsvbits.com/static/da3611d1583d7be3d178bca141f508b6/a80bd/img3.jpg 148w,https://tsvbits.com/static/da3611d1583d7be3d178bca141f508b6/1c91a/img3.jpg 295w,https://tsvbits.com/static/da3611d1583d7be3d178bca141f508b6/1c72d/img3.jpg 590w,https://tsvbits.com/static/da3611d1583d7be3d178bca141f508b6/a8a14/img3.jpg 885w,https://tsvbits.com/static/da3611d1583d7be3d178bca141f508b6/55843/img3.jpg 928w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;
-&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;https://tsvbits.com/static/60a8a56e1740edb028da5271e60d938e/55843/img4.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 79.72972972972973%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAQABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe5dQA//xAAVEAEBAAAAAAAAAAAAAAAAAAABIP/aAAgBAQABBQIr/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGBAAAwEBAAAAAAAAAAAAAAAAAAERQSH/2gAIAQEAAT8hjpiIYKIqP//aAAwDAQACAAMAAAAQQ8//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhQVFh/9oACAEBAAE/EDYho0Q1r+axEsLXyIse3H2n/9k=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Device Manager&quot;
-        title=&quot;Screen 4&quot;
-        src=&quot;https://tsvbits.com/static/60a8a56e1740edb028da5271e60d938e/1c72d/img4.jpg&quot;
-        srcset=&quot;https://tsvbits.com/static/60a8a56e1740edb028da5271e60d938e/a80bd/img4.jpg 148w,https://tsvbits.com/static/60a8a56e1740edb028da5271e60d938e/1c91a/img4.jpg 295w,https://tsvbits.com/static/60a8a56e1740edb028da5271e60d938e/1c72d/img4.jpg 590w,https://tsvbits.com/static/60a8a56e1740edb028da5271e60d938e/a8a14/img4.jpg 885w,https://tsvbits.com/static/60a8a56e1740edb028da5271e60d938e/55843/img4.jpg 928w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;
-&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;https://tsvbits.com/static/328a21edcd096ab3bd08b346c1450e56/55843/img5.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 79.72972972972973%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAQABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe3tSA//xAAVEAEBAAAAAAAAAAAAAAAAAAABIP/aAAgBAQABBQIr/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGBAAAwEBAAAAAAAAAAAAAAAAAAERIUH/2gAIAQEAAT8hTXGQhwqKj//aAAwDAQACAAMAAAAQ48//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAEAAwADAAAAAAAAAAAAAAABABEhMVFh/9oACAEBAAE/EBcCnCoZNbiJYWzie0e6f//Z&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Device Manager&quot;
-        title=&quot;Screen 5&quot;
-        src=&quot;https://tsvbits.com/static/328a21edcd096ab3bd08b346c1450e56/1c72d/img5.jpg&quot;
-        srcset=&quot;https://tsvbits.com/static/328a21edcd096ab3bd08b346c1450e56/a80bd/img5.jpg 148w,https://tsvbits.com/static/328a21edcd096ab3bd08b346c1450e56/1c91a/img5.jpg 295w,https://tsvbits.com/static/328a21edcd096ab3bd08b346c1450e56/1c72d/img5.jpg 590w,https://tsvbits.com/static/328a21edcd096ab3bd08b346c1450e56/a8a14/img5.jpg 885w,https://tsvbits.com/static/328a21edcd096ab3bd08b346c1450e56/55843/img5.jpg 928w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;
-&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;https://tsvbits.com/static/203840c39ca84af53ac481c3f5d9cc26/55843/img6.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 79.72972972972973%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAQABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdqwED//xAAVEAEBAAAAAAAAAAAAAAAAAAARIP/aAAgBAQABBQIr/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAFhAAAwAAAAAAAAAAAAAAAAAAESBR/9oACAEBAAE/IQjf/9oADAMBAAIAAwAAABDAz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABoQAQACAwEAAAAAAAAAAAAAAAEAESExURD/2gAIAQEAAT8QvRcjWWW9ivYa8Z//2Q==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Device Manager&quot;
-        title=&quot;Screen 6&quot;
-        src=&quot;https://tsvbits.com/static/203840c39ca84af53ac481c3f5d9cc26/1c72d/img6.jpg&quot;
-        srcset=&quot;https://tsvbits.com/static/203840c39ca84af53ac481c3f5d9cc26/a80bd/img6.jpg 148w,https://tsvbits.com/static/203840c39ca84af53ac481c3f5d9cc26/1c91a/img6.jpg 295w,https://tsvbits.com/static/203840c39ca84af53ac481c3f5d9cc26/1c72d/img6.jpg 590w,https://tsvbits.com/static/203840c39ca84af53ac481c3f5d9cc26/a8a14/img6.jpg 885w,https://tsvbits.com/static/203840c39ca84af53ac481c3f5d9cc26/55843/img6.jpg 928w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;
-&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;https://tsvbits.com/static/51ea9379020188cad47d0a997315e60e/f3712/img7.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 72.2972972972973%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAOABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAECAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB13J2VjD/xAAbEAACAgMBAAAAAAAAAAAAAAAAAgETAxESIf/aAAgBAQABBQKlNVITjUhvOiWP/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Bh//EABcRAQADAAAAAAAAAAAAAAAAAAABERL/2gAIAQIBAT8B1K3/xAAYEAADAQEAAAAAAAAAAAAAAAAAATEgMv/aAAgBAQAGPwKI5RMf/8QAGxAAAgIDAQAAAAAAAAAAAAAAAAEhMRFxkeH/2gAIAQEAAT8hTEzyF5gjS8IUGpLR/9oADAMBAAIAAwAAABBH/wD/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEVH/2gAIAQMBAT8QjEf/xAAXEQEAAwAAAAAAAAAAAAAAAAAAEVFh/9oACAECAQE/ENErf//EABwQAAICAgMAAAAAAAAAAAAAAAABETEhUUGh0f/aAAgBAQABPxCcI40EsdfwbJJqKSF5wI7CoZUf/9k=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Device Manager&quot;
-        title=&quot;Screen 7&quot;
-        src=&quot;https://tsvbits.com/static/51ea9379020188cad47d0a997315e60e/1c72d/img7.jpg&quot;
-        srcset=&quot;https://tsvbits.com/static/51ea9379020188cad47d0a997315e60e/a80bd/img7.jpg 148w,https://tsvbits.com/static/51ea9379020188cad47d0a997315e60e/1c91a/img7.jpg 295w,https://tsvbits.com/static/51ea9379020188cad47d0a997315e60e/1c72d/img7.jpg 590w,https://tsvbits.com/static/51ea9379020188cad47d0a997315e60e/f3712/img7.jpg 744w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
+              </content:encoded></item><item><title><![CDATA[Circle Laser Writing System]]></title><link>https://tsvbits.com/clws/</link><guid isPermaLink="false">https://tsvbits.com/clws/</guid><pubDate>Thu, 19 Mar 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;what-is-it&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#what-is-it&quot; aria-label=&quot;what is it permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What is it?&lt;/h2&gt;
+&lt;p&gt;It is a complex machine with a lot of software and hardware components that can write holograms and different diffractive optical elements.
+During part of my education at &lt;a href=&quot;https://www.nsu.ru/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;NSU&lt;/a&gt; I was working to modernize software components of this system at &lt;a href=&quot;https://www.iae.nsk.su/en/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;IA&amp;#x26;E SB RAS&lt;/a&gt; at laboratory of Difractive Optics.
+Moreover I have an amazing opportunity to work these genius people:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dimitri Denk (&lt;a href=&quot;http://www.denktech.de/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;http://www.denktech.de/&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Ruslan Shimansky (&lt;a href=&quot;https://www.researchgate.net/profile/Ruslan_Shimansky&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://www.researchgate.net/profile/Ruslan_Shimansky&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Viktor P. Korolkov&lt;/li&gt;
+&lt;li&gt;and other scientists&lt;/li&gt;
+&lt;/ul&gt;
                 &lt;div style=&quot;margin-top=55px; font-style: italic;&quot;&gt;(This is an article posted to my blog at tsvbits.com. You can read it online by &lt;a href=&quot;https://tsvbits.com/clws/&quot;&gt;clicking here&lt;/a&gt;.)&lt;/div&gt;
               </content:encoded></item><item><title><![CDATA[Support]]></title><link>https://tsvbits.com/support/</link><guid isPermaLink="false">https://tsvbits.com/support/</guid><pubDate>Sat, 18 Jan 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Does your company or team need help, advice, and direct assistance with coding or software design issues?&lt;/p&gt;
 &lt;p&gt;If you want to chat about getting a support contract or hire me for your company, email me at stodyshev@gmail.com.&lt;/p&gt;
@@ -795,11 +640,11 @@ Please &lt;a href=&quot;https://tsvbits.com/cover&quot;&gt;this cover letter&lt;
 &lt;/ul&gt;
 &lt;p&gt;See &lt;a href=&quot;https://tsvbits.com/skills&quot;&gt;more detailed list&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;education&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#education&quot; aria-label=&quot;education permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Education&lt;/h3&gt;
-&lt;h4 id=&quot;phd-student-at-institute-of-automation-and-electrometry-novosibirsk&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#phd-student-at-institute-of-automation-and-electrometry-novosibirsk&quot; aria-label=&quot;phd student at institute of automation and electrometry novosibirsk permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;PhD student at Institute of Automation and Electrometry, Novosibirsk&lt;/h4&gt;
+&lt;h4 id=&quot;phd-student-at-institute-of-iae-novosibirsk&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#phd-student-at-institute-of-iae-novosibirsk&quot; aria-label=&quot;phd student at institute of iae novosibirsk permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;PhD student at Institute of IAE, Novosibirsk&lt;/h4&gt;
 &lt;p&gt;📆&lt;span class=&quot;calendar&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Jun 2004  – Aug 2007&lt;/code&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Put hands on implementation of:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Modernization of software to control &lt;a href=&quot;https://www.iae.nsk.su/en/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;IAE&lt;/a&gt; &lt;a href=&quot;https://tsvbits.com/clws&quot;&gt;circle laser writing systems&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Modernization of software to control &lt;a href=&quot;https://tsvbits.com/clws&quot;&gt;Circle Laser Writing Systems&lt;/a&gt; designed by &lt;a href=&quot;https://www.iae.nsk.su/en/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;IA&amp;#x26;E SB RAS&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://tsvbits.com/devicemanager&quot;&gt;Hardware abstraction layers&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Abstract control systems&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://tsvbits.com/clws&quot;&gt;CLWS&lt;/a&gt; client/server architecture&lt;/li&gt;
@@ -808,27 +653,27 @@ Please &lt;a href=&quot;https://tsvbits.com/cover&quot;&gt;this cover letter&lt;
 &lt;li&gt;Computer aided tools for interferometry&lt;/li&gt;
 &lt;li&gt;Computer aided tools for &lt;a href=&quot;https://tsvbits.com/voxcat&quot;&gt;tomography&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;master-at-novosibirsk-state-university&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#master-at-novosibirsk-state-university&quot; aria-label=&quot;master at novosibirsk state university permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Master at Novosibirsk State University&lt;/h4&gt;
+&lt;h4 id=&quot;master-at-novosibirsk-state-university&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#master-at-novosibirsk-state-university&quot; aria-label=&quot;master at novosibirsk state university permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Master at &lt;a href=&quot;https://www.nsu.ru/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Novosibirsk State University&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;📆&lt;span class=&quot;calendar&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Sep 1999  –  Jun 2004&lt;/code&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Computers, Complexes, Systems and Networks. GPA: 4+&lt;/p&gt;
 &lt;h3 id=&quot;professional-experience&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#professional-experience&quot; aria-label=&quot;professional experience permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Professional Experience&lt;/h3&gt;
 &lt;p&gt;📆&lt;span class=&quot;calendar&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Jan 2002 - now&lt;/code&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;h4 id=&quot;tech-lead-at-grapecity&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#tech-lead-at-grapecity&quot; aria-label=&quot;tech lead at grapecity permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tech Lead at GrapeCity&lt;/h4&gt;
+&lt;h4 id=&quot;tech-lead-at-grapecity&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#tech-lead-at-grapecity&quot; aria-label=&quot;tech lead at grapecity permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tech Lead at &lt;a href=&quot;https://grapecity.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;GrapeCity&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;📆&lt;span class=&quot;calendar&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Oct 2018 - now&lt;/code&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Working to make Web Components with efficient and asynchronous data processing and visualization on the client&lt;/p&gt;
-&lt;h4 id=&quot;tech-lead-at-xored&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#tech-lead-at-xored&quot; aria-label=&quot;tech lead at xored permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tech Lead at Xored&lt;/h4&gt;
+&lt;h4 id=&quot;tech-lead-at-xored&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#tech-lead-at-xored&quot; aria-label=&quot;tech lead at xored permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tech Lead at &lt;a href=&quot;http://www.xored.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Xored&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;📆&lt;span class=&quot;calendar&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Jan 2016 - Jun 2018&lt;/code&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Making &lt;a href=&quot;https://www.spirent.com/products/velocity&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Spirent Velocity&lt;/a&gt; to be the best LaaS solution&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;full-stack-software-engineer-at-dataworks&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#full-stack-software-engineer-at-dataworks&quot; aria-label=&quot;full stack software engineer at dataworks permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Full Stack Software Engineer at DataWorks&lt;/h4&gt;
+&lt;h4 id=&quot;full-stack-software-engineer-at-dataworks&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#full-stack-software-engineer-at-dataworks&quot; aria-label=&quot;full stack software engineer at dataworks permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Full Stack Software Engineer at &lt;a href=&quot;http://dataworks.co/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;DataWorks&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;📆&lt;span class=&quot;calendar&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Jun 2007 - Jan 2016&lt;/code&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Worked to make better ActiveReports Server platform and ActiveReports product lines.&lt;/li&gt;
+&lt;li&gt;Making better ActiveReports Server platform and ActiveReports product lines.&lt;/li&gt;
 &lt;li&gt;Particularly optimized RDL report engine making it faster up to 10x times together with super dev team&lt;/li&gt;
 &lt;li&gt;Principal developer of &lt;a href=&quot;https://github.com/GrapeCity/pagefx&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;PageFX compiler&lt;/a&gt; from .NET to AVM (Flash Player VM) bytecode successfully used to build multi-platform report viewer&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;full-stack-software-engineer-at-institute-of-automation-and-electrometry&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#full-stack-software-engineer-at-institute-of-automation-and-electrometry&quot; aria-label=&quot;full stack software engineer at institute of automation and electrometry permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Full Stack Software Engineer at Institute of Automation and Electrometry&lt;/h4&gt;
+&lt;h4 id=&quot;full-stack-software-engineer-at-iae&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#full-stack-software-engineer-at-iae&quot; aria-label=&quot;full stack software engineer at iae permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Full Stack Software Engineer at &lt;a href=&quot;https://www.iae.nsk.su/en/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;IAE&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;📆&lt;span class=&quot;calendar&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Jun 2002 - Aug 2007&lt;/code&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;PhD student at laboratory of diffractive optics&lt;/li&gt;
