@@ -8,6 +8,7 @@ class Bio extends React.Component {
       <div
         style={{
           display: 'flex',
+          alignItems: 'center',
           marginBottom: rhythm(2),
         }}
       >
@@ -22,12 +23,10 @@ class Bio extends React.Component {
             borderRadius: '50%',
           }}
         />
-        <p style={{ maxWidth: 310 }}>
-          Hello, my name is <a href="https://github.com/sergeyt">SergeyT</a>. I
-          am software engineer. You can{' '}
-          <a ref="mailto:stodyshev@gmail.com">email me</a> to get{' '}
-          <a href="/support">technical support</a> or even hire me
-        </p>
+        <div style={{ maxWidth: 500 }}>
+          Hey, here is <a href="https://github.com/sergeyt">SergeyT</a>'s pages.{' '}
+          <a href="/about">More about me</a>
+        </div>
       </div>
     );
   }
