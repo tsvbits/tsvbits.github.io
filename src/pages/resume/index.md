@@ -17,17 +17,17 @@ Please [this cover letter](/cover) about me in role of software engineer.
 
 ## Personal Details
 
-| Type      | Value                                      |
-| --------- |:------------------------------------------:|
-| Name      | Sergey Todyshev                            |
-| Birthdate | [calendar] 11.01.1981                      |
-| Phone     | +79132017700                               |
-| Situation | Married, 2 children, 2 funny cats          |
-| Location  | Berdsk, Russia                             |
-| Email     | stodyshev@gmail.com                        |
-| Skype     | sergey.todyshev                            |
-| GitHub    | https://github.com/sergeyt                 |
-| Linkedin  | https://www.linkedin.com/in/sergeytodyshev |
+| Type      | Value                                             |
+| --------- |:-------------------------------------------------:|
+| Name      | Sergey Todyshev                                   |
+| Birthdate | :calendar: 11.01.1981                             |
+| Phone     | :telephone: +79132017700                          |
+| Situation | :hearts: Married, 2 children, 2 funny cats        |
+| Location  | Berdsk, Russia                                    |
+| Email     | mailto:stodyshev@gmail.com                        |
+| Skype     | sergey.todyshev                                   |
+| GitHub    | :link: https://github.com/sergeyt                 |
+| Linkedin  | :link: https://www.linkedin.com/in/sergeytodyshev |
 
 ### Skills
 
