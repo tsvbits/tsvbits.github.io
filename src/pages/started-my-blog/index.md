@@ -1,5 +1,5 @@
 ---
-title: Started my blog
+title: Restarted my blog
 date: '2019-08-10'
 spoiler: SergeyT's blog is restarted
 tags: ["note"]
