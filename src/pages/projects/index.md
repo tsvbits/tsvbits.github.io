@@ -38,7 +38,7 @@ I had a great opportunity to be a developer of [Spirent Velocity automation plat
 ## ActiveReports
 :calendar:<span class="calendar">`2010 - 2015`</span>
 
-I had a great opportunity to be a developer of [ActiveReports](https://www.grapecity.com/activereports) - one of the advanced and complete reporting platform for .NET. Talented dev team. I had a fun time.
+I had a great opportunity to be a developer of [ActiveReports](activereports) - one of the advanced and complete reporting platform for .NET. Talented dev team. I had a fun time.
 
 Here I was one of major driver to dramatically boost performance of this report generator.
 
