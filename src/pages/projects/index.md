@@ -53,6 +53,8 @@ I am proud how this compiler was stable and it worked without changes for years.
 
 [This GitHub page](https://github.com/GrapeCity/pagefx) lists all contributors to the project I've worked with.
 
+See also [tools used to make it](/pagefx).
+
 Status **dead**, but it can be reanimated for example to allow using C# to develop applications for [Adobe Integrated Runtime](https://get.adobe.com/air/)
 
 ## Circle Laser Writing Systems
