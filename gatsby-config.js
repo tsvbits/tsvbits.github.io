@@ -7,6 +7,7 @@ module.exports = {
     social: {
       twitter: '@todysh',
     },
+    keywords: ['blog', 'programming'],
   },
   pathPrefix: '/',
   plugins: [
@@ -74,6 +75,7 @@ module.exports = {
                 description
                 siteUrl
                 site_url: siteUrl
+                tags
               }
             }
           }
@@ -124,6 +126,7 @@ module.exports = {
                         title
                         date
                         spoiler
+                        tags
                       }
                     }
                   }

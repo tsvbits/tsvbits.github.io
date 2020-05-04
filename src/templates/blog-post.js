@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
 import get from 'lodash/get';
+import map from 'lodash/map';
 
 import '../fonts/fonts-post.css';
 import Layout from '../components/Layout';
@@ -91,7 +92,8 @@ class Translations extends React.Component {
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark;
-    const siteTitle = get(this.props, 'data.site.siteMetadata.title');
+    const meta = get(this.props, 'data.site.siteMetadata');
+    const { siteTitle } = meta;
     let {
       previous,
       next,
@@ -146,6 +148,11 @@ class BlogPostTemplate extends React.Component {
               <h1 style={{ color: 'var(--textTitle)' }}>
                 {post.frontmatter.title}
               </h1>
+              <div className="tags">
+                {map(post.frontmatter.title.tags, (t, i) => (
+                  <span key={i}>{t}</span>
+                ))}
+              </div>
               <p
                 style={{
                   ...scale(-1 / 5),
