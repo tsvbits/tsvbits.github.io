@@ -7,6 +7,11 @@ spoiler: My major projects written by bare hands :)
 This page lists projects that I've been involved as software engineer.
 Some of them are still being used by somebody.
 
+## Merlin
+:calendar:<span class="calendar">`2019 - now`</span>
+
+An open-source document search engine with full-text search, thumbnails and many other cool features. [More about it](/merlin).
+
 ## Fint
 :calendar:<span class="calendar">`2019 - now`</span>
 
@@ -19,6 +24,11 @@ Status **experimental**, **incomplete**
 :calendar:<span class="calendar">`2018 - now`</span>
 
 Student driven project for learning second languages and approaching latest technologies. [More about it](/lingvograph).
+
+## Pandora
+:calendar:<span class="calendar">`2018 - now`</span>
+
+Student driven project for learning second languages and approaching latest technologies. [More about it](/pandora).
 
 ## Spirent Velocity
 :calendar:<span class="calendar">`2016 - 2018`</span>
