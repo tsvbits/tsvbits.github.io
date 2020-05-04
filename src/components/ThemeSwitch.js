@@ -1,32 +1,24 @@
 import React from 'react';
 import Toggle from './Toggle';
 
-// TODO replace with svg
-import sun from '../assets/sun.png';
-import moon from '../assets/moon.png';
+import { Icon } from '@iconify/react';
+import moonIcon from '@iconify/icons-uil/moon';
+import sunIcon from '@iconify/icons-uil/sun';
+
+function MoonIcon() {
+  return <Icon icon={moonIcon} />;
+}
+
+function SunIcon() {
+  return <Icon icon={sunIcon} style={{ color: 'white' }} />;
+}
 
 export default function ThemeSwitch({ theme }) {
   return theme !== null ? (
     <Toggle
       icons={{
-        checked: (
-          <img
-            src={moon}
-            width="16"
-            height="16"
-            role="presentation"
-            style={{ pointerEvents: 'none' }}
-          />
-        ),
-        unchecked: (
-          <img
-            src={sun}
-            width="16"
-            height="16"
-            role="presentation"
-            style={{ pointerEvents: 'none' }}
-          />
-        ),
+        checked: <MoonIcon />,
+        unchecked: <SunIcon />,
       }}
       checked={theme === 'dark'}
       onChange={(e) =>
