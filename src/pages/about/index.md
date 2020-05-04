@@ -28,4 +28,4 @@ I can do
 
 ## What kind of content can you expect to find here?
 
-Obviously about programming and other things that I decided to write about.
+Obviously about programming, table tennis and other things that I decided to write about :)

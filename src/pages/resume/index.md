@@ -99,6 +99,6 @@ See [my projects](/projects)
 * Yuriy Kashnikov from Xored (mailto:yuriy.kashnikov@protonmail.com)
 
 ### Hobbies
-* Playing table tennis
+* Playing [table tennis](/table-tennis)
 * Travelling with family
 * Crafting compilers, parsers, programming PoCs
