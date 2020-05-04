@@ -23,4 +23,4 @@ I even failed some interview saying that I don't remember SOLID principles exact
 
 ## Footnote
 
-I am still thinking SOLID principles are useful. Knowing them are not that important to use them on practice without noticing that you apply some principle.
+I do think SOLID principles are useful. But knowing them are not that important to use them on practice without noticing that you apply some principle.
