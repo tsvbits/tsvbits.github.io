@@ -27,8 +27,8 @@ It is mainly built by programmers being just graduated or  and me :)
 
 It is used pretty modern tech:
 
-- DGraph
-- Golang
-- Python
-- Flatter
+- [Dgraph](https://dgraph.io/)
+- [Golang](https://golang.org/)
+- [Python](https://python.org/)
+- [Flatter](https://flutter.dev/)
 - and many more
