@@ -18,7 +18,7 @@ function SvgLink({ href, icon }) {
   );
 }
 
-export default function Header({ location, title }) {
+export default function Header() {
   return (
     <div className="root-header">
       <h1

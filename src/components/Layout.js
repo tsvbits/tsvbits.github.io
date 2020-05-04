@@ -53,7 +53,7 @@ class Layout extends React.Component {
               marginBottom: '2.625rem',
             }}
           >
-            <Header location={this.props.location} title={this.props.title} />
+            <Header />
             <ThemeSwitch theme={this.state.theme} />
           </header>
           {children}

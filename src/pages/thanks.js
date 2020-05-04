@@ -1,13 +1,11 @@
 import React from 'react';
 import Layout from '../components/Layout';
-import get from 'lodash/get';
 import { graphql } from 'gatsby';
 
 class Thanks extends React.Component {
   render() {
-    const siteTitle = get(this.props, 'data.site.siteMetadata.title');
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout>
         <main>
           <h1>Thank you for subscribing.</h1>
           <p>
