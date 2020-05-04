@@ -3,7 +3,6 @@ import { Link, graphql } from 'gatsby';
 import get from 'lodash/get';
 
 import '../fonts/fonts-post.css';
-import Bio from '../components/Bio';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import Panel from '../components/Panel';
@@ -198,7 +197,6 @@ class BlogPostTemplate extends React.Component {
               tsvbits
             </Link>
           </h3>
-          <Bio />
           <nav>
             <ul
               style={{
