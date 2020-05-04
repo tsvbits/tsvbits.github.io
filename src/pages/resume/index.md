@@ -2,6 +2,7 @@
 title: Resume
 date: '2019-08-14'
 spoiler: Latest version of online CV
+tags: ["cv", "pr"]
 ---
 
 Latest updated: :calendar: 3 May 2020<br>
@@ -100,3 +101,4 @@ See [my projects](/projects)
 ### Hobbies
 * Playing table tennis
 * Travelling with family
+* Crafting compilers, parsers, programming PoCs

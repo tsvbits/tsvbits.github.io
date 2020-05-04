@@ -2,6 +2,7 @@
 title: LingvoGraph
 date: '2020-05-03'
 spoiler: Modern wordnet
+tags: ["project", "hobby", "side-project"]
 ---
 
 It is supposed to be a replacement of [WordNet](https://wordnet.princeton.edu/).

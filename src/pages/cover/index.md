@@ -2,6 +2,7 @@
 title: Cover letter
 date: '2020-03-26'
 spoiler: Reusable cover letter to pitch me out
+tags: ["cv", "pr"]
 ---
 
 Hello friend!

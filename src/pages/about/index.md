@@ -2,6 +2,7 @@
 title: About
 date: '2020-05-03'
 spoiler: I am software engineer
+tags: ["pr"]
 ---
 
 Hey there! My name is Sergey Todyshev. I am software engineer.

@@ -2,6 +2,7 @@
 title: How did we make Flash Viewer at ActiveReports
 date: '2019-08-11'
 spoiler: Open sourcing PageFX compiler
+tags: ["project", "story"]
 ---
 
 __TL;DR__ GrapeCity open-sources dotnet to flash bytecode cross-compiler

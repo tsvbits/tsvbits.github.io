@@ -2,6 +2,7 @@
 title: Support
 date: '2020-01-18'
 spoiler: I am here and you can reach me out
+tags: ["ad", "pr"]
 ---
 
 Does your company or team need help, advice, and direct assistance with coding or software design issues?

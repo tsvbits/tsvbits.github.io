@@ -2,6 +2,7 @@
 title: Notes on Parsing in Rust - Part 1
 date: '2020-05-03'
 spoiler: I am learning Rust
+tags: ["rust"]
 ---
 
 I am writing few parsers in Rust. And here are few notes about that atm.

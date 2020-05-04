@@ -1,6 +1,7 @@
 ---
 title: Device Manager
 date: '2020-03-20'
+tags: ["project", "lab", "nsu", "iae", "education"]
 ---
 
 ## What is it?

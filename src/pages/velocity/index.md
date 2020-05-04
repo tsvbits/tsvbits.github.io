@@ -2,6 +2,7 @@
 title: Velocity
 date: '2020-05-03'
 spoiler: Huge project I've ever contributed to
+tags: ["project", "telecom"]
 ---
 
 ## What is it?

@@ -2,6 +2,7 @@
 title: Circle Laser Writing System
 date: '2020-03-19'
 spoiler: Unique high-precision printer :)
+tags: ["project", "lab", "nsu", "iae", "education"]
 ---
 
 ## What is it?
