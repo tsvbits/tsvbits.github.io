@@ -27,6 +27,9 @@ I've been being involved in challenging projects ranging from
 When working on a particular project I care about finding efficient and simple solutions.
 I care about making friendly interfaces that are [easy to use correctly and hard to use incorrectly](https://www.aristeia.com/Papers/IEEE_Software_JulAug_2004_revised.htm).
 
-I’m currently happily employed by GrapeCity Inc and just keep going.
+I’m currently happily employed by GrapeCity Inc and just keep doing useful things and doing it with calm and passion.
+That is how I suppose to be acting as human and particularly as software engineer. Sometimes having fun.
 
-See [full resume](/resume)
+Thanks for reading and reaching out to the end of this quite long letter :)
+
+See [also resume](/resume)
