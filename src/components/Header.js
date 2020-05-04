@@ -19,72 +19,45 @@ function SvgLink({ href, icon }) {
 }
 
 export default function Header({ location, title }) {
-  const rootPath = `${__PATH_PREFIX__}/`;
-
-  if (location.pathname === rootPath) {
-    return (
-      <div className="root-header">
-        <h1
-          style={{
-            ...scale(0.75),
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: 'var(--textTitle)',
-            }}
-            to={'/'}
-          >
-            {'tsvbit'}
-          </Link>
-        </h1>
-        <span className="internet-links">
-          <a
-            className="icon sourcerer"
-            target="_blank"
-            href="https://sourcerer.io/sergeyt"
-          >
-            <img
-              src="https://sourcerer.io/icons/logo-sharing.svg"
-              height="24px"
-              alt="Sourcerer"
-            />
-          </a>
-        </span>
-        <span className="internet-links" style={{ marginLeft: 50 }}>
-          <SvgLink href="https://www.github.com/sergeyt" icon={github} />
-          <SvgLink
-            href="https://www.linkedin.com/in/sergeytodyshev"
-            icon={linkedin}
-          />
-          <SvgLink href="https://www.twitter.com/todysh" icon={twitter} />
-        </span>
-      </div>
-    );
-  } else {
-    return (
-      <h3
+  return (
+    <div className="root-header">
+      <h1
         style={{
-          fontFamily: 'Montserrat, sans-serif',
-          marginTop: 0,
-          marginBottom: 0,
-          height: 42, // because
-          lineHeight: '2.625rem',
+          ...scale(0.75),
         }}
       >
         <Link
           style={{
             boxShadow: 'none',
             textDecoration: 'none',
-            color: 'var(--textLink)',
+            color: 'var(--textTitle)',
           }}
           to={'/'}
         >
-          {title}
+          {'tsvbit'}
         </Link>
-      </h3>
-    );
-  }
+      </h1>
+      <span className="internet-links">
+        <a
+          className="icon sourcerer"
+          target="_blank"
+          href="https://sourcerer.io/sergeyt"
+        >
+          <img
+            src="https://sourcerer.io/icons/logo-sharing.svg"
+            height="24px"
+            alt="Sourcerer"
+          />
+        </a>
+      </span>
+      <span className="internet-links" style={{ marginLeft: 50 }}>
+        <SvgLink href="https://www.github.com/sergeyt" icon={github} />
+        <SvgLink
+          href="https://www.linkedin.com/in/sergeytodyshev"
+          icon={linkedin}
+        />
+        <SvgLink href="https://www.twitter.com/todysh" icon={twitter} />
+      </span>
+    </div>
+  );
 }
