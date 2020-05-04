@@ -135,7 +135,7 @@ class BlogPostTemplate extends React.Component {
     )}`;
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout>
         <SEO
           lang={lang}
           title={post.frontmatter.title}

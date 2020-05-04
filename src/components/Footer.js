@@ -25,6 +25,7 @@ function Links() {
   return (
     <div>
       <div style={{ float: 'right' }}>
+        <a href="/tags">tags</a> &bull;{' '}
         <a href="/rss.xml" target="_blank" rel="noopener noreferrer">
           rss
         </a>

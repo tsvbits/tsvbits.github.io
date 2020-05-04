@@ -12,14 +12,13 @@ import { rhythm } from '../utils/typography';
 
 class BlogIndexTemplate extends React.Component {
   render() {
-    const siteTitle = get(this, 'props.data.site.siteMetadata.title');
     const langKey = this.props.pageContext.langKey;
 
     const allMarkdownRemark = get(this, 'props.data.allMarkdownRemark') || {};
     const posts = allMarkdownRemark.edges || [];
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout>
         <SEO />
         <aside>
           <Bio />
