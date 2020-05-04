@@ -50,7 +50,7 @@
     "prettier": "^2.0.5"
   },
   "homepage": "https://tsvbits.com",
-  "license": "MIT",
+  "license": "CC",
   "scripts": {
     "dev": "gatsby develop",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
