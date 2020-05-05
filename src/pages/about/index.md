@@ -13,6 +13,7 @@ I've done and I can do this
 - pretty complex massive web apps like [Velocity](/velocity)
 - complex distributed systems like [Velocity](/velocity) since I am fullstack developer
 - report generators like [ActiveReports](/activereports)
+- HTML to PDF generators, tbd
 - low level cross compilers like [PageFX](/pagefx)
 - tomography analysis software like [voXcat](/voxcat) for [DiOptic](https://www.dioptic.de)
 - [interferometry software](/interferometry)
