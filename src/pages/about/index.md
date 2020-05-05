@@ -31,4 +31,9 @@ in short both application-level and system-level programming with any kind of co
 
 ## What kind of content can you expect to find here?
 
-Obviously about programming, table tennis and other things that I decided to write about :)
+Obviously about programming, table tennis and other things that I decided to write about :smile:
+
+
+## Footnote
+
+Please note that this blog, it's content and opinions are my own.
