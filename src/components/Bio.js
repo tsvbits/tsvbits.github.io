@@ -12,8 +12,8 @@ class Bio extends React.Component {
         }}
       >
         <div style={{ maxWidth: 500 }}>
-          <a href="https://github.com/sergeyt">SergeyT</a>'s dev blog.{' '}
-          <a href="/about">More about me</a>
+          <a href="https://github.com/sergeyt">SergeyT</a>'s blog. I like making
+          useful programs. <a href="/about">More about me</a>
         </div>
       </div>
     );
