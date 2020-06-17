@@ -68,7 +68,8 @@ Computers, Complexes, Systems and Networks. GPA: 4+
 #### Tech Lead at [GrapeCity](https://grapecity.com/)
 :calendar:<span class="calendar">`Oct 2018 - now`</span>
 
-Working to make Web Components with efficient and asynchronous data processing and visualization on the client
+* Adopting Rust and WebAssembly to build new features in spreadsheet product line
+* Working to make Web Components with efficient data processing and visualizations on the client
 
 #### Tech Lead at [Xored](http://www.xored.com/)
 :calendar:<span class="calendar">`Jan 2016 - Jun 2018`</span>
@@ -101,4 +102,4 @@ See [my projects](/projects)
 ### Hobbies
 * Playing [table tennis](/table-tennis)
 * Travelling with family
-* Crafting compilers, parsers, programming PoCs
+* Learning new things
