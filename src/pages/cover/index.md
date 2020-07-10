@@ -5,15 +5,17 @@ spoiler: Reusable cover letter to pitch me out
 tags: ["cv", "pr"]
 ---
 
-Hello friend!
+Hello friend or stranger :smile:
 
-My name is Sergey. I am software engineer.
+> __TL;DR__ 10+ years of experience . I had major impact for two amazing projects. It is [ActiveReports](/activereports) and [Spirent Velocity](/velocity). I am full-stack developer. I don't afraid to learn and try new things and make crazy stuff like [this cross compiler](https://github.com/grapecity/pagefx)
+
+My name is Sergey. I am a professional software engineer.
 
 I've been writing computer programs with passion for half of my life.
 I wrote a lot of software and fix thousands of bugs.
 And I am still engineer writing code almost every day.
 
-I am small fish like those engineers who working hard and dedication driven to get useful things done.
+I am a "small fish" like those engineers who working hard and dedication driven to get useful things done.
 This makes me having mindset to solve problems pragmatically and proactively.
 
 I love working on complex projects with positive and smart people around me.
