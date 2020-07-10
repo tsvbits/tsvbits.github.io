@@ -17,17 +17,6 @@ td:nth-child(2) {
 }
 </style>
 
-#### Paradigms
-
-| Paradigm                     | Years |
-| ---------------------------- |:-----:|
-| Object-Oriented Programming  | 10+   |
-| Functional Programming       | 10+   |
-| Functional Programming       | 10+   |
-| Unit Testing                 | 10+   |
-| Aspect-Oriented Programming  | 10+   |
-| Microservices Architecture   | 5+    |
-
 #### Programming Languages
 
 | Language      | Years |
@@ -43,7 +32,7 @@ td:nth-child(2) {
 | SQL           | 10+   |
 | Rust          | 0.5   |
 
-#### Web Tools
+#### Web Stack
 
 | Technology    | Years |
 | ------------- |:-----:|
