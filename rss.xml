@@ -1,12 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Sergey Todyshev's Blog RSS Feed]]></title><description><![CDATA[Personal blog by Sergey Todyshev]]></description><link>https://tsvbits.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 17 Jun 2020 17:31:28 GMT</lastBuildDate><item><title><![CDATA[Table tennis]]></title><description><![CDATA[I am middle-level player]]></description><link>https://tsvbits.com/table-tennis/</link><guid isPermaLink="false">https://tsvbits.com/table-tennis/</guid><pubDate>Tue, 05 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I can play table tennis on middle level. You can find my &lt;a href=&quot;http://r.ttw.ru/players/?id=6308883&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;TTW rating here&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;chart&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#chart&quot; aria-label=&quot;chart permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Chart&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://tsvbits.com/cb0636c037f758b3abce1440a868d3ca/ttwr-snapshot.svg&quot; alt=&quot;Progress&quot; title=&quot;My Progress&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;rewards&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#rewards&quot; aria-label=&quot;rewards permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Rewards&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;TBD&lt;/p&gt;
-&lt;/blockquote&gt;
-                &lt;div style=&quot;margin-top=55px; font-style: italic;&quot;&gt;(This is an article posted to my blog at tsvbits.com. You can read it online by &lt;a href=&quot;https://tsvbits.com/table-tennis/&quot;&gt;clicking here&lt;/a&gt;.)&lt;/div&gt;
-              </content:encoded></item><item><title><![CDATA[SOLIDless]]></title><description><![CDATA[I don't know SOLID and I don't care about it :)]]></description><link>https://tsvbits.com/solidless/</link><guid isPermaLink="false">https://tsvbits.com/solidless/</guid><pubDate>Tue, 05 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Some of SOLID principles are less important for me, here is why?&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Sergey Todyshev's Blog RSS Feed]]></title><description><![CDATA[Personal blog by Sergey Todyshev]]></description><link>https://tsvbits.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 11 Jul 2020 00:01:47 GMT</lastBuildDate><item><title><![CDATA[SOLIDless]]></title><description><![CDATA[I don't know SOLID and I don't care about it :)]]></description><link>https://tsvbits.com/solidless/</link><guid isPermaLink="false">https://tsvbits.com/solidless/</guid><pubDate>Tue, 05 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Some of SOLID principles are less important for me, here is why?&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;I’m used to write more functional coding atm, so OOP is less important practice for me&lt;/li&gt;
 &lt;li&gt;Immutable, purity, composobality matters for me more than knowing how each symbol in SOLID abbreviation is decoded 😄&lt;/li&gt;
@@ -24,19 +16,14 @@
 &lt;h2 id=&quot;footnote&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#footnote&quot; aria-label=&quot;footnote permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Footnote&lt;/h2&gt;
 &lt;p&gt;I do think SOLID principles are useful. But knowing them are not that important to use them on practice without noticing that you apply some principle.&lt;/p&gt;
                 &lt;div style=&quot;margin-top=55px; font-style: italic;&quot;&gt;(This is an article posted to my blog at tsvbits.com. You can read it online by &lt;a href=&quot;https://tsvbits.com/solidless/&quot;&gt;clicking here&lt;/a&gt;.)&lt;/div&gt;
-              </content:encoded></item><item><title><![CDATA[Interferometry]]></title><description><![CDATA[Specialized software built during education period]]></description><link>https://tsvbits.com/interferometry/</link><guid isPermaLink="false">https://tsvbits.com/interferometry/</guid><pubDate>Tue, 05 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;At &lt;a href=&quot;https://www.iae.nsk.su/en/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;IAE&lt;/a&gt; I contributed significantly to interferometry software they design.
-I was major driver doing more modern version of such specialized software.&lt;/p&gt;
-&lt;h2 id=&quot;tools-used-for-implementation&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#tools-used-for-implementation&quot; aria-label=&quot;tools used for implementation permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tools used for implementation&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;C#&lt;/li&gt;
-&lt;li&gt;WinForms&lt;/li&gt;
-&lt;li&gt;OpenGL&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;screenshots&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#screenshots&quot; aria-label=&quot;screenshots permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Screenshots&lt;/h2&gt;
+              </content:encoded></item><item><title><![CDATA[Table tennis]]></title><description><![CDATA[I am middle-level player]]></description><link>https://tsvbits.com/table-tennis/</link><guid isPermaLink="false">https://tsvbits.com/table-tennis/</guid><pubDate>Tue, 05 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I can play table tennis on middle level. You can find my &lt;a href=&quot;http://r.ttw.ru/players/?id=6308883&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;TTW rating here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;chart&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#chart&quot; aria-label=&quot;chart permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Chart&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://tsvbits.com/cb0636c037f758b3abce1440a868d3ca/ttwr-snapshot.svg&quot; alt=&quot;Progress&quot; title=&quot;My Progress&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;rewards&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#rewards&quot; aria-label=&quot;rewards permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Rewards&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;TDB sorry no images atm&lt;/p&gt;
+&lt;p&gt;TBD&lt;/p&gt;
 &lt;/blockquote&gt;
-                &lt;div style=&quot;margin-top=55px; font-style: italic;&quot;&gt;(This is an article posted to my blog at tsvbits.com. You can read it online by &lt;a href=&quot;https://tsvbits.com/interferometry/&quot;&gt;clicking here&lt;/a&gt;.)&lt;/div&gt;
+                &lt;div style=&quot;margin-top=55px; font-style: italic;&quot;&gt;(This is an article posted to my blog at tsvbits.com. You can read it online by &lt;a href=&quot;https://tsvbits.com/table-tennis/&quot;&gt;clicking here&lt;/a&gt;.)&lt;/div&gt;
               </content:encoded></item><item><title><![CDATA[PageFX]]></title><description><![CDATA[This project could be made me famous programmer :)]]></description><link>https://tsvbits.com/pagefx/</link><guid isPermaLink="false">https://tsvbits.com/pagefx/</guid><pubDate>Tue, 05 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;It is cross compiler from .NET byte code to Adobe Flash Player (now dead) instructions. It operates on binary level.
 Now it is open sourced for education purposes mostly I guess. Please read &lt;a href=&quot;https://tsvbits.com/flash-viewer-story&quot;&gt;a story behind the project&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&quot;features&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#features&quot; aria-label=&quot;features permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Features&lt;/h2&gt;
@@ -54,6 +41,19 @@ Now it is open sourced for education purposes mostly I guess. Please read &lt;a 
 &lt;li&gt;C#&lt;/li&gt;
 &lt;/ul&gt;
                 &lt;div style=&quot;margin-top=55px; font-style: italic;&quot;&gt;(This is an article posted to my blog at tsvbits.com. You can read it online by &lt;a href=&quot;https://tsvbits.com/pagefx/&quot;&gt;clicking here&lt;/a&gt;.)&lt;/div&gt;
+              </content:encoded></item><item><title><![CDATA[Interferometry]]></title><description><![CDATA[Specialized software built during education period]]></description><link>https://tsvbits.com/interferometry/</link><guid isPermaLink="false">https://tsvbits.com/interferometry/</guid><pubDate>Tue, 05 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;At &lt;a href=&quot;https://www.iae.nsk.su/en/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;IAE&lt;/a&gt; I contributed significantly to interferometry software they design.
+I was major driver doing more modern version of such specialized software.&lt;/p&gt;
+&lt;h2 id=&quot;tools-used-for-implementation&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#tools-used-for-implementation&quot; aria-label=&quot;tools used for implementation permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tools used for implementation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;C#&lt;/li&gt;
+&lt;li&gt;WinForms&lt;/li&gt;
+&lt;li&gt;OpenGL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;screenshots&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#screenshots&quot; aria-label=&quot;screenshots permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Screenshots&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;TDB sorry no images atm&lt;/p&gt;
+&lt;/blockquote&gt;
+                &lt;div style=&quot;margin-top=55px; font-style: italic;&quot;&gt;(This is an article posted to my blog at tsvbits.com. You can read it online by &lt;a href=&quot;https://tsvbits.com/interferometry/&quot;&gt;clicking here&lt;/a&gt;.)&lt;/div&gt;
               </content:encoded></item><item><title><![CDATA[Institute of Automation and Electrometry]]></title><description><![CDATA[Specialized software built during education period]]></description><link>https://tsvbits.com/iae/</link><guid isPermaLink="false">https://tsvbits.com/iae/</guid><pubDate>Tue, 05 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;At &lt;a href=&quot;https://www.iae.nsk.su/en/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;IAE&lt;/a&gt; I contributed a lot writing different kind of software for interesting devices like:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://tsvbits.com/clws&quot;&gt;Circle Laser Writing System&lt;/a&gt;&lt;/li&gt;
@@ -140,6 +140,22 @@ Each token just a slice to interned string in the global cache.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&quot;http://0x80.pl/articles/simd-parsing-int-sequences.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Parsing series of integers with SIMD&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
                 &lt;div style=&quot;margin-top=55px; font-style: italic;&quot;&gt;(This is an article posted to my blog at tsvbits.com. You can read it online by &lt;a href=&quot;https://tsvbits.com/rust-parsing-part1/&quot;&gt;clicking here&lt;/a&gt;.)&lt;/div&gt;
+              </content:encoded></item><item><title><![CDATA[Rust]]></title><description><![CDATA[I am talking with rustc :)]]></description><link>https://tsvbits.com/rust/</link><guid isPermaLink="false">https://tsvbits.com/rust/</guid><pubDate>Sun, 03 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I am learning Rust atm and as usual I am:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;learning by doing&lt;/li&gt;
+&lt;li&gt;trying to make useful bits using it&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I might blog about it too, please don’t expect too much :)&lt;/p&gt;
+&lt;p&gt;Also note there is only one efficient way to learn Rust. It is by talking with Rust compiler.
+It seems it is only way to become proficient in it. Reading books is not enough.&lt;/p&gt;
+&lt;p&gt;Good luck to me in this way to be yet another Rustacean :)&lt;/p&gt;
+&lt;h2 id=&quot;posts&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#posts&quot; aria-label=&quot;posts permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Posts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://tsvbits.com/rust-parsing-part1&quot;&gt;Parsing notes - Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;footnote&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#footnote&quot; aria-label=&quot;footnote permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Footnote&lt;/h2&gt;
+&lt;p&gt;It would be nice to have an auto generated post index by given tag with single markdown placeholder&lt;/p&gt;
+                &lt;div style=&quot;margin-top=55px; font-style: italic;&quot;&gt;(This is an article posted to my blog at tsvbits.com. You can read it online by &lt;a href=&quot;https://tsvbits.com/rust/&quot;&gt;clicking here&lt;/a&gt;.)&lt;/div&gt;
               </content:encoded></item><item><title><![CDATA[LingvoGraph]]></title><description><![CDATA[Modern wordnet]]></description><link>https://tsvbits.com/lingvograph/</link><guid isPermaLink="false">https://tsvbits.com/lingvograph/</guid><pubDate>Sun, 03 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;It is supposed to be a replacement of &lt;a href=&quot;https://wordnet.princeton.edu/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;WordNet&lt;/a&gt;.
 WordNet can be absorbed by LingvoGraph.
 It can also absorb all other language dictionaries.
@@ -167,23 +183,10 @@ It is mainly built by programmers being just graduated or  and me :)&lt;/p&gt;
 &lt;li&gt;and many more&lt;/li&gt;
 &lt;/ul&gt;
                 &lt;div style=&quot;margin-top=55px; font-style: italic;&quot;&gt;(This is an article posted to my blog at tsvbits.com. You can read it online by &lt;a href=&quot;https://tsvbits.com/lingvograph/&quot;&gt;clicking here&lt;/a&gt;.)&lt;/div&gt;
-              </content:encoded></item><item><title><![CDATA[Rust]]></title><description><![CDATA[I am talking with rustc :)]]></description><link>https://tsvbits.com/rust/</link><guid isPermaLink="false">https://tsvbits.com/rust/</guid><pubDate>Sun, 03 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I am learning Rust atm and as usual I am:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;learning by doing&lt;/li&gt;
-&lt;li&gt;trying to make useful bits using it&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I might blog about it too, please don’t expect too much :)&lt;/p&gt;
-&lt;p&gt;Also note there is only one efficient way to learn Rust. It is by talking with Rust compiler.
-It seems it is only way to become proficient in it. Reading books is not enough.&lt;/p&gt;
-&lt;p&gt;Good luck to me in this way to be yet another Rustacean :)&lt;/p&gt;
-&lt;h2 id=&quot;posts&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#posts&quot; aria-label=&quot;posts permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Posts&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://tsvbits.com/rust-parsing-part1&quot;&gt;Parsing notes - Part 1&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;footnote&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#footnote&quot; aria-label=&quot;footnote permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Footnote&lt;/h2&gt;
-&lt;p&gt;It would be nice to have an auto generated post index by given tag with single markdown placeholder&lt;/p&gt;
-                &lt;div style=&quot;margin-top=55px; font-style: italic;&quot;&gt;(This is an article posted to my blog at tsvbits.com. You can read it online by &lt;a href=&quot;https://tsvbits.com/rust/&quot;&gt;clicking here&lt;/a&gt;.)&lt;/div&gt;
-              </content:encoded></item><item><title><![CDATA[About]]></title><description><![CDATA[I am software engineer]]></description><link>https://tsvbits.com/about/</link><guid isPermaLink="false">https://tsvbits.com/about/</guid><pubDate>Sun, 03 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hey there! My name is Sergey Todyshev. I am software engineer.
+              </content:encoded></item><item><title><![CDATA[About]]></title><description><![CDATA[I am software engineer]]></description><link>https://tsvbits.com/about/</link><guid isPermaLink="false">https://tsvbits.com/about/</guid><pubDate>Sun, 03 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; 10+ years of experience . I had major impact for two amazing projects. It is &lt;a href=&quot;https://tsvbits.com/activereports&quot;&gt;ActiveReports&lt;/a&gt; and &lt;a href=&quot;https://tsvbits.com/velocity&quot;&gt;Spirent Velocity&lt;/a&gt;. I am full-stack developer. I don’t afraid to learn and try new things and make crazy stuff like &lt;a href=&quot;https://github.com/grapecity/pagefx&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;this cross compiler&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Hey there! My name is Sergey Todyshev. I am software engineer.
 You can &lt;a href=&quot;mailto:stodyshev@gmail.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;email me&lt;/a&gt; to get &lt;a href=&quot;https://tsvbits.com/support&quot;&gt;technical support&lt;/a&gt; or even hire me&lt;/p&gt;
 &lt;p&gt;I’ve done and I can do this&lt;/p&gt;
 &lt;ul&gt;
@@ -221,41 +224,6 @@ td:nth-child(2) {
     padding-left: 30px;
 }
 &lt;/style&gt;
-&lt;h4 id=&quot;paradigms&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#paradigms&quot; aria-label=&quot;paradigms permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Paradigms&lt;/h4&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Paradigm&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;Years&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Object-Oriented Programming&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;10+&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Functional Programming&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;10+&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Functional Programming&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;10+&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Unit Testing&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;10+&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Aspect-Oriented Programming&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;10+&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Microservices Architecture&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;5+&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
 &lt;h4 id=&quot;programming-languages&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#programming-languages&quot; aria-label=&quot;programming languages permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Programming Languages&lt;/h4&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -307,7 +275,7 @@ td:nth-child(2) {
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h4 id=&quot;web-tools&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#web-tools&quot; aria-label=&quot;web tools permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Web Tools&lt;/h4&gt;
+&lt;h4 id=&quot;web-stack&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#web-stack&quot; aria-label=&quot;web stack permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Web Stack&lt;/h4&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -385,12 +353,15 @@ td:nth-child(2) {
 &lt;/tbody&gt;
 &lt;/table&gt;
                 &lt;div style=&quot;margin-top=55px; font-style: italic;&quot;&gt;(This is an article posted to my blog at tsvbits.com. You can read it online by &lt;a href=&quot;https://tsvbits.com/skills/&quot;&gt;clicking here&lt;/a&gt;.)&lt;/div&gt;
-              </content:encoded></item><item><title><![CDATA[Cover letter]]></title><description><![CDATA[Reusable cover letter to pitch me out]]></description><link>https://tsvbits.com/cover/</link><guid isPermaLink="false">https://tsvbits.com/cover/</guid><pubDate>Thu, 26 Mar 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hello friend!&lt;/p&gt;
-&lt;p&gt;My name is Sergey. I am software engineer.&lt;/p&gt;
+              </content:encoded></item><item><title><![CDATA[Cover letter]]></title><description><![CDATA[Reusable cover letter to pitch me out]]></description><link>https://tsvbits.com/cover/</link><guid isPermaLink="false">https://tsvbits.com/cover/</guid><pubDate>Thu, 26 Mar 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hello friend or stranger 😄&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; 10+ years of experience . I had major impact for two amazing projects. It is &lt;a href=&quot;https://tsvbits.com/activereports&quot;&gt;ActiveReports&lt;/a&gt; and &lt;a href=&quot;https://tsvbits.com/velocity&quot;&gt;Spirent Velocity&lt;/a&gt;. I am full-stack developer. I don’t afraid to learn and try new things and make crazy stuff like &lt;a href=&quot;https://github.com/grapecity/pagefx&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;this cross compiler&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;My name is Sergey. I am a professional software engineer.&lt;/p&gt;
 &lt;p&gt;I’ve been writing computer programs with passion for half of my life.
 I wrote a lot of software and fix thousands of bugs.
 And I am still engineer writing code almost every day.&lt;/p&gt;
-&lt;p&gt;I am small fish like those engineers who working hard and dedication driven to get useful things done.
+&lt;p&gt;I am a “small fish” like those engineers who working hard and dedication driven to get useful things done.
 This makes me having mindset to solve problems pragmatically and proactively.&lt;/p&gt;
 &lt;p&gt;I love working on complex projects with positive and smart people around me.&lt;/p&gt;
 &lt;p&gt;I’ve been being involved in challenging projects ranging from&lt;/p&gt;
