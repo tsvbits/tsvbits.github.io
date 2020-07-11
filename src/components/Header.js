@@ -34,7 +34,7 @@ export default function Header() {
           }}
           to={'/'}
         >
-          {'tsvbit'}
+          <b>tsvbit</b>
         </Link>
       </h1>
       <span className="internet-links">
