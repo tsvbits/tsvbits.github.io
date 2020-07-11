@@ -10,12 +10,12 @@ tags: ["pr", "meta"]
 Hey there! My name is Sergey Todyshev. I am software engineer.
 You can [email me](mailto:stodyshev@gmail.com) to get [technical support](/support) or even hire me
 
-I've done and I can do this
+I can do
 
 - pretty complex massive web apps like [Velocity](/velocity)
 - complex distributed systems like [Velocity](/velocity) since I am fullstack developer
 - report generators like [ActiveReports](/activereports)
-- HTML to PDF generators, tbd
+- HTML to PDF generators like [CarbonDocs](https://carbondocs.windows10compatible.com/)
 - low level cross compilers like [PageFX](/pagefx)
 - tomography analysis software like [voXcat](/voxcat) for [DiOptic](https://www.dioptic.de)
 - [interferometry software](/interferometry)
