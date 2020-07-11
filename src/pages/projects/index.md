@@ -57,6 +57,12 @@ See also [tools used to make it](/pagefx).
 
 Status **dead**, but it can be reanimated for example to allow using C# to develop applications for [Adobe Integrated Runtime](https://get.adobe.com/air/)
 
+## CarbonDocs
+:calendar:<span class="calendar">`2004 - 2010`</span>
+
+This .NET library allows to generate PDF docs from HTML. More info is [here](https://carbondocs.windows10compatible.com/).
+I've been developing it almost solely after being graduated university.
+
 ## Circle Laser Writing Systems
 :calendar:<span class="calendar">`2002 - 2007`</span>
 
