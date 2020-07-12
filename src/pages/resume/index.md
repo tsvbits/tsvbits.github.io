@@ -58,7 +58,7 @@ Put hands on implementation of:
 
 ### Master at [Novosibirsk State University](https://www.nsu.ru/) <span class="calendar icon right">`Sep 1999  –  Jun 2004`</span>
 
-Computers, Complexes, Systems and Networks. GPA: 4+
+4+ GPA. Computers, Complexes, Systems and Networks.
 
 ## Professional Experience <span class="calendar icon right">`Jan 2002 - now`</span>
 
