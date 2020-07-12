@@ -26,10 +26,11 @@ in short both application-level and system-level programming with any kind of co
 
 ## Tools used to built this site
 
-- [GatsbyJS](https://www.gatsbyjs.org/)
+It is [fork](https://github.com/tsvbits/tsvbits.github.io) of [overreacted.io](https://overreacted.io/).
+
 - [ReactJS](https://reactjs.org/)
-- It is fork of [overreacted.io](https://overreacted.io/)
-- Source code of this site is on [github](https://github.com/tsvbits/tsvbits.github.io)
+- [GatsbyJS](https://www.gatsbyjs.org/)
+
 
 ## What kind of content can you expect to find here?
 

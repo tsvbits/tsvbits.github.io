@@ -57,3 +57,6 @@ td:nth-child(2) {
 | Docker               | 5+   |
 | Git                  | 10+   |
 | Mercurial            | 10+   |
+
+
+See also [resume](/resume)

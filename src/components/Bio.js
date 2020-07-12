@@ -1,4 +1,5 @@
 import React from 'react';
+import TextLoop from 'react-text-loop';
 import { rhythm } from '../utils/typography';
 
 class Bio extends React.Component {
@@ -12,8 +13,15 @@ class Bio extends React.Component {
         }}
       >
         <div style={{ maxWidth: 500 }}>
-          <a href="https://github.com/sergeyt">SergeyT</a>'s blog. I write
-          programs. <a href="/about">More about me</a>
+          <a href="/about">SergeyT</a>'s blog.{' '}
+          <TextLoop>
+            <a href="/skills">I write programs</a>
+            <a href="/projects">I am doer</a>
+            <a href="/resume">I have family</a>
+            <a href="/resume">and two funny cats</a>
+            <a href="/table-tennis">I play table tennis</a>
+            <a href="/about">Learn more</a>
+          </TextLoop>
         </div>
       </div>
     );

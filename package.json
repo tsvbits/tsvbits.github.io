@@ -38,6 +38,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^5.2.1",
+    "react-text-loop": "^2.3.0",
     "react-typography": "^0.16.19",
     "simple-icons": "^3.0.1",
     "typography": "^0.16.19",
