@@ -29,3 +29,7 @@ Later we can try to port [Roslyn C# compiler](https://github.com/dotnet/roslyn) 
 This could be a great web resource to help learning .NET code at low-level.
 
 If you like Fint project please stargaze it on github.
+
+Here is [a recording](https://www.youtube.com/watch?time_continue=4&v=d-NbhhxRRW4&feature=emb_logo) of my presentation. Sorry for speaking so boring :smile:
+
+Enjoy!
