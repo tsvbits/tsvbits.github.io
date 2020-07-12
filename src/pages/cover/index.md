@@ -7,7 +7,7 @@ tags: ["cv", "pr"]
 
 Hello friend or stranger :smile:
 
-> __TL;DR__ 10+ years of experience . I had major impact for two amazing projects. It is [ActiveReports](/activereports) and [Spirent Velocity](/velocity). I am full-stack developer. I don't afraid to learn and try new things and make crazy stuff like [this cross compiler](https://github.com/grapecity/pagefx)
+> __TL;DR__ 18 years of experience in server and client-side development. Areas of expertise: Architecture, Web and API development, .NET, C#, SQL, Web API, HTML, CSS, TypeScript, Java, Go, Rust, Git, Agile. I don't afraid to learn and try new things and make crazy stuff like [a cross compiler](https://github.com/grapecity/pagefx)
 
 My name is Sergey. I am a professional software engineer.
 
