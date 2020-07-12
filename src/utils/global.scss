@@ -49,6 +49,16 @@ body.dark h4 {
   color: white;
 }
 
+body {
+  h1, h2, h3, h4, h5 {
+    font-weight: bold;
+
+    a {
+      font-weight: bold;
+    }
+  }
+}
+
 /*
   RTL layout
 */
@@ -260,10 +270,24 @@ pre[data-line] {
   min-width: 100%;
 }
 
-span.calendar .language-text {
-  background-color: transparent;
-  font-style: italic;
-  font-size: small;
+span.calendar {
+  .language-text {
+    background-color: transparent;
+    font-style: italic;
+    font-size: small;
+  }
+
+  // TODO add calendar icon
+  &.icon {
+    :first-child {
+      content: '📆';
+      margin-right: 4px;
+    }
+  }
+
+  &.right {
+    float: right;
+  }
 }
 
 table {
