@@ -17,7 +17,7 @@ class Bio extends React.Component {
           <TextLoop>
             <a href="/skills">I write programs</a>
             <a href="/projects">I am doer</a>
-            <a href="/resume">I have family</a>
+            <a href="/resume">I have family with two kids</a>
             <a href="/resume">and two funny cats</a>
             <a href="/table-tennis">I play table tennis</a>
             <a href="/about">Learn more</a>
