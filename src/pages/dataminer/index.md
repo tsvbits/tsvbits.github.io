@@ -2,7 +2,7 @@
 title: Data Miner
 date: '2020-07-15'
 spoiler: Declarative web scraper implemented using AngularSharp
-tags: ["csharp", "scraping"]
+tags: ["csharp", "scraping", "sample"]
 ---
 
 > TL;DR see the code at https://github.com/lingvograph/dataminer/blob/master/Program.cs#L18
@@ -110,7 +110,7 @@ private static async Task Parse(DataSource src, Input input)
 
 ## Status
 
-It is prototype and pretty much experimental code
+It is prototype and pretty much experimental code. It can be easily modified for your needs
 
 ## Tools
 
@@ -120,3 +120,5 @@ It is done with:
 - [CSharp](https://github.com/dotnet/csharplang) - yeah it is implemented in C# language
 - [AngularSharp](https://github.com/AngleSharp/AngleSharp) - core thing to parse HTML and traverse the document tree
 - [YamlDotNet](https://github.com/aaubry/YamlDotNet) - YAML parser
+
+Enjoy! EOF :smile:
