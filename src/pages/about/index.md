@@ -7,6 +7,8 @@ tags: ["pr", "meta"]
 
 > __TL;DR__ 18 years of experience in server and client-side development. Areas of expertise: Architecture, Web and API development, .NET, C#, SQL, Web API, HTML, CSS, TypeScript, Java, Go, Rust, Git, Agile. I don't afraid to learn and try new things and make crazy stuff like [a cross compiler](https://github.com/grapecity/pagefx)
 
+![SergeyT's github stats](https://github-readme-stats.vercel.app/api?username=sergeyt&show_icons=true)
+
 Hey there! My name is Sergey Todyshev. I am software engineer.
 You can [email me](mailto:stodyshev@gmail.com) to get [technical support](/support) or even hire me
 
