@@ -19,6 +19,7 @@ Good luck to me in this way to be yet another Rustacean :)
 ## Posts
 
 - [Parsing notes - Part 1](/rust-parsing-part1)
+- [Efficient parsing of JSON record sets in Rust](/json-records)
 
 ## Footnote
 
