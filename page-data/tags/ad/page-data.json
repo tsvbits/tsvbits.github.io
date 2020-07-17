@@ -1,1 +1,1 @@
-{"componentChunkName":"component---src-templates-tags-js","path":"/tags/ad/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/support/"},"frontmatter":{"title":"Support"}}}]}},"pageContext":{"tag":"ad"}}}
+{"componentChunkName":"component---src-templates-tags-js","path":"/tags/ad/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/support/"},"frontmatter":{"title":"Support"}}}]}},"pageContext":{"tag":"ad"}},"staticQueryHashes":[]}

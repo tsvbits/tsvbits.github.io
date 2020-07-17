@@ -1,1 +1,1 @@
-{"componentChunkName":"component---src-templates-tags-js","path":"/tags/irony/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/solidless/"},"frontmatter":{"title":"SOLIDless"}}}]}},"pageContext":{"tag":"irony"}}}
+{"componentChunkName":"component---src-templates-tags-js","path":"/tags/irony/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/solidless/"},"frontmatter":{"title":"SOLIDless"}}}]}},"pageContext":{"tag":"irony"}},"staticQueryHashes":[]}
