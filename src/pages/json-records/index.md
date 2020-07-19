@@ -162,4 +162,6 @@ mod tests {
 
 This allows to avoid allocation of intermediate vector for a bit faster processing of large datasets.
 
+Please share your thoughts on [reddit](https://www.reddit.com/r/rust/comments/hsq080/efficient_parsing_of_json_record_sets_in_rust/).
+
 Enjoy! EOF :smile:
