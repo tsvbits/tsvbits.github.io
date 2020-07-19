@@ -9,19 +9,19 @@ tags: ["pr", "meta"]
 
 ![SergeyT's github stats](https://github-readme-stats.vercel.app/api?username=sergeyt&show_icons=true)
 
-Hey there! My name is Sergey Todyshev. I am software engineer.
+Hey there! I am Sergey Todyshev. I am software engineer.
 You can [email me](mailto:stodyshev@gmail.com) to get [technical support](/support) or even hire me
 
-I can do
+## I can do
 
-- pretty complex massive web apps like [Velocity](/velocity)
+- pretty complex huge web apps like [Velocity](/velocity)
 - complex distributed systems like [Velocity](/velocity) since I am fullstack developer
-- report generators like [ActiveReports](/activereports)
+- complex report generators like [ActiveReports](/activereports)
 - HTML to PDF generators like [CarbonDocs](https://carbondocs.windows10compatible.com/)
 - low level cross compilers like [PageFX](/pagefx)
 - tomography analysis software like [voXcat](/voxcat) for [DiOptic](https://www.dioptic.de)
 - [interferometry software](/interferometry)
-- LabView like visual programming system, will create separate page later
+- LabView like visual programming system
 - hardware abstraction layers like [Device Manager](/devicemanager) for [IAE](/iae)
 
 in short both application-level and system-level programming with any kind of complexity
