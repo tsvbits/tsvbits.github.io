@@ -40,6 +40,7 @@ exports.createPages = ({ graphql, actions }) => {
                   frontmatter {
                     title
                     tags
+                    reddit
                   }
                 }
               }
@@ -122,6 +123,8 @@ exports.createPages = ({ graphql, actions }) => {
               next,
               translations,
               translatedLinks: [],
+              tags: post.node.frontmatter.tags,
+              reddit: post.node.frontmatter.reddit,
             },
           });
 

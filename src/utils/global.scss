@@ -356,3 +356,18 @@ footer {
     margin-top: 10px;
   }
 }
+
+div.tags {
+  margin-top: -1.5em;
+
+  a {
+    cursor: pointer;
+    margin: 0 2px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    background-color: #4078c0;
+    color: whitesmoke;
+    font-size: smaller;
+    font-weight: bold;
+  }
+}

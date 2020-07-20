@@ -100,6 +100,8 @@ class BlogPostTemplate extends React.Component {
       slug,
       translations,
       translatedLinks,
+      tags,
+      reddit,
     } = this.props.pageContext;
     const lang = post.fields.langKey;
 
@@ -149,8 +151,10 @@ class BlogPostTemplate extends React.Component {
                 {post.frontmatter.title}
               </h1>
               <div className="tags">
-                {map(post.frontmatter.title.tags, (t, i) => (
-                  <span key={i}>{t}</span>
+                {map(tags, (t, i) => (
+                  <a key={i} href={`/tags/${t}`}>
+                    {t}
+                  </a>
                 ))}
               </div>
               <p
@@ -158,7 +162,6 @@ class BlogPostTemplate extends React.Component {
                   ...scale(-1 / 5),
                   display: 'block',
                   marginBottom: rhythm(1),
-                  marginTop: rhythm(-4 / 5),
                 }}
               >
                 {formatPostDate(post.frontmatter.date, lang)}
@@ -258,6 +261,8 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         spoiler
+        tags
+        reddit
       }
       fields {
         slug
