@@ -4,14 +4,11 @@ import moment from 'moment';
 
 export default function RedditComments({ reddit }) {
   if (!reddit) {
-    return undefined;
+    return null;
   }
   const { data, error } = useSWR(reddit, fetcher);
-  if (error) {
-    return <div className="error">{error}</div>;
-  }
-  if (!data) {
-    return <div>loading...</div>;
+  if (error || !data) {
+    return null;
   }
   const comments = data.map((item, i) => (
     <Comment key={i} data={item.data} level={0} />
@@ -34,7 +31,8 @@ function fetcher(reddit) {
   return fetch(url)
     .then((resp) => resp.json())
     .then((data) => JSON.parse(data.contents))
-    .then((data) => data[1].data.children);
+    .then((data) => data[1].data.children)
+    .catch((_) => []);
 }
 
 function Comment({ data, level }) {

@@ -31,6 +31,8 @@ exports.createPages = ({ graphql, actions }) => {
             ) {
               edges {
                 node {
+                  html
+                  timeToRead
                   fields {
                     slug
                     langKey
@@ -39,6 +41,8 @@ exports.createPages = ({ graphql, actions }) => {
                   }
                   frontmatter {
                     title
+                    date(formatString: "MMMM DD, YYYY")
+                    spoiler
                     tags
                     reddit
                   }
@@ -123,8 +127,9 @@ exports.createPages = ({ graphql, actions }) => {
               next,
               translations,
               translatedLinks: [],
-              tags: post.node.frontmatter.tags,
-              reddit: post.node.frontmatter.reddit,
+              html: post.node.html,
+              timeToRead: post.node.timeToRead,
+              ...post.node.frontmatter,
             },
           });
 

@@ -3,6 +3,7 @@ title: Data Miner
 date: '2020-07-15'
 spoiler: Declarative web scraper implemented using AngularSharp
 tags: ["csharp", "scraping", "sample"]
+reddit: "https://www.reddit.com/r/dotnet/comments/hsprjn/declarative_web_scraper_using_angularsharp_and"
 ---
 
 > TL;DR see the code at https://github.com/lingvograph/dataminer/blob/master/Program.cs#L18
