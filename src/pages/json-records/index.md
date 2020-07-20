@@ -3,6 +3,7 @@ title: Efficient parsing of JSON record sets in Rust
 date: '2020-07-17'
 spoiler: Custom iterator on top of serde_json StreamDeserializer
 tags: ["rust", "parsing", "sample"]
+reddit: "https://www.reddit.com/r/rust/comments/hsq080/efficient_parsing_of_json_record_sets_in_rust"
 ---
 
 JSON record set is an array of objects. [serde_json crate](https://crates.io/crates/serde_json) does not provide fast solution to parse it out of the box, but you can do something I came up with. I use [StreamDeserializer](https://docs.serde.rs/serde_json/struct.StreamDeserializer.html) and custom handling to skip array symbols like '[' or ','.
@@ -161,7 +162,5 @@ mod tests {
 ```
 
 This allows to avoid allocation of intermediate vector for a bit faster processing of large datasets.
-
-Please share your thoughts on [reddit](https://www.reddit.com/r/rust/comments/hsq080/efficient_parsing_of_json_record_sets_in_rust/).
 
 Enjoy! EOF :smile:

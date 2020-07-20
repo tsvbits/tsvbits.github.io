@@ -374,8 +374,10 @@ div.tags {
 
 .reddit {
   .heading {
+    display: block;
     font-weight: bold;
     font-size: larger;
+    margin-bottom: 10px;
   }
   .comment {
     .comment-header {
@@ -403,6 +405,12 @@ div.tags {
         font-weight: 400;
         font-size: 13px;
         margin: 0 2px;
+      }
+      pre {
+        background-color: #f6f7f8;
+        code {
+          color: #1c1c1c;
+        }
       }
     }
   }
