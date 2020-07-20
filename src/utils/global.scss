@@ -371,3 +371,39 @@ div.tags {
     font-weight: bold;
   }
 }
+
+.reddit {
+  .heading {
+    font-weight: bold;
+    font-size: larger;
+  }
+  .comment {
+    .comment-header {
+      display: flex;
+      align-items: center;
+
+      .author {
+        font-size: smaller;
+        color: rgb(62, 62, 62);
+      }
+
+      .dot {
+        margin: 0 4px;
+      }
+
+      .when {
+        font-size: small;
+        color: rgb(124, 124, 124);
+      }
+    }
+    .comment-body {
+      code {
+        color: #ff006d;
+        font-family: Noto Mono,Menlo,Monaco,Consolas,monospace;
+        font-weight: 400;
+        font-size: 13px;
+        margin: 0 2px;
+      }
+    }
+  }
+}

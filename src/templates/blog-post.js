@@ -7,6 +7,7 @@ import '../fonts/fonts-post.css';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import Panel from '../components/Panel';
+import Reddit from '../components/Reddit';
 import { formatPostDate, formatReadingTime } from '../utils/helpers';
 import { rhythm, scale } from '../utils/typography';
 import {
@@ -89,6 +90,20 @@ class Translations extends React.Component {
   }
 }
 
+function discussProps({ enSlug, reddit }) {
+  if (reddit) {
+    return {
+      url: reddit,
+      label: 'Discuss on Reddit',
+    };
+  }
+  const q = encodeURIComponent(`https://tsvbits.com${enSlug}`);
+  return {
+    url: `https://mobile.twitter.com/search?q=${q}`,
+    label: 'Discuss on Twitter',
+  };
+}
+
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark;
@@ -132,9 +147,8 @@ class BlogPostTemplate extends React.Component {
       1,
       enSlug.length - 1
     )}/index${lang === 'en' ? '' : '.' + lang}.md`;
-    const discussUrl = `https://mobile.twitter.com/search?q=${encodeURIComponent(
-      `https://tsvbits.com${enSlug}`
-    )}`;
+
+    const discuss = discussProps({ enSlug, reddit });
 
     return (
       <Layout>
@@ -178,9 +192,10 @@ class BlogPostTemplate extends React.Component {
             </header>
             <div dangerouslySetInnerHTML={{ __html: html }} />
             <footer>
+              <Reddit reddit={reddit} />
               <p>
-                <a href={discussUrl} target="_blank" rel="noopener noreferrer">
-                  Discuss on Twitter
+                <a href={discuss.url} target="_blank" rel="noopener noreferrer">
+                  {discuss.label}
                 </a>
                 {` • `}
                 <a href={editUrl} target="_blank" rel="noopener noreferrer">
@@ -262,7 +277,6 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         spoiler
         tags
-        reddit
       }
       fields {
         slug
