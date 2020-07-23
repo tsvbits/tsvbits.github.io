@@ -9,13 +9,13 @@ tags: ["pr", "meta"]
 
 ![SergeyT's github stats](https://github-readme-stats.vercel.app/api?username=sergeyt&show_icons=true)
 
-Hey there! I am Sergey Todyshev. I am software engineer.
-You can [email me](mailto:stodyshev@gmail.com) to get [technical support](/support) or even hire me
+Hey there! I am Sergey Todyshev. I am software engineer and usually I play full-stack roles.
+You can [email me](mailto:stodyshev@gmail.com) to get [technical support](/support) or maybe even hire me
 
 ## I can do
 
 - pretty complex huge web apps like [Velocity](/velocity)
-- complex distributed systems like [Velocity](/velocity) since I am fullstack developer
+- complex distributed systems like [Velocity](/velocity)
 - complex report generators like [ActiveReports](/activereports)
 - HTML to PDF generators like [CarbonDocs](https://carbondocs.windows10compatible.com/)
 - low level cross compilers like [PageFX](/pagefx)
@@ -38,7 +38,6 @@ It is [fork](https://github.com/tsvbits/tsvbits.github.io) of [overreacted.io](h
 
 Obviously about programming, table tennis and other things that I decided to write about :smile:
 
-
 ## Footnote
 
-Please note that this blog, it's content and opinions are my own.
+Please note that content in this blog and opinions are my own.
