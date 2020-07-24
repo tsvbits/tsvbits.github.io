@@ -91,18 +91,25 @@ class Translations extends React.Component {
   }
 }
 
-function discussProps({ enSlug, reddit }) {
-  if (reddit) {
-    return {
-      url: reddit,
-      label: 'Discuss on Reddit',
-    };
+function RedditLink({ reddit }) {
+  if (!reddit) {
+    return null;
   }
+  return (
+    <a href={reddit} target="_blank">
+      Discuss on Reddit
+    </a>
+  );
+}
+
+function TwitterLink({ enSlug }) {
   const q = encodeURIComponent(`https://tsvbits.com${enSlug}`);
-  return {
-    url: `https://mobile.twitter.com/search?q=${q}`,
-    label: 'Discuss on Twitter',
-  };
+  const url = `https://mobile.twitter.com/search?q=${q}`;
+  return (
+    <a href={url} target="_blank">
+      Discuss on Twitter
+    </a>
+  );
 }
 
 const BlogPostTemplate = ({ pageContext }) => {
@@ -149,8 +156,6 @@ const BlogPostTemplate = ({ pageContext }) => {
     enSlug.length - 1
   )}/index${lang === 'en' ? '' : '.' + lang}.md`;
 
-  const discuss = discussProps({ enSlug, reddit });
-
   return (
     <Layout>
       <SEO lang={lang} title={title} description={spoiler} slug={slug} />
@@ -196,9 +201,9 @@ const BlogPostTemplate = ({ pageContext }) => {
             </div>
             <Reddit reddit={reddit} />
             <p>
-              <a href={discuss.url} target="_blank">
-                {discuss.label}
-              </a>
+              <RedditLink reddit={reddit} />
+              {` • `}
+              <TwitterLink enSlug={enSlug} />
               {` • `}
               <a href={editUrl} target="_blank">
                 Edit on GitHub
