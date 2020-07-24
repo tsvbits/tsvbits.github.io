@@ -20,7 +20,7 @@ export default function RedditComments({ reddit }) {
   return (
     <div className="reddit">
       <a className="heading" href={reddit} target="_blank">
-        Reddit Comments
+        Comments
       </a>
       {comments}
     </div>
