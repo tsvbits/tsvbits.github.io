@@ -3,14 +3,14 @@ title: Jamstack comments
 date: '2020-07-24'
 spoiler: How to make free comments for Jamstack sites
 tags: ["jamstack", "reactjs", "sample"]
-reddit: "https://www.reddit.com/r/reactjs/comments/hwy2lw/jamstack_comments"
+reddit: "https://www.reddit.com/r/JAMstack/comments/hwy3w1/jamstack_comments"
 ---
 
 My site is a [Jamstack](https://jamstack.org/) site. It is built using [GatsbyJS](https://www.gatsbyjs.org/) powered by [ReactJS](https://reactjs.org/). In this post I gonna show how you can add a free comments to your site with the following pretty simple steps.
 
 1. Use [Reddit](https://www.reddit.com/) as a service that stores comments.
-1. Implement React component that shows reddit Comments.
-1. Integrate component to the blog post template
+2. Implement React component that shows reddit Comments.
+3. Integrate component to the blog post template
 
 ## React Component
 
