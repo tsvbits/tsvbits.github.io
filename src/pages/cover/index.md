@@ -28,6 +28,6 @@ I care about making friendly interfaces that are [easy to use correctly and hard
 
 I’m currently happily employed by GrapeCity Inc and just keep doing digital things and doing it with calm and passion. Usually having fun :)
 
-Thanks for reading :)
+See [also resume](/resume) and [projects](/projects) I've done
 
-See [also resume](/resume)
+Thanks for reading :)
