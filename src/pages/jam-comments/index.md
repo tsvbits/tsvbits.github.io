@@ -3,6 +3,7 @@ title: Jamstack comments
 date: '2020-07-24'
 spoiler: How to make free comments for Jamstack sites
 tags: ["jamstack", "reactjs", "sample"]
+reddit: "https://www.reddit.com/r/reactjs/comments/hwy2lw/jamstack_comments"
 ---
 
 My site is a [Jamstack](https://jamstack.org/) site. It is built using [GatsbyJS](https://www.gatsbyjs.org/) powered by [ReactJS](https://reactjs.org/). In this post I gonna show how you can add a free comments to your site with the following pretty simple steps.
