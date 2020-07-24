@@ -186,6 +186,14 @@ const BlogPostTemplate = ({ pageContext }) => {
           </header>
           <div dangerouslySetInnerHTML={{ __html: html }} />
           <footer>
+            <div className="buymeacoffee">
+              <a href="https://www.buymeacoffee.com/todysh" target="_blank">
+                <img
+                  src="https://cdn.buymeacoffee.com/buttons/default-orange.png"
+                  alt="Buy Me A Coffee"
+                />
+              </a>
+            </div>
             <Reddit reddit={reddit} />
             <p>
               <a href={discuss.url} target="_blank">
