@@ -9,7 +9,7 @@ Hello friend or stranger :smile:
 
 > __TL;DR__ 18 years of experience in server and client-side development. Areas of expertise: Architecture, Web and API development, .NET, C#, SQL, Web API, HTML, CSS, TypeScript, Java, Go, Rust, Git, Agile. I don't afraid to learn and try new things and make crazy stuff like [a cross compiler](https://github.com/grapecity/pagefx)
 
-I am SergeyT. I am a professional software engineer and usually I play full stack roles.
+I am SergeyT. I am software engineer with over 15 years of professional experience making software products. Usually I play full-stack roles.
 
 I've been writing computer programs with passion for half of my life.
 I solved a ton of puzzles and fixed no end of bugs.
