@@ -112,6 +112,19 @@ function TwitterLink({ enSlug }) {
   );
 }
 
+function Buymeacoffee() {
+  return (
+    <div className="buymeacoffee">
+      <a href="https://www.buymeacoffee.com/todysh" target="_blank">
+        <img
+          src="https://cdn.buymeacoffee.com/buttons/default-orange.png"
+          alt="Buy Me A Coffee"
+        />
+      </a>
+    </div>
+  );
+}
+
 const BlogPostTemplate = ({ pageContext }) => {
   let {
     html,
@@ -156,6 +169,10 @@ const BlogPostTemplate = ({ pageContext }) => {
     enSlug.length - 1
   )}/index${lang === 'en' ? '' : '.' + lang}.md`;
 
+  const showByemeacoffee = !['resume', 'cover', 'about'].some(
+    (s) => slug.toLowerCase().indexOf(s) >= 0
+  );
+
   return (
     <Layout>
       <SEO lang={lang} title={title} description={spoiler} slug={slug} />
@@ -191,14 +208,7 @@ const BlogPostTemplate = ({ pageContext }) => {
           </header>
           <div dangerouslySetInnerHTML={{ __html: html }} />
           <footer>
-            <div className="buymeacoffee">
-              <a href="https://www.buymeacoffee.com/todysh" target="_blank">
-                <img
-                  src="https://cdn.buymeacoffee.com/buttons/default-orange.png"
-                  alt="Buy Me A Coffee"
-                />
-              </a>
-            </div>
+            {showByemeacoffee ? <Buymeacoffee /> : null}
             <Reddit reddit={reddit} />
             <p>
               <RedditLink reddit={reddit} />
