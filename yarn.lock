@@ -1542,10 +1542,10 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@iconify/icons-uil@^1.0.13":
-  version "1.0.13"
-  resolved "https://registry.yarnpkg.com/@iconify/icons-uil/-/icons-uil-1.0.13.tgz#1ff38db866d22db65597925a8a965688adb1fc92"
-  integrity sha512-CDvuWyr8BMbR24JGvaLZS9ORBey0cP/qEWN48CAM3jWXylqYIbTqb6s2Gw6dBNwFQfRv2lEvqqI7k2iSLNIWyw==
+"@iconify/icons-uil@^1.0.14":
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/@iconify/icons-uil/-/icons-uil-1.0.14.tgz#cbd8714d988b942eaa7301c51591e1b9e419072d"
+  integrity sha512-ZrvJZfua/exxJbL/Z2AkSD1HZcKcbNbKyACFPcywCqCgWYEnIW+OTTkFoS3u0VVHwkkbRxkEU8LWoiUEahQ87A==
 
 "@iconify/react@^1.1.3":
   version "1.1.3"
