@@ -58,6 +58,8 @@ Put hands on implementation of:
 * Computer aided tools for interferometry
 * Computer aided tools for [tomography](/voxcat)
 
+As you can see I've done tons of useful stuff here
+
 ### Master at [Novosibirsk State University](https://www.nsu.ru/) <span class="calendar icon right">`Sep 1999  –  Jun 2004`</span>
 
 4+ GPA. Computers, Complexes, Systems and Networks.
@@ -71,12 +73,12 @@ Put hands on implementation of:
 
 ### Tech Lead at [Xored](http://www.xored.com/) <span class="calendar icon right">`Jan 2016 - Jun 2018`</span>
 
-* Making [Velocity](/velocity) to be the best LaaS solution
+In [the amazing project](/velocity) called [Velocity](https://www.spirent.com/products/velocity) I had tech lead and team lead duties, but 50% of time helping team with real code. As the team lead, I led a team of 10-15 full-stack engineers doing code review and consulting on daily basis. As the tech lead, I had involved in finding efficient solutions especially to tackle customer-faced scalability issues. I had made initiatives for scalable development of huge frontend. I had direct communication with customers investigating and fixing incidents on production systems. I was the first point of contact with the product owner and management groups helping solving business problems using the full spectrum of technologies available and knowledge of the product capabilities. And eventually we have made one of the best LaaS (Laboratory as a Service) solution.
 
 ### Full Stack Software Engineer at [DataWorks](http://dataworks.co/) <span class="calendar icon right">`Jun 2007 - Jan 2016`</span>
 
 * Making better ActiveReports Server platform and [ActiveReports](/activereports) product lines.
-* Particularly optimized RDL report engine making it faster up to 10x times together with super dev team
+* Particularly optimized RDL report engine making it faster up to 10x times together with research team where I was a major driver.
 * Principal developer of [PageFX compiler](https://github.com/GrapeCity/pagefx) from .NET to AVM (Flash Player VM) bytecode successfully used to build multi-platform report viewer
 
 ### Full Stack Software Engineer at [IAE](https://www.iae.nsk.su/en/) <span class="calendar icon right">`Jun 2002 - Aug 2007`</span>
