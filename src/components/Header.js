@@ -58,6 +58,31 @@ export default function Header() {
         />
         <SvgLink href="https://www.twitter.com/todysh" icon={twitter} />
       </span>
+      <span className="internet-links" style={{ marginLeft: 50 }}>
+        <a
+          className="bmc-button"
+          target="_blank"
+          href="https://www.buymeacoffee.com/todysh"
+        >
+          <img
+            src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg"
+            alt="Buy me a coffee"
+          />
+        </a>
+        <a
+          href="https://ko-fi.com/U7U11ZJ7S"
+          target="_blank"
+          style={{ height: 36 }}
+        >
+          <img
+            height="36"
+            style={{ border: 0, height: 36 }}
+            src="https://cdn.ko-fi.com/cdn/kofi1.png?v=2"
+            border="0"
+            alt="Buy me a coffee at ko-fi.com"
+          />
+        </a>
+      </span>
     </div>
   );
 }
