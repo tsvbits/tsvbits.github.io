@@ -19,7 +19,23 @@ const query = graphql`
   }
 `;
 
-function SEO({ meta, image, title, description, slug, lang = 'en' }) {
+const defaultKeywords = [
+  'blog',
+  'dev blog',
+  'software',
+  'programming',
+  'sergeyt',
+];
+
+function SEO({
+  meta,
+  image,
+  title,
+  description,
+  slug,
+  lang = 'en',
+  tags = [],
+}) {
   return (
     <StaticQuery
       query={query}
@@ -28,6 +44,7 @@ function SEO({ meta, image, title, description, slug, lang = 'en' }) {
         const metaDescription = description || siteMetadata.description;
         const metaImage = image ? `${siteMetadata.siteUrl}/${image}` : null;
         const url = `${siteMetadata.siteUrl}${slug}`;
+        const keywords = new Set(defaultKeywords.concat(tags || []));
         return (
           <Helmet
             htmlAttributes={{ lang }}
@@ -72,7 +89,12 @@ function SEO({ meta, image, title, description, slug, lang = 'en' }) {
                 name: 'twitter:description',
                 content: metaDescription,
               },
+              {
+                name: 'keywords',
+                content: Array.from(keywords).join(','),
+              },
             ]
+              .filter((t) => !!t.content)
               .concat(
                 metaImage
                   ? [

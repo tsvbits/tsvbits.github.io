@@ -175,7 +175,13 @@ const BlogPostTemplate = ({ pageContext }) => {
 
   return (
     <Layout>
-      <SEO lang={lang} title={title} description={spoiler} slug={slug} />
+      <SEO
+        lang={lang}
+        title={title}
+        description={spoiler}
+        slug={slug}
+        tags={tags}
+      />
       <main>
         <article>
           <header>
