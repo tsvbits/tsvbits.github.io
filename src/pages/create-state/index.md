@@ -1,5 +1,5 @@
 ---
-title: React createState function
+title: createState function using React Context and ImmerJS
 date: '2020-08-03'
 spoiler: It might be a useful function
 tags: ["reactjs", "typescript", "sample"]
