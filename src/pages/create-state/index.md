@@ -144,6 +144,6 @@ function LoginPage() {
 
 > The example is truncated a bit to save your time.
 
-This function allows to specify custom typed mutations as an object with functions accepting current state to be mutated. This can be optionally used to decompose a reducer function with big switch into smaller mutation functions. And you don't need to define actions, just define functions with parameters.
+This function allows specifying custom typed mutations as an object with functions accepting current state to be mutated. This can be optionally used to decompose a reducer function with big switch into smaller mutation functions. And you don't need to define actions, just define functions with parameters.
 
 Enjoy! EOF :smile:
