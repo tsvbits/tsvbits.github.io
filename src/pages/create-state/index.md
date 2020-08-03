@@ -3,6 +3,7 @@ title: createState function using React Context and ImmerJS
 date: '2020-08-03'
 spoiler: It might be a useful function
 tags: ["reactjs", "typescript", "sample"]
+reddit: "https://www.reddit.com/r/learnreactjs/comments/i2u9hm/createstate_function_using_react_context_and"
 ---
 
 In this post I am going to show a function for global state management in React applications
