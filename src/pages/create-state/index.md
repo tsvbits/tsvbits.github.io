@@ -5,7 +5,8 @@ spoiler: It might be a useful function
 tags: ["reactjs", "typescript", "sample"]
 ---
 
-In this post I am going to show a function for global state management in React applications.
+In this post I am going to show a function for global state management in React applications
+using [React Context](https://reactjs.org/docs/context.html) and [ImmerJS](https://github.com/immerjs/immer).
 It is heavily inspired by [this post](https://dev.to/ferdaber/creating-stores-using-react-context-hooks-and-immer-5f4d).
 
 Enough words, please read the final code :)
