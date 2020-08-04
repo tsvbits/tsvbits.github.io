@@ -1,0 +1,28 @@
+name: build & deploy
+
+on:
+  push:
+    branches:
+        - dev
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@master
+      with:
+        persist-credentials: false
+
+    - name: set up nodejs version
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+
+    - name: build and deploy
+      run: |
+        yarn install
+        yarn build
+        yarn deploy
+      env:
+        GITHUB_TOKEN: ${{secrets.GH_TOKEN}}
