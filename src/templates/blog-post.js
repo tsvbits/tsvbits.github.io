@@ -169,7 +169,7 @@ const BlogPostTemplate = ({ pageContext }) => {
     enSlug.length - 1
   )}/index${lang === 'en' ? '' : '.' + lang}.md`;
 
-  const showByemeacoffee = !['resume', 'cover', 'about'].some(
+  const showByemeacoffee = !['resume', 'cover', 'about', 'sponsor'].some(
     (s) => slug.toLowerCase().indexOf(s) >= 0
   );
 

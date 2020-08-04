@@ -8,6 +8,7 @@
     "url": "https://github.com/tsvbits/tsvbits.github.io/issues"
   },
   "dependencies": {
+    "@iconify/icons-ant-design": "^1.0.8",
     "@iconify/icons-uil": "^1.0.14",
     "@iconify/react": "^1.1.3",
     "@loadable/component": "^5.13.1",

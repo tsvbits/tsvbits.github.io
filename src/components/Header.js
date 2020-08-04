@@ -4,6 +4,8 @@ import { Link } from 'gatsby';
 import github from 'simple-icons/icons/github';
 import linkedin from 'simple-icons/icons/linkedin';
 import twitter from 'simple-icons/icons/twitter';
+import { Icon } from '@iconify/react';
+import heartOutlined from '@iconify/icons-ant-design/heart-outlined';
 
 import { scale } from '../utils/typography';
 
@@ -57,30 +59,12 @@ export default function Header() {
           icon={linkedin}
         />
         <SvgLink href="https://www.twitter.com/todysh" icon={twitter} />
-      </span>
-      <span className="internet-links" style={{ marginLeft: 50 }}>
         <a
-          className="bmc-button"
-          target="_blank"
-          href="https://www.buymeacoffee.com/todysh"
+          className="icon"
+          href="/sponsor"
+          style={{ fontSize: 37, color: '#444' }}
         >
-          <img
-            src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg"
-            alt="Buy me a coffee"
-          />
-        </a>
-        <a
-          href="https://ko-fi.com/U7U11ZJ7S"
-          target="_blank"
-          style={{ height: 36 }}
-        >
-          <img
-            height="36"
-            style={{ border: 0, height: 36 }}
-            src="https://cdn.ko-fi.com/cdn/kofi1.png?v=2"
-            border="0"
-            alt="Buy me a coffee at ko-fi.com"
-          />
+          <Icon icon={heartOutlined} />
         </a>
       </span>
     </div>
