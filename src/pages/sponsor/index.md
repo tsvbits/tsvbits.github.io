@@ -1,6 +1,7 @@
 ---
 title: Sponsor
 date: '2020-08-04'
+spoiler: Being my sponsor is super easy :)
 tags: ["sponsor", "donation"]
 ---
 
