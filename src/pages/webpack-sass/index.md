@@ -3,6 +3,7 @@ title: How to add style loaders to webpack
 date: '2020-08-05'
 spoiler: Step by step guide how to do that
 tags: ["webpack", "web", "tooling"]
+reddit: "https://www.reddit.com/r/webpack/comments/i416e9/how_to_add_style_loaders_to_webpack"
 ---
 
 In this post I am going to show how to configure webpack adding support for [SASS](https://sass-lang.com/) and CSS files.
