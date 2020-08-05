@@ -52,7 +52,7 @@ function Comment({ data, level }) {
         </a>
         <span className="dot"> · </span>
         <a className="when" href={data.permalink} target="_blank">
-          {moment.unix(data.created).fromNow()}
+          {moment.unix(data.created_utc).utc().fromNow()}
         </a>
       </div>
       <Body data={data} />
