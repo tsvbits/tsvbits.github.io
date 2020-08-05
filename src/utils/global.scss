@@ -441,9 +441,15 @@ div.tags {
     margin-bottom: 10px;
   }
   .comment {
+    * {
+      box-sizing: border-box;
+    }
+
     .comment-header {
       display: flex;
       align-items: center;
+      line-height: 1;
+      margin-bottom: 2px;
 
       .author {
         font-size: smaller;
