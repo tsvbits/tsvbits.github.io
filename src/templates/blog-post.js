@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import map from 'lodash/map';
 import loadable from '@loadable/component';
 
 import '../fonts/fonts-post.css';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import Panel from '../components/Panel';
+import Tags from '../components/Tags';
 import { formatPostDate, formatReadingTime } from '../utils/helpers';
 import { rhythm, scale } from '../utils/typography';
 import {
@@ -182,17 +182,11 @@ const BlogPostTemplate = ({ pageContext }) => {
         slug={slug}
         tags={tags}
       />
-      <main>
+      <main className="post-page">
         <article>
           <header>
             <h1 style={{ color: 'var(--textTitle)' }}>{title}</h1>
-            <div className="tags">
-              {map(tags, (t, i) => (
-                <a key={i} href={`/tags/${t}`}>
-                  {t}
-                </a>
-              ))}
-            </div>
+            <Tags tags={tags} />
             <p
               style={{
                 ...scale(-1 / 5),

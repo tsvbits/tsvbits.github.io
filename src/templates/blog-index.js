@@ -7,6 +7,7 @@ import Layout from '../components/Layout';
 import Panel from '../components/Panel';
 import React from 'react';
 import SEO from '../components/SEO';
+import Tags from '../components/Tags';
 import get from 'lodash/get';
 import { rhythm } from '../utils/typography';
 
@@ -23,7 +24,7 @@ class BlogIndexTemplate extends React.Component {
         <aside>
           <Bio />
         </aside>
-        <main>
+        <main className="blog-index">
           {langKey !== 'en' && langKey !== 'ru' && (
             <Panel>
               These articles have been{' '}
@@ -40,6 +41,7 @@ class BlogIndexTemplate extends React.Component {
 
           {posts.map(({ node }) => {
             const title = get(node, 'frontmatter.title') || node.fields.slug;
+            const tags = get(node, 'frontmatter.tags') || [];
             return (
               <article key={node.fields.slug}>
                 <header>
@@ -58,6 +60,7 @@ class BlogIndexTemplate extends React.Component {
                       {title}
                     </Link>
                   </h3>
+                  <Tags tags={tags} />
                   <small>
                     {formatPostDate(node.frontmatter.date, langKey)}
                     {` • ${formatReadingTime(node.timeToRead)}`}
@@ -101,6 +104,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             spoiler
+            tags
           }
         }
       }
