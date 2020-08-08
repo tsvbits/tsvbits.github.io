@@ -2,6 +2,9 @@
 import React from 'react';
 import 'typeface-jetbrains-mono';
 import 'prismjs/themes/prism-okaidia.css';
+import { addBackToTop } from 'vanilla-back-to-top';
+
+addBackToTop();
 
 // Forked Gatsby default to not remount on switches between
 // translated versions of the same page.
