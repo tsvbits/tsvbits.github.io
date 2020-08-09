@@ -5,7 +5,7 @@ import { rhythm } from '../utils/typography';
 function License() {
   return (
     <div className="license">
-      Copyright 2019-2020 Sergey Todyshev. All Rights Reserved
+      © Copyright 1981 Sergey Todyshev. All Rights Reserved
     </div>
   );
 }
