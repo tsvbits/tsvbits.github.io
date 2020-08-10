@@ -6,7 +6,7 @@ tags: ["project", "meetup", "hobby"]
 reddit: "https://www.reddit.com/r/dotnet/comments/hspqsh/fint_net_cil_interpreter_written_in_simple_f"
 ---
 
-I've prepared compact [.NET CIL](https://en.wikipedia.org/wiki/Common_Intermediate_Language) interpreter called [Fint](https://github.com/sergeyt/fint) in pure F# for [NskDotNet Meetup #6](https://www.meetup.com/NskDotNet/events/265652338/).
+I've prepared a compact [.NET CIL](https://en.wikipedia.org/wiki/Common_Intermediate_Language) interpreter called [Fint](https://github.com/sergeyt/fint) in pure F# for [NskDotNet Meetup #6](https://www.meetup.com/NskDotNet/events/265652338/).
 
 It can run C# programs with the following features at this point:
 - all control flow statements (if, for, switch, etc)
