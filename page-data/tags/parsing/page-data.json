@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-tags-js","path":"/tags/parsing/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/json-records/"},"frontmatter":{"title":"Efficient parsing of JSON record sets in Rust"}}}]}},"pageContext":{"tag":"parsing"}},"staticQueryHashes":[]}
