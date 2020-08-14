@@ -10,8 +10,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v2.3.1
       with:
+        persist-credentials: false
         token: ${{ secrets.GH_TOKEN }}
 
     - name: set up nodejs version
@@ -19,12 +20,14 @@ jobs:
       with:
         node-version: '12.x'
 
-    - name: build and deploy
+    - name: build
       run: |
         yarn install
         yarn build
-        git config --global hub.protocol https
-        git remote set-url --push origin https://sergeyt:$GITHUB_TOKEN@github.com/tsvbits/tsvbits.github.io.git
-        NODE_DEBUG=gh-pages yarn deploy --user "Sergey Todyshev <stodyshev@gmail.com>"
-      env:
-        GITHUB_TOKEN: ${{secrets.GH_TOKEN}}
+
+    - name: deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@3.5.9
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: public
