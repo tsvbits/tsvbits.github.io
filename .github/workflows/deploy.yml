@@ -10,9 +10,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v2
       with:
-        persist-credentials: false
+        ref: ${{ github.head_ref }}
 
     - name: set up nodejs version
       uses: actions/setup-node@v1
