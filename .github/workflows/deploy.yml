@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       with:
-        ref: ${{ github.head_ref }}
+        token: ${{ secrets.GH_TOKEN }}
 
     - name: set up nodejs version
       uses: actions/setup-node@v1
