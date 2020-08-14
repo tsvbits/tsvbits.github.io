@@ -23,6 +23,7 @@ jobs:
       run: |
         yarn install
         yarn build
+        git config --global hub.protocol https
         git remote set-url --push origin https://sergeyt:$GITHUB_TOKEN@github.com/tsvbits/tsvbits.github.io.git
         NODE_DEBUG=gh-pages yarn deploy --user "Sergey Todyshev <stodyshev@gmail.com>"
       env:
