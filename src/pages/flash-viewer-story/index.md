@@ -5,7 +5,7 @@ spoiler: Open sourcing PageFX compiler
 tags: ["project", "story"]
 ---
 
-__TL;DR__ GrapeCity open-sources dotnet to flash bytecode cross-compiler
+> __TL;DR__ GrapeCity open-sources dotnet to flash bytecode cross-compiler
 
 It was not easy path. First we implemented a cross compiler from [dotnet](https://en.wikipedia.org/wiki/Common_Intermediate_Language) to [AVM](https://www.adobe.com/content/dam/acom/en/devnet/pdf/avm2overview.pdf) bytecode.
 
