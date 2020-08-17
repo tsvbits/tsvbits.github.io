@@ -6194,10 +6194,10 @@ eslint@^6.8.0:
     text-table "^0.2.0"
     v8-compile-cache "^2.0.3"
 
-eslint@^7.6.0:
-  version "7.6.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.6.0.tgz#522d67cfaea09724d96949c70e7a0550614d64d6"
-  integrity sha512-QlAManNtqr7sozWm5TF4wIH9gmUm2hE3vNRUvyoYAa4y1l5/jxD/PQStEjBMQtCqZmSep8UxrcecI60hOpe61w==
+eslint@^7.7.0:
+  version "7.7.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.7.0.tgz#18beba51411927c4b64da0a8ceadefe4030d6073"
+  integrity sha512-1KUxLzos0ZVsyL81PnRN335nDtQ8/vZUD6uMtWbF+5zDtjKcsklIi78XoE0MVL93QvWTu+E5y44VyyCsOMBrIg==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     ajv "^6.10.0"
@@ -14317,10 +14317,10 @@ simple-get@^3.0.3, simple-get@^3.1.0:
     once "^1.3.1"
     simple-concat "^1.0.0"
 
-simple-icons@^3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-3.4.1.tgz#aebb6cbf9bdab4c89822218820743ab469bc63e2"
-  integrity sha512-Z3Nfk9XV3wuJqDIT2GLU20BEosUGoYlFZekzeBXiHLD/kixlgbj+99+ftoKce/LzhKUn2tpGpSnFfyKLk/3VcQ==
+simple-icons@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-3.5.0.tgz#0804c6a5bde2bb5b69008126d5df065b26008584"
+  integrity sha512-2QWj+y4iQnAQa9KIKJy2tVmstASHpq7+xbA6P+VgARkfK24WauuC5z2uIzX++FXQl+HAXZL3rFkBd23FFbTV9w==
 
 simple-swizzle@^0.2.2:
   version "0.2.2"
