@@ -32,15 +32,6 @@ td:nth-child(2) {
 | SQL           | 10+   |
 | Rust          | 0.5   |
 
-#### Web Stack
-
-| Technology    | Years |
-| ------------- |:-----:|
-| React         | 5+    |
-| Redux         | 3+    |
-| Angular       | 1     |
-| Vue           | 1     |
-
 #### Backend Technologies
 
 | Technology           | Years |
@@ -50,13 +41,35 @@ td:nth-child(2) {
 | Spring               | 3+    |
 | Azure Service Fabric | 0.5   |
 
+#### Frontend Technologies
+
+| Technology    | Years |
+| ------------- |:-----:|
+| ReactJS       | 5+    |
+| Redux         | 3+    |
+| Angular       | 1     |
+| VueJS         | 1     |
+
+#### Databases
+
+| Name          | Years |
+| ------------- |:-----:|
+| PostgreSQL    | 5+    |
+| ElasticSearch | 5+    |
+| MongoDB       | 1+    |
+| SQLite        | 5+    |
+| MS SQL Server | 1+    |
+| Dgraph        | 1+    |
+
 #### Tools
 
-| Tool                 | Years |
+| Name                 | Years |
 | -------------------- |:-----:|
-| Docker               | 5+   |
+| Docker               | 5+    |
 | Git                  | 10+   |
 | Mercurial            | 10+   |
-
+| Jest                 | 5+    |
+| Webpack              | 5+    |
+| GulpJS               | 5+    |
 
 See also [resume](/resume)
