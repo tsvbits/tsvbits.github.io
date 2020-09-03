@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Sergey Todyshev's Blog RSS Feed]]></title><description><![CDATA[Personal blog by Sergey Todyshev]]></description><link>https://tsvbits.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 03 Sep 2020 10:13:19 GMT</lastBuildDate><item><title><![CDATA[Telepromter Sample]]></title><description><![CDATA[I can use this text in video introductions]]></description><link>https://tsvbits.com/telepromter/</link><guid isPermaLink="false">https://tsvbits.com/telepromter/</guid><pubDate>Fri, 07 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hello My name is Sergey. I am a full stack developer from Russia.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Sergey Todyshev's Blog RSS Feed]]></title><description><![CDATA[Personal blog by Sergey Todyshev]]></description><link>https://tsvbits.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 03 Sep 2020 10:14:25 GMT</lastBuildDate><item><title><![CDATA[Telepromter Sample]]></title><description><![CDATA[I can use this text in video introductions]]></description><link>https://tsvbits.com/telepromter/</link><guid isPermaLink="false">https://tsvbits.com/telepromter/</guid><pubDate>Fri, 07 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hello My name is Sergey. I am a full stack developer from Russia.
 I’ve been writing computer programs more than 15 years now and I still having fun doing this.
 I am polyglot programmer and I learn new languages and try new things quite easily.
 For example, currently I am learning Rust and trying to leverage WebAssembly technology in my current company.
@@ -1516,7 +1516,7 @@ Please learn more &lt;a href=&quot;https://tsvbits.com/cover&quot;&gt;about me&l
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Leading development of a project (code review)&lt;/li&gt;
+&lt;li&gt;Leading development of a project&lt;/li&gt;
 &lt;li&gt;Modernization of architecture, tooling and automated testing&lt;/li&gt;
 &lt;li&gt;Implementation of new features and technical support&lt;/li&gt;
 &lt;li&gt;Making Web Components with efficient data processing and visualizations&lt;/li&gt;
