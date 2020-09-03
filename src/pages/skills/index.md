@@ -2,7 +2,7 @@
 title: Skills
 date: '2020-05-02'
 spoiler: I am pretty good engineer :)
-tags: ["cv"]
+tags: ["cv", "resume"]
 ---
 
 <style>
