@@ -85,7 +85,7 @@ Faculty of Information Technologies. Master degree. 4+ GPA. Computers, Complexes
 [**DataViewsJS**](https://www.grapecity.com/dataviewsjs/) - JavaScript Data Presentation and DataGrid platform
 
 * **Responsibilities**:
-  * Leading development of a project (code review)
+  * Leading development of a project
   * Modernization of architecture, tooling and automated testing
   * Implementation of new features and technical support
   * Making Web Components with efficient data processing and visualizations
