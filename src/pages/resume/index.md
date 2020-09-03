@@ -49,7 +49,7 @@ Key technical skills (summary of all projects with number of years):
 | **Java** 3+      | **JavaScript** 10+  | **MongoDB** 1+       | **Bash** 5+      | 
 | **Golang** 3+    | **HTML5** 5+        | **SQLite** 10+       | **Linux** 5+     | 
 | **.NET Core** 1+ | **CSS3** 5+         | **MS SQL Server** 1+ | **Jenkins** 3+   |
-| **.NET** 10+     | **ReactJS** 5+      | **Dgraph** 2+        | **TeamCity** 10+ |
+| **.NET** 10+     | **ReactJS** 5+      | **Dgraph** 1+        | **TeamCity** 10+ |
 | **WildFly** 3+   | **Redux** 3+        | **ElasticSearch** 5+ | **Jest** 5+      |
 | **NodeJS** 5+    | **VueJS** 1+        |                      | **Webpack** 5+   |
 | **ExpressJS** 5+ | **Angular** 1+      |                      | **GulpJS** 5+    |
