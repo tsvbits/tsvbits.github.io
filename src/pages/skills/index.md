@@ -31,6 +31,7 @@ td:nth-child(2) {
 | Python        | 5+    |
 | SQL           | 10+   |
 | Rust          | 0.5   |
+| Bash          | 5+    |
 
 #### Backend Technologies
 
