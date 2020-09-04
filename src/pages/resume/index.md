@@ -111,7 +111,7 @@ Faculty of Information Technologies. Master degree. 4+ GPA. Computers, Complexes
   * Direct communication with product owner and management groups helping solving business problems using the full spectrum of technologies available and knowledge of the product capabilities
 * Number of team members: 20+ (distributed team)
 * PM Organization: Agile Waterfall
-* Used technologies: **Java 8**, **PostgreSQL**, **ElasticSearch**, **WildFly**, **Apache Kafka**, **Spirent iTest**, **JavaScript**, **ReactJS**, **Redux**, **AngularJS**
+* Used technologies: **Java 8**, **PostgreSQL**, **ElasticSearch**, **WildFly**, **Apache Kafka**, **Spirent iTest**, **JavaScript**, **ReactJS**, **Redux**, **AngularJS**, **Python**, **Golang**
 
 ### Full Stack Software Engineer at [DataWorks](http://dataworks.co/) <span class="calendar icon right">`Jun 2007 - Jan 2016`</span>
 

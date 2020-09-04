@@ -5,7 +5,7 @@ spoiler: I can use this text in video introductions
 tags: ["pr", "meta"]
 ---
 
-Hello My name is Sergey. I am a full stack developer from Russia.
+Hello! My name is Sergey. I am a full stack developer Russia.
 I've been writing computer programs more than 15 years now and I still having fun doing this. 
 I am polyglot programmer and I learn new languages and try new things quite easily.
 For example, currently I am learning Rust and trying to leverage WebAssembly technology in my current company.
