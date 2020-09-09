@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Sergey Todyshev's Blog RSS Feed]]></title><description><![CDATA[Personal blog by Sergey Todyshev]]></description><link>https://tsvbits.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 04 Sep 2020 08:19:28 GMT</lastBuildDate><item><title><![CDATA[Telepromter Sample]]></title><description><![CDATA[I can use this text in video introductions]]></description><link>https://tsvbits.com/telepromter/</link><guid isPermaLink="false">https://tsvbits.com/telepromter/</guid><pubDate>Fri, 07 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hello! My name is Sergey. I am a full stack developer Russia.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Sergey Todyshev's Blog RSS Feed]]></title><description><![CDATA[Personal blog by Sergey Todyshev]]></description><link>https://tsvbits.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 09 Sep 2020 03:44:44 GMT</lastBuildDate><item><title><![CDATA[Telepromter Sample]]></title><description><![CDATA[I can use this text in video introductions]]></description><link>https://tsvbits.com/telepromter/</link><guid isPermaLink="false">https://tsvbits.com/telepromter/</guid><pubDate>Fri, 07 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hello! My name is Sergey. I am a full stack developer Russia.
 I’ve been writing computer programs more than 15 years now and I still having fun doing this.
 I am polyglot programmer and I learn new languages and try new things quite easily.
 For example, currently I am learning Rust and trying to leverage WebAssembly technology in my current company.
@@ -1421,7 +1421,7 @@ Later we can try to port &lt;a href=&quot;https://github.com/dotnet/roslyn&quot;
 &lt;td align=&quot;center&quot;&gt;Sergey Todyshev&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;Birthdate&lt;/td&gt;
+&lt;td&gt;Birth date&lt;/td&gt;
 &lt;td align=&quot;center&quot;&gt;📆 11.01.1981&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -1443,6 +1443,10 @@ Later we can try to port &lt;a href=&quot;https://github.com/dotnet/roslyn&quot;
 &lt;tr&gt;
 &lt;td&gt;Skype&lt;/td&gt;
 &lt;td align=&quot;center&quot;&gt;sergey.todyshev&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Telegram&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://t.me/sergey_todyshev&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;sergey_todyshev&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;GitHub&lt;/td&gt;
@@ -1470,7 +1474,7 @@ Please learn more &lt;a href=&quot;https://tsvbits.com/cover&quot;&gt;about me&l
 &lt;li&gt;System-level programming&lt;/li&gt;
 &lt;li&gt;DevOps automation&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Key technical skills (summary of all projects with number of years):&lt;/p&gt;
+&lt;p&gt;Technical skills (summary of all projects with number of years):&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1503,37 +1507,37 @@ Please learn more &lt;a href=&quot;https://tsvbits.com/cover&quot;&gt;about me&l
 &lt;td&gt;&lt;strong&gt;.NET Core&lt;/strong&gt; 1+&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;CSS3&lt;/strong&gt; 5+&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;MS SQL Server&lt;/strong&gt; 1+&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Jenkins&lt;/strong&gt; 3+&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Docker&lt;/strong&gt; 5+&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;.NET&lt;/strong&gt; 10+&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;ReactJS&lt;/strong&gt; 5+&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Dgraph&lt;/strong&gt; 1+&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;TeamCity&lt;/strong&gt; 10+&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Jenkins&lt;/strong&gt; 3+&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;WildFly&lt;/strong&gt; 3+&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Redux&lt;/strong&gt; 3+&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;ElasticSearch&lt;/strong&gt; 5+&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Jest&lt;/strong&gt; 5+&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;TeamCity&lt;/strong&gt; 10+&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;NodeJS&lt;/strong&gt; 5+&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;VueJS&lt;/strong&gt; 1+&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Webpack&lt;/strong&gt; 5+&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Jest&lt;/strong&gt; 5+&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;ExpressJS&lt;/strong&gt; 5+&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Angular&lt;/strong&gt; 1+&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;GulpJS&lt;/strong&gt; 5+&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Webpack&lt;/strong&gt; 5+&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;GraphQL&lt;/strong&gt; 1+&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;GulpJS&lt;/strong&gt; 5+&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;/td&gt;
