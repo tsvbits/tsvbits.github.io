@@ -11,17 +11,18 @@ Latest updated: :calendar: 3 September 2020<br>
 
 ## Personal Details
 
-| Type      | Value                                             |
-| --------- |:-------------------------------------------------:|
-| Name      | Sergey Todyshev                                   |
-| Birthdate | :calendar: 11.01.1981                             |
-| Phone     | :telephone: +79132017700                          |
-| Situation | :hearts: Married, 2 kids, 2 funny cats            |
-| Location  | Berdsk, Russia                                    |
-| Email     | mailto:stodyshev@gmail.com                        |
-| Skype     | sergey.todyshev                                   |
-| GitHub    | :link: https://github.com/sergeyt                 |
-| Linkedin  | :link: https://www.linkedin.com/in/sergeytodyshev |
+| Type       | Value                                             |
+| ---------- |:-------------------------------------------------:|
+| Name       | Sergey Todyshev                                   |
+| Birth date | :calendar: 11.01.1981                             |
+| Phone      | :telephone: +79132017700                          |
+| Situation  | :hearts: Married, 2 kids, 2 funny cats            |
+| Location   | Berdsk, Russia                                    |
+| Email      | mailto:stodyshev@gmail.com                        |
+| Skype      | sergey.todyshev                                   |
+| Telegram   | [sergey_todyshev](https://t.me/sergey_todyshev)   |
+| GitHub     | :link: https://github.com/sergeyt                 |
+| Linkedin   | :link: https://www.linkedin.com/in/sergeytodyshev |
 
 ## About me
 
@@ -41,19 +42,19 @@ Please learn more [about me](/cover) acting as software engineer.
 * System-level programming
 * DevOps automation
 
-Key technical skills (summary of all projects with number of years):
+Technical skills (summary of all projects with number of years):
 
 | Backend          | Frontend            | Databases            | DevOps & Tools   |
 | ---------------- | ------------------- | -------------------- | ---------------- |
 | **C#** 10+       | **TypeScript** 5+   | **PostgreSQL** 5+    | **Git** 10+      |
 | **Java** 3+      | **JavaScript** 10+  | **MongoDB** 1+       | **Bash** 5+      | 
 | **Golang** 3+    | **HTML5** 5+        | **SQLite** 10+       | **Linux** 5+     | 
-| **.NET Core** 1+ | **CSS3** 5+         | **MS SQL Server** 1+ | **Jenkins** 3+   |
-| **.NET** 10+     | **ReactJS** 5+      | **Dgraph** 1+        | **TeamCity** 10+ |
-| **WildFly** 3+   | **Redux** 3+        | **ElasticSearch** 5+ | **Jest** 5+      |
-| **NodeJS** 5+    | **VueJS** 1+        |                      | **Webpack** 5+   |
-| **ExpressJS** 5+ | **Angular** 1+      |                      | **GulpJS** 5+    |
-|                  | **GraphQL** 1+      |
+| **.NET Core** 1+ | **CSS3** 5+         | **MS SQL Server** 1+ | **Docker** 5+    |
+| **.NET** 10+     | **ReactJS** 5+      | **Dgraph** 1+        | **Jenkins** 3+   |
+| **WildFly** 3+   | **Redux** 3+        | **ElasticSearch** 5+ | **TeamCity** 10+ |
+| **NodeJS** 5+    | **VueJS** 1+        |                      | **Jest** 5+      |
+| **ExpressJS** 5+ | **Angular** 1+      |                      | **Webpack** 5+   |
+|                  | **GraphQL** 1+      |                      | **GulpJS** 5+    |
 |                  | **WebAssembly** 0.5 |
 
 See [more detailed list](/skills)
