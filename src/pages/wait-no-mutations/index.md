@@ -3,6 +3,7 @@ title: How to wait animations complete in Playwright script
 date: '2020-09-15'
 spoiler: You can use MutationObserver to do that
 tags: ["playwright", "e2e", "testing", "sample"]
+reddit: "https://www.reddit.com/r/QualityAssurance/comments/it4qn5/how_to_wait_animations_complete_in_playwright"
 ---
 
 In this post I am going to show a function to wait animations complete in [Playwright](https://playwright.dev) test script.
