@@ -41,7 +41,7 @@
     "react": "^16.13.1",
     "react-content-loader": "^5.1.1",
     "react-dom": "^16.13.1",
-    "react-helmet": "^5.2.1",
+    "react-helmet": "^6.1.0",
     "react-text-loop": "^2.3.0",
     "react-typography": "^0.16.19",
     "simple-icons": "^3.7.0",
