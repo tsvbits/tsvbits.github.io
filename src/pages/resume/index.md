@@ -27,7 +27,9 @@ Latest updated: :calendar: 3 September 2020<br>
 ## About me
 
 I'm a software engineer with 18 years of professional experience.
-I have expert knowledge of C#, TypeScript and many other languages I use to develop amazing products.
+I have expert knowledge in C#, TypeScript and many other languages I use to develop amazing products.
+I am proactive doer, simplifier and optimizer. Efficiency, simplicity and consistency matters for me.
+
 Please learn more [about me](/cover) acting as software engineer.
 
 ## Languages
