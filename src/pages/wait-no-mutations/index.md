@@ -7,7 +7,7 @@ reddit: "https://www.reddit.com/r/QualityAssurance/comments/it4qn5/how_to_wait_a
 ---
 
 In this post I am going to show a function to wait animations complete in [Playwright](https://playwright.dev) test script.
-As usual enough words, just try to apply the code below :)
+As usual enough words, just try to apply the code below :smile:
 
 ```js
 async function waitNoMutations(page, selector) {
