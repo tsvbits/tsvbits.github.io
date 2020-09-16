@@ -1,5 +1,5 @@
 ---
-title: How to wait animations complete in Playwright script
+title: How to wait for animations to complete in Playwright script
 date: '2020-09-15'
 spoiler: You can use MutationObserver to do that
 tags: ["playwright", "e2e", "testing", "sample"]
