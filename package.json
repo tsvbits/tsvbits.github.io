@@ -44,7 +44,7 @@
     "react-helmet": "^6.1.0",
     "react-text-loop": "^2.3.0",
     "react-typography": "^0.16.19",
-    "simple-icons": "^3.7.0",
+    "simple-icons": "^3.8.0",
     "swr": "^0.3.2",
     "typeface-jetbrains-mono": "^2.0.0",
     "typography": "^0.16.19",
