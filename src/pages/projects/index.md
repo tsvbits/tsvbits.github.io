@@ -9,24 +9,30 @@ Some of them are still being used by somebody.
 
 ## Merlin
 :calendar:<span class="calendar">`2019 - now`</span>
+[![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](/merlin)
+![GitHub](https://img.shields.io/github/license/sergeyt/pandora?style=flat-square)
 
 An open-source document search engine with full-text search, thumbnails and many other cool features. [More about it](/merlin).
 
 ## Fint
 :calendar:<span class="calendar">`2019 - now`</span>
+[![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](/fint)
+![GitHub](https://img.shields.io/github/license/sergeyt/fint?style=flat-square)
 
 It is compact [.NET CIL](https://en.wikipedia.org/wiki/Common_Intermediate_Language) interpreter written in pure F#.
 See [this post](/fint) to get more details about this project.
 
-Status **experimental**, **incomplete**
-
 ## LingvoGraph
 :calendar:<span class="calendar">`2018 - now`</span>
+[![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](/lingvograph)
+![GitHub](https://img.shields.io/github/license/sergeyt/pandora?style=flat-square)
 
 Student driven project for learning second languages and approaching latest technologies. [More about it](/lingvograph).
 
 ## Pandora
 :calendar:<span class="calendar">`2018 - now`</span>
+[![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](/pandora)
+![GitHub](https://img.shields.io/github/license/sergeyt/pandora?style=flat-square)
 
 Student driven project for learning second languages and approaching latest technologies. [More about it](/pandora).
 
