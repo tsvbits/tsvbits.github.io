@@ -7603,10 +7603,10 @@ gatsby-transformer-sharp@^2.5.15:
     semver "^7.3.2"
     sharp "^0.25.4"
 
-gatsby@^2.24.62:
-  version "2.24.62"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.24.62.tgz#227680792a2f4792d085a9f3f9d22c431d94d26c"
-  integrity sha512-S/Xd1jmcMecUlS6IxOm3XaDNc4/LuhHcl5OLcyOBW3lNBxNmGkbh2KPGi7PyNjBdZX69nTDqZUIUXci90GYSkw==
+gatsby@^2.24.63:
+  version "2.24.63"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.24.63.tgz#c4d34729831d125709b498b61e90eae5611f09ac"
+  integrity sha512-nUsva6x9Cih2PpWWoTqr4o+F1zcliioYEPphL5Q90p5eqW5balJa874fzDBKwKbpzHK3gw71myITwzZvVhgxIg==
   dependencies:
     "@babel/code-frame" "^7.10.4"
     "@babel/core" "^7.11.6"
@@ -13019,10 +13019,10 @@ react-clientside-effect@^1.2.2:
   dependencies:
     "@babel/runtime" "^7.0.0"
 
-react-content-loader@^5.1.1:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/react-content-loader/-/react-content-loader-5.1.1.tgz#0e0ac1d582c5535f4006dcec4c7d3378df427d37"
-  integrity sha512-PZ9J8B3i/w8bs32xZfGjJDPEOfo8CYBpwOVwklAR1FZ/ymMkZHbTK2ccuaHP9KrlixkBNpNZw5vsim97lsOCMA==
+react-content-loader@^5.1.2:
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/react-content-loader/-/react-content-loader-5.1.2.tgz#75dcff30f2651c166c21433484081e7e70b44b6a"
+  integrity sha512-Kr4wWisiL0qcdbzVWZx/puyCfTP1PiTTtR7N4B7mikTeY2wf5TMgMykUQyaEUW422IDUU9VJWfewSm9hIRwTiw==
 
 react-dev-utils@^4.2.3:
   version "4.2.3"
@@ -14376,10 +14376,10 @@ simple-get@^4.0.0:
     once "^1.3.1"
     simple-concat "^1.0.0"
 
-simple-icons@^3.8.0:
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-3.8.0.tgz#f5406d725ca256f56023470b879b3f9cdf2ef172"
-  integrity sha512-ozXwPHbzcBT5982tL2pqh9PFVM6bnjF6+MYzE4nCJJ7qGSi+6bFV7lY4ghQLbbiN9jRwMRVTks4Dq01+RRZDUA==
+simple-icons@^3.9.0:
+  version "3.9.0"
+  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-3.9.0.tgz#73bac48005888d41d00dece0d11a40c0aea88747"
+  integrity sha512-/xmuSTw1zovEXCRJIBLlOS9naC41yI4Uk5RmZU1DEc7qu0BrnNkMNtoOvOaj+Vrh4Wzlz6oS0o+sMfDvI9IoYQ==
 
 simple-swizzle@^0.2.2:
   version "0.2.2"
@@ -15237,10 +15237,10 @@ svgo@1.3.2, svgo@^1.0.0:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
-swr@^0.3.2:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/swr/-/swr-0.3.2.tgz#1197e06553f71afbc42dba758459f12daea96805"
-  integrity sha512-Bs5Bihq1hQ66O5bdKaL47iZ2nlAaBsd8tTLRLkw9stZeuBEfH7zSuQI95S2TpchL0ybsMq3isWwuso2uPvCfHA==
+swr@^0.3.3:
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/swr/-/swr-0.3.3.tgz#8e820360e3fece26df6f30ca09c478f70bf1f880"
+  integrity sha512-UxjfbvLdk4CzdchQBKmthUc1rO7KaCXdNL69oW7V/I2BOMv905rsL+kJdpO19OYwOPOpWZPvffTEE7yACwXc8w==
   dependencies:
     fast-deep-equal "2.0.1"
 
