@@ -23,6 +23,8 @@ class Bio extends React.Component {
             <a href="/table-tennis">I play table tennis</a>
             <a href="/about">Learn more</a>
           </TextLoop>
+          <br />
+          Please check it out my <a href="/words">Words App</a>
         </div>
       </div>
     );

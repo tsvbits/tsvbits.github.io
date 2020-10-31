@@ -54,7 +54,9 @@ class Layout extends React.Component {
             }}
           >
             <Header />
-            <ThemeSwitch theme={this.state.theme} />
+            {this.props.noThemeSwitch ? null : (
+              <ThemeSwitch theme={this.state.theme} />
+            )}
           </header>
           {children}
         </div>
