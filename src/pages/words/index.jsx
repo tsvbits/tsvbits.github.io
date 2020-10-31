@@ -9,7 +9,7 @@ const Page = () => {
   return (
     <Layout noThemeSwitch>
       <main className="post-page">
-        <App style={{ width: '100%', margin: 0 }} />
+        <App style={{ width: '100%' }} />
         <Footer />
       </main>
     </Layout>
