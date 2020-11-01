@@ -11,6 +11,7 @@ module.exports = {
   },
   pathPrefix: '/',
   plugins: [
+    `gatsby-plugin-mdx`,
     `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,

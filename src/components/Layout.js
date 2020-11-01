@@ -1,5 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import { ErrorBoundary } from 'react-error-boundary';
 
 import { rhythm } from '../utils/typography';
 import ThemeSwitch from './ThemeSwitch';
@@ -65,4 +66,26 @@ class Layout extends React.Component {
   }
 }
 
-export default Layout;
+function ErrorFallback({ error, resetErrorBoundary }) {
+  return (
+    <div role="alert">
+      <p>Something went wrong:</p>
+      <pre>{error.message}</pre>
+      <button onClick={resetErrorBoundary}>Try again</button>
+    </div>
+  );
+}
+
+const SafeLayout = (props) => {
+  try {
+    return (
+      <ErrorBoundary FallbackComponent={ErrorFallback}>
+        <Layout {...props} />
+      </ErrorBoundary>
+    );
+  } catch (error) {
+    return <ErrorFallback error={error} />;
+  }
+};
+
+export default SafeLayout;
