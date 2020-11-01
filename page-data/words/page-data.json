@@ -1,1 +1,1 @@
-{"componentChunkName":"component---src-pages-words-index-jsx","path":"/words/","result":{"pageContext":{"slug":"/words/","langKey":"en"}},"staticQueryHashes":[]}
+{"componentChunkName":"component---src-pages-words-index-mdx","path":"/words/","result":{"pageContext":{"frontmatter":{"title":"How to add style loaders to webpack","date":"2020-11-01","tags":["app"]},"slug":"/words/","langKey":"en"}},"staticQueryHashes":[]}
