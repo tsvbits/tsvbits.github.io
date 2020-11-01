@@ -1,6 +1,6 @@
 import React from 'react';
 import { App } from 'words-app-components';
-import 'words-app-components/dist/bundle.css';
+import 'words-app-components/dist/index.css';
 
 import Layout from '../../components/Layout';
 import Footer from '../../components/Footer';

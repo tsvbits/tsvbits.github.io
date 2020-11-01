@@ -9982,10 +9982,10 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
 
-lingua-scraper@^0.4.5:
-  version "0.4.5"
-  resolved "https://registry.yarnpkg.com/lingua-scraper/-/lingua-scraper-0.4.5.tgz#9b67b798d35b8a0a7a88beac47d9ebea661bfb22"
-  integrity sha512-KXwGLKWuIOKy5SxXS7xWLCNa3V+bTKlzCpK7F5sGPwyhmlaqi54Lm1KMj/oYU+6vLU7nuxFozFYCz+Z2+kI8vw==
+lingua-scraper@0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/lingua-scraper/-/lingua-scraper-0.6.0.tgz#ac08a0b004977c5309f98b18156d1f5ea869e204"
+  integrity sha512-hLrdN1OIglsMuM85Eb8627rIwJj3vOaVVcWOT64+Ani+7XVP0yoGCRvUQahc0e+rMzBqES6KVRvrxRisf3ueQg==
   dependencies:
     cheerio "^1.0.0-rc.3"
     isomorphic-unfetch "^3.1.0"
@@ -16544,16 +16544,16 @@ word-wrap@^1.2.3, word-wrap@~1.2.3:
   resolved "https://registry.yarnpkg.com/word-wrap/-/word-wrap-1.2.3.tgz#610636f6b1f703891bd34771ccb17fb93b47079c"
   integrity sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ==
 
-words-app-components@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/words-app-components/-/words-app-components-0.2.0.tgz#5c5cf40f7b7848bf8f48ee63d962b45f56ace450"
-  integrity sha512-3vOdgUKfRzjsYa/NdBvjUb61ik6kxa4mSuXU/1pD6kSpJsLk729r7FvJzTCxOTZ95J0/Gtp+XSEpwyGJKEPwlQ==
+words-app-components@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/words-app-components/-/words-app-components-0.3.0.tgz#6e901451b5fc7b59480e03623a7907b29bdd0ca6"
+  integrity sha512-3Jnx4v8nZlyWceY4fnwigAlSS4N2ifV4/4zVWZu3QgF474dOd9ZEpiNiGx3uMhF5rgSup1jsPYRe2EpjnksDmQ==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.32"
     "@fortawesome/free-solid-svg-icons" "^5.15.1"
     "@fortawesome/react-fontawesome" "^0.1.12"
     classnames "^2.2.6"
-    lingua-scraper "^0.4.5"
+    lingua-scraper "0.6.0"
     lodash "^4.17.20"
     pure-react-carousel "^1.27.6"
     query-string "^6.13.6"
