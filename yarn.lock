@@ -16544,10 +16544,10 @@ word-wrap@^1.2.3, word-wrap@~1.2.3:
   resolved "https://registry.yarnpkg.com/word-wrap/-/word-wrap-1.2.3.tgz#610636f6b1f703891bd34771ccb17fb93b47079c"
   integrity sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ==
 
-words-app-components@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/words-app-components/-/words-app-components-0.4.0.tgz#0a09002f1614230e449c9a97024c7013521916a8"
-  integrity sha512-e7e8En7D4V6VBZawPRuTiYkXlCu5UxtKkg4JSi+ZCqDfWp/k1X2+CuC3E5427fewD7RSVO6ujfPyi/H1PvmIsw==
+words-app-components@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/words-app-components/-/words-app-components-0.5.0.tgz#f095583a3559b2eaa49616f62df1e1e53c01b031"
+  integrity sha512-t0pPGcG9XFU2YjI+ZEtaJT6q3YAsq29NQxTyHKYn4RG9MNEdjLDIX6sgtZj1J30Y6HyUFNqPPNW+x8GhJzRKVw==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.32"
     "@fortawesome/free-solid-svg-icons" "^5.15.1"
