@@ -54,7 +54,7 @@
     "typography": "^0.16.19",
     "typography-theme-moraga": "^0.16.19",
     "vanilla-back-to-top": "^7.2.1",
-    "words-app-components": "^0.19.0"
+    "words-app-components": "^0.20.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
