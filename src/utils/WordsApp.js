@@ -6,7 +6,9 @@ import Layout from '../components/Layout';
 import Footer from '../components/Footer';
 
 function useTheme() {
-  const [theme, setTheme] = useState(window.__theme);
+  const [theme, setTheme] = useState(
+    typeof window === 'undefined' ? 'light' : window.__theme
+  );
 
   useEffect(() => {
     const listener = () => {
