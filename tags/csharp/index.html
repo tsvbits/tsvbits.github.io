@@ -64,7 +64,20 @@
       
       
       
-      }</script><link as="script" rel="preload" href="/webpack-runtime-2dac7557620563ad962a.js"/><link as="script" rel="preload" href="/styles-407fe62976dc5310c43e.js"/><link as="script" rel="preload" href="/framework-1c199f1cb4098fd59c60.js"/><link as="script" rel="preload" href="/3bb3f90e-006b03750311bc8bbd20.js"/><link as="script" rel="preload" href="/app-8a5a04bd7ea1992654be.js"/><link as="script" rel="preload" href="/component---src-templates-tags-js-cb0fe66558ba8f5bf970.js"/><link as="fetch" rel="preload" href="/page-data/tags/csharp/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body class="light"><script>
+      }</script><link as="script" rel="preload" href="/webpack-runtime-2dac7557620563ad962a.js"/><link as="script" rel="preload" href="/styles-407fe62976dc5310c43e.js"/><link as="script" rel="preload" href="/framework-1c199f1cb4098fd59c60.js"/><link as="script" rel="preload" href="/3bb3f90e-006b03750311bc8bbd20.js"/><link as="script" rel="preload" href="/app-9918ab06119fb4378f66.js"/><link as="script" rel="preload" href="/component---src-templates-tags-js-cb0fe66558ba8f5bf970.js"/><link as="fetch" rel="preload" href="/page-data/tags/csharp/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body class="light"><script>
+              (function () {
+                if ( typeof window.CustomEvent === "function" ) return false;
+
+                function CustomEvent ( event, params ) {
+                  params = params || { bubbles: false, cancelable: false, detail: null };
+                  var evt = document.createEvent( 'CustomEvent' );
+                  evt.initCustomEvent( event, params.bubbles, params.cancelable, params.detail );
+                  return evt;
+                }
+
+                window.CustomEvent = CustomEvent;
+              })();
+              
               (function() {
                 window.__onThemeChange = function() {};
                 function setTheme(newTheme) {
@@ -72,6 +85,7 @@
                   preferredTheme = newTheme;
                   document.body.className = newTheme;
                   window.__onThemeChange(newTheme);
+                  document.dispatchEvent(new CustomEvent("themechange", {detail: newTheme}));
                 }
 
                 var preferredTheme;
@@ -109,4 +123,4 @@
       
       
       
-      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/tags/csharp/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-9338cfc9a4a2c80320d7.js"],"app":["/app-8a5a04bd7ea1992654be.js"],"component---src-pages-404-js":["/component---src-pages-404-js-2f461b67855d9a2b1abf.js"],"component---src-pages-confirm-js":["/component---src-pages-confirm-js-2231da4e61e864dea715.js"],"component---src-pages-tags-js":["/component---src-pages-tags-js-0da1ced6f16aff66bd82.js"],"component---src-pages-thanks-js":["/component---src-pages-thanks-js-add2a47df796f6787a08.js"],"component---src-pages-words-index-mdx":["/component---src-pages-words-index-mdx-a1db86125311c2505cda.js"],"component---src-templates-blog-index-js":["/component---src-templates-blog-index-js-93abadaafbb63d7585fb.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-c6d6713365bc914d4643.js"],"component---src-templates-tags-js":["/component---src-templates-tags-js-cb0fe66558ba8f5bf970.js"]};/*]]>*/</script><script src="/polyfill-9338cfc9a4a2c80320d7.js" nomodule=""></script><script src="/component---src-templates-tags-js-cb0fe66558ba8f5bf970.js" async=""></script><script src="/app-8a5a04bd7ea1992654be.js" async=""></script><script src="/3bb3f90e-006b03750311bc8bbd20.js" async=""></script><script src="/framework-1c199f1cb4098fd59c60.js" async=""></script><script src="/styles-407fe62976dc5310c43e.js" async=""></script><script src="/webpack-runtime-2dac7557620563ad962a.js" async=""></script></body></html>
+      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/tags/csharp/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-9338cfc9a4a2c80320d7.js"],"app":["/app-9918ab06119fb4378f66.js"],"component---src-pages-404-js":["/component---src-pages-404-js-2f461b67855d9a2b1abf.js"],"component---src-pages-confirm-js":["/component---src-pages-confirm-js-2231da4e61e864dea715.js"],"component---src-pages-tags-js":["/component---src-pages-tags-js-0da1ced6f16aff66bd82.js"],"component---src-pages-thanks-js":["/component---src-pages-thanks-js-add2a47df796f6787a08.js"],"component---src-pages-words-index-mdx":["/component---src-pages-words-index-mdx-a1db86125311c2505cda.js"],"component---src-templates-blog-index-js":["/component---src-templates-blog-index-js-93abadaafbb63d7585fb.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-c6d6713365bc914d4643.js"],"component---src-templates-tags-js":["/component---src-templates-tags-js-cb0fe66558ba8f5bf970.js"]};/*]]>*/</script><script src="/polyfill-9338cfc9a4a2c80320d7.js" nomodule=""></script><script src="/component---src-templates-tags-js-cb0fe66558ba8f5bf970.js" async=""></script><script src="/app-9918ab06119fb4378f66.js" async=""></script><script src="/3bb3f90e-006b03750311bc8bbd20.js" async=""></script><script src="/framework-1c199f1cb4098fd59c60.js" async=""></script><script src="/styles-407fe62976dc5310c43e.js" async=""></script><script src="/webpack-runtime-2dac7557620563ad962a.js" async=""></script></body></html>
