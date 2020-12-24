@@ -36,22 +36,9 @@ export default function Header() {
           }}
           to={'/'}
         >
-          <b>tsvbit</b>
+          <b>tsvbits</b>
         </Link>
       </h1>
-      <span className="internet-links">
-        <a
-          className="icon sourcerer"
-          target="_blank"
-          href="https://sourcerer.io/sergeyt"
-        >
-          <img
-            src="https://sourcerer.io/icons/logo-sharing.svg"
-            height="24px"
-            alt="Sourcerer"
-          />
-        </a>
-      </span>
       <span className="internet-links" style={{ marginLeft: 50 }}>
         <SvgLink href="https://www.github.com/sergeyt" icon={github} />
         <SvgLink
