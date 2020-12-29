@@ -201,6 +201,7 @@ table td {
 div.root-header {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 
   h1 {
     margin-top: 0;
