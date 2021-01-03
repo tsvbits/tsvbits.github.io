@@ -81,9 +81,13 @@ As you can see I've done tons of useful stuff here
 
 Faculty of Information Technologies. Master degree. 4+ GPA. Computers, Complexes, Systems and Networks.
 
-## Professional Experience <span class="calendar icon right">`Jan 2002 - now`</span>
+## Work Experience <span class="calendar icon right">`Jan 2002 - now`</span>
 
-### Tech Lead at [GrapeCity](https://grapecity.com/) <span class="calendar icon right">`Oct 2018 - now`</span>
+### Senior Full-Stack Developer at [Turing](https://turing.com) <span class="calendar icon right">`Oct 2020 - now`</span>
+
+Making language tools to help people communicate better
+
+### Tech Lead at [GrapeCity](https://grapecity.com/) <span class="calendar icon right">`Oct 2018 - Oct 2020`</span>
 
 [**DataViewsJS**](https://www.grapecity.com/dataviewsjs/) - JavaScript Data Presentation and DataGrid platform
 

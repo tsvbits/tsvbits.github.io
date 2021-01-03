@@ -1,0 +1,119 @@
+{
+  "basics": {
+    "name": "Sergey Todyshev",
+    "label": "Programmer, simplifier, optimizer",
+    "summary": "I'm a software engineer with 18 years of professional experience. I have expert knowledge in C#, TypeScript and many other languages I use to develop amazing products. I am proactive doer, simplifier and optimizer. Efficiency, readability and simplicity matters for me.",
+    "picture": "https://avatars3.githubusercontent.com/u/190322?s=460&u=b87d4e8a9c8b452b1b96f1a6dc615865909e901f&v=4",
+    "email": "stodyshev@gmail.com",
+    "phone": "+79132017700",
+    "website": "https://tsvbits.com",
+    "profiles": [
+      {
+        "username": "sergeyt",
+        "url": "https://github.com/sergeyt"
+      },
+      {
+        "username": "sergeytodyshev",
+        "url": "https://www.linkedin.com/in/sergeytodyshev"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "Frontend Development",
+      "level": "master",
+      "keywords": ["HTML", "CSS", "JavaScript", "TypeScript", "ReactJS"]
+    },
+    {
+      "name": "Backend Development",
+      "level": "master",
+      "keywords": ["C#", "Java", "JavaScript", "TypeScript"]
+    }
+  ],
+  "work": [
+    {
+      "position": "Senior Fullstack Developer",
+      "company": "Turing",
+      "website": "https://turing.com",
+      "summary": "Making language tools to help people communicate better",
+      "startDate": "2020-10-01"
+    },
+    {
+      "position": "TechLead",
+      "company": "GrapeCity",
+      "website": "https://www.grapecity.com",
+      "summary": "Making web components and tools for developers",
+      "startDate": "2018-10-01",
+      "endDate": "2020-10-01"
+    },
+    {
+      "position": "TechLead",
+      "company": "Xored",
+      "website": "https://www.xored.com",
+      "summary": "Development of Spirent Velocity. Leading dev team of 10+ engineers",
+      "startDate": "2018-10-01",
+      "endDate": "2020-10-01"
+    },
+    {
+      "position": "Fullstack Developer",
+      "company": "DataWorks",
+      "website": "https://www.dataworks.co",
+      "summary": "Development of ActiveReports award winning reporting platform",
+      "startDate": "2007-06-01",
+      "endDate": "2016-01-01"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Institute of Automation and Electrometry",
+      "website": "https://www.iae.nsk.su",
+      "area": "Applied Mathematics",
+      "studyType": "PhD",
+      "startDate": "2004-09-01",
+      "endDate": "2007-09-01"
+    },
+    {
+      "institution": "Novosibirsk State University",
+      "website": "https://www.nsu.ru",
+      "area": "Computers, Systems, Networks",
+      "studyType": "Specialist",
+      "startDate": "1999-09-01",
+      "endDate": "2004-07-01",
+      "gpa": "4.0"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Advanced B2/C1"
+    },
+    {
+      "language": "Russian",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Table Tennis",
+      "keywords": ["Sport", "Health"]
+    },
+    {
+      "name": "Travelling",
+      "keywords": ["Education"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Scott Willeke",
+      "email": "scott@willeke.com"
+    },
+    {
+      "name": "Oleg Zaimkin",
+      "email": "oleg.zaimkin@grapecity.com"
+    },
+    {
+      "name": "Yuriy Kashnikov",
+      "email": "yuriy.kashnikov@protonmail.com"
+    }
+  ]
+}
