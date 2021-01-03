@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-tags-js","path":"/tags/javascript/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/json-resume/"},"frontmatter":{"title":"React component to render JSON Resume"}}}]}},"pageContext":{"tag":"javascript"}},"staticQueryHashes":[]}
