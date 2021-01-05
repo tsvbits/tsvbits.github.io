@@ -2,7 +2,7 @@ import React from 'react';
 import { Github, Linkedin } from '@icons-pack/react-simple-icons';
 import { DateTime } from 'luxon';
 
-const Resume = ({ resume, style }) => {
+const Resume = ({ resume, style, dark }) => {
   return (
     <div
       style={{
@@ -10,6 +10,7 @@ const Resume = ({ resume, style }) => {
         alignItems: 'center',
         justifyContent: 'center',
         ...style,
+        color: dark ? 'white' : undefined,
       }}
     >
       <div style={{ display: 'flex' }}>
@@ -31,7 +32,11 @@ const Resume = ({ resume, style }) => {
                 {resume.basics.email}
               </a>
             </div>
-            <div>{resume.basics.phone}</div>
+            {resume.basics.phone ? (
+              <div>
+                <a href={`tel:${resume.basics.phone}`}>{resume.basics.phone}</a>
+              </div>
+            ) : null}
             <div>
               <a href={resume.basics.website} target="_blank">
                 {resume.basics.website}
@@ -39,14 +44,12 @@ const Resume = ({ resume, style }) => {
             </div>
             {(resume.basics.profiles || []).map((p, k) => (
               <div key={k}>
-                <a
-                  href={p.url}
-                  target="_blank"
-                  style={{ display: 'inline-flex', alignItems: 'center' }}
-                >
+                <span style={{ display: 'inline-flex', alignItems: 'center' }}>
                   <Icon url={p.url} />
-                  {p.username}
-                </a>
+                  <a href={p.url} target="_blank">
+                    {p.username}
+                  </a>
+                </span>
               </div>
             ))}
           </div>
@@ -63,7 +66,7 @@ const Resume = ({ resume, style }) => {
           )}
           {isEmpty(resume.interests) ? null : (
             <div>
-              <h3 style={{ marginBottom: '0.5em' }}>INTERESTS &amp; HOBBIES</h3>
+              <h3 style={{ marginBottom: '0.5em' }}>INTERESTS</h3>
               {(resume.interests || []).map((item, k) => (
                 <div key={k}>
                   <span>{item.name}</span>
@@ -118,10 +121,10 @@ const Icon = ({ url }) => {
   const style = { marginRight: 4 };
   const u = url.toLowerCase();
   if (u.indexOf('github') >= 0) {
-    return <Github size={size} color="black" style={style} />;
+    return <Github size={size} style={style} />;
   }
   if (u.indexOf('linkedin') >= 0) {
-    return <Linkedin size={size} color="black" style={style} />;
+    return <Linkedin size={size} style={style} />;
   }
   return null;
 };
@@ -240,7 +243,7 @@ const Tag = ({ color, children }) => {
   return (
     <span
       style={{
-        backgroundColor: color === 'secondary' ? '#48BFE3' : 'var(--textLink)',
+        backgroundColor: color === 'secondary' ? '#48BFE3' : 'blueviolet',
         color: 'white',
         borderRadius: 4,
         padding: '0px 4px 2px 4px',

@@ -45,17 +45,10 @@ body.dark blockquote {
   color: white;
 }
 
-body.dark h1 {
-  color: white;
-}
-body.dark h2 {
-  color: white;
-}
-body.dark h3 {
-  color: white;
-}
-body.dark h4 {
-  color: white;
+body.dark {
+  h1, h2, h3, h4, h5 {
+    color: white;  
+  }
 }
 
 body {
