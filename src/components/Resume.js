@@ -26,7 +26,7 @@ const Resume = ({ resume, style, dark }) => {
             <p>{resume.basics.summary}</p>
           </div>
           <div style={{ marginBottom: '0.5em' }}>
-            <h3 style={{ marginBottom: '0.5em' }}>CONTACT &amp; PROFILES</h3>
+            <h3 style={{ marginBottom: '0.5em' }}>CONTACT</h3>
             <div>
               <a href={`mailto:${resume.basics.email}`}>
                 {resume.basics.email}
@@ -37,11 +37,16 @@ const Resume = ({ resume, style, dark }) => {
                 <a href={`tel:${resume.basics.phone}`}>{resume.basics.phone}</a>
               </div>
             ) : null}
-            <div>
-              <a href={resume.basics.website} target="_blank">
-                {resume.basics.website}
-              </a>
-            </div>
+            {resume.basics.website ? (
+              <div>
+                <a href={resume.basics.website} target="_blank">
+                  {resume.basics.website}
+                </a>
+              </div>
+            ) : null}
+          </div>
+          <div style={{ marginBottom: '0.5em' }}>
+            <h3 style={{ marginBottom: '0.5em' }}>PROFILES</h3>
             {(resume.basics.profiles || []).map((p, k) => (
               <div key={k}>
                 <span style={{ display: 'inline-flex', alignItems: 'center' }}>
@@ -109,7 +114,7 @@ const Resume = ({ resume, style, dark }) => {
           </div>
           <Education education={resume.education || []} />
           <Experience items={resume.work || []} />
-          <Experience items={resume.volunteer || []} />
+          <Experience items={resume.volunteer || []} title="VOLUNTEER WORK" />
         </div>
       </div>
     </div>
@@ -129,10 +134,10 @@ const Icon = ({ url }) => {
   return null;
 };
 
-const Experience = ({ items }) =>
+const Experience = ({ items, title = 'WORK EXPERIENCE' }) =>
   isEmpty(items) ? null : (
     <div style={{ marginTop: '0.5em' }}>
-      <h3 style={{ marginBottom: '0.5em' }}>WORK EXPERIENCE</h3>
+      <h3 style={{ marginBottom: '0.5em' }}>{title}</h3>
       {items.map((item, k) => (
         <div key={k} style={{ position: 'relative' }}>
           {items.length === 1 ? null : (
