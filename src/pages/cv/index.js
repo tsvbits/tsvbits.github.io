@@ -8,9 +8,8 @@ import Resume from '../../components/Resume';
 import resume from './resume.json';
 import Loader from '../../components/Loader';
 
-function useQuery() {
-  const q = qs.parse(window.location.search);
-  return q;
+function useQuery(location) {
+  return qs.parse(location ? location.search : '');
 }
 
 function cors(url) {
@@ -20,8 +19,8 @@ function cors(url) {
   return `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`;
 }
 
-const Page = () => {
-  const q = useQuery();
+const Page = ({ location }) => {
+  const q = useQuery(location);
   const { data, error } = useSWR(`resume.json?data=${q.src}`, () => {
     if (q.src) {
       return fetch(cors(q.src)).then((r) => r.json());
