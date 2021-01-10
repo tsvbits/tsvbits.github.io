@@ -2,7 +2,7 @@
 title: React component to render JSON Resume
 date: '2021-01-03'
 spoiler: Beautiful resume made easy
-tags: ['reactjs', 'javascript', 'sample']
+tags: ['reactjs', 'javascript', 'sample', 'json-resume']
 reddit: 'https://www.reddit.com/r/reactjs/comments/kpndxa/react_component_to_render_json_resume'
 ---
 
