@@ -19,14 +19,23 @@ function cors(url) {
   return `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`;
 }
 
+function useResume(src) {
+  if (!src) {
+    return { data: resume };
+  }
+  return useSWR(`resume.json?src=${src}`, () => {
+    if (src.match(/[A-Fa-f0-9]{32}/)) {
+      return fetch(`https://api.github.com/gists/${src}`)
+        .then((r) => r.json())
+        .then((r) => JSON.parse(r.files[Object.keys(r.files)[0]].content));
+    }
+    return fetch(cors(q.src)).then((r) => r.json());
+  });
+}
+
 const Page = ({ location }) => {
   const q = useQuery(location);
-  const { data, error } = useSWR(`resume.json?data=${q.src}`, () => {
-    if (q.src) {
-      return fetch(cors(q.src)).then((r) => r.json());
-    }
-    return Promise.resolve(resume);
-  });
+  const { data, error } = useResume(q.src);
   const theme = useTheme();
   const dark = theme === 'dark';
 
