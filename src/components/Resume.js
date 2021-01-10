@@ -1,6 +1,9 @@
 import React from 'react';
 import { Github, Linkedin } from '@icons-pack/react-simple-icons';
 import { DateTime } from 'luxon';
+import { FaUserAstronaut as UserIcon } from 'react-icons/fa';
+
+const m = '1rem';
 
 const Resume = ({ resume, style, dark }) => {
   return (
@@ -15,18 +18,29 @@ const Resume = ({ resume, style, dark }) => {
     >
       <div style={{ display: 'flex' }}>
         <div style={{ width: 300, marginRight: 80 }}>
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-            <img
-              src={resume.basics.picture}
-              style={{ height: 150, borderRadius: '100%' }}
-            />
+          <div
+            style={{
+              height: 150,
+              display: 'flex',
+              justifyContent: 'center',
+              marginBottom: m,
+            }}
+          >
+            {resume.basics.picture ? (
+              <img
+                src={resume.basics.picture}
+                style={{ height: 150, borderRadius: '100%' }}
+              />
+            ) : (
+              <UserIcon size={150} />
+            )}
           </div>
           <div>
-            <h3 style={{ marginBottom: '0.5em' }}>SUMMARY</h3>
+            <h3 style={{ marginTop: m, marginBottom: m }}>SUMMARY</h3>
             <p>{resume.basics.summary}</p>
           </div>
-          <div style={{ marginBottom: '0.5em' }}>
-            <h3 style={{ marginBottom: '0.5em' }}>CONTACT</h3>
+          <div style={{ marginBottom: m }}>
+            <h3 style={{ marginBottom: m }}>CONTACT</h3>
             <div>
               <a href={`mailto:${resume.basics.email}`}>
                 {resume.basics.email}
@@ -45,8 +59,8 @@ const Resume = ({ resume, style, dark }) => {
               </div>
             ) : null}
           </div>
-          <div style={{ marginBottom: '0.5em' }}>
-            <h3 style={{ marginBottom: '0.5em' }}>PROFILES</h3>
+          <div style={{ marginBottom: m }}>
+            <h3 style={{ marginBottom: m }}>PROFILES</h3>
             {(resume.basics.profiles || []).map((p, k) => (
               <div key={k}>
                 <span style={{ display: 'inline-flex', alignItems: 'center' }}>
@@ -59,8 +73,8 @@ const Resume = ({ resume, style, dark }) => {
             ))}
           </div>
           {isEmpty(resume.languages) ? null : (
-            <div style={{ marginBottom: '0.5em' }}>
-              <h3 style={{ marginBottom: '0.5em' }}>LANGUAGES</h3>
+            <div style={{ marginBottom: m }}>
+              <h3 style={{ marginBottom: m }}>LANGUAGES</h3>
               {(resume.languages || []).map((item, k) => (
                 <div key={k}>
                   <span>{item.language}</span>
@@ -71,7 +85,7 @@ const Resume = ({ resume, style, dark }) => {
           )}
           {isEmpty(resume.interests) ? null : (
             <div>
-              <h3 style={{ marginBottom: '0.5em' }}>INTERESTS</h3>
+              <h3 style={{ marginBottom: m }}>INTERESTS</h3>
               {(resume.interests || []).map((item, k) => (
                 <div key={k}>
                   <span>{item.name}</span>
@@ -88,14 +102,23 @@ const Resume = ({ resume, style, dark }) => {
           )}
         </div>
         <div>
-          <div style={{ marginTop: 40 }}>
-            <h1>{resume.basics.name}</h1>
-            <h5 style={{ textTransform: 'uppercase', marginTop: -20 }}>
-              {resume.basics.label}
-            </h5>
+          <div
+            style={{
+              height: 150,
+              display: 'flex',
+              alignItems: 'center',
+              marginTop: m,
+            }}
+          >
+            <div>
+              <h1>{resume.basics.name}</h1>
+              <h5 style={{ textTransform: 'uppercase', marginTop: -20 }}>
+                {resume.basics.label}
+              </h5>
+            </div>
           </div>
-          <div style={{ marginTop: 70, marginBottom: '1em' }}>
-            <h3 style={{ marginBottom: '0.5em' }}>SKILLS</h3>
+          <div style={{ marginBottom: m }}>
+            <h3 style={{ marginBottom: m }}>SKILLS</h3>
             {(resume.skills || []).map((item, k) => (
               <div key={k}>
                 <div>
@@ -136,8 +159,8 @@ const Icon = ({ url }) => {
 
 const Experience = ({ items, title = 'WORK EXPERIENCE' }) =>
   isEmpty(items) ? null : (
-    <div style={{ marginTop: '0.5em' }}>
-      <h3 style={{ marginBottom: '0.5em' }}>{title}</h3>
+    <div style={{ marginTop: m }}>
+      <h3 style={{ marginBottom: m }}>{title}</h3>
       {items.map((item, k) => (
         <div key={k} style={{ position: 'relative' }}>
           {items.length === 1 ? null : (
@@ -164,8 +187,8 @@ const Experience = ({ items, title = 'WORK EXPERIENCE' }) =>
 
 const Education = ({ education }) =>
   isEmpty(education) ? null : (
-    <div style={{ marginTop: '0.5em' }}>
-      <h3 style={{ marginBottom: '0.5em' }}>EDUCATION</h3>
+    <div style={{ marginTop: m }}>
+      <h3 style={{ marginBottom: m }}>EDUCATION</h3>
       {education.map((item, k) => (
         <div key={k} style={{ position: 'relative' }}>
           {education.length === 1 ? null : (
