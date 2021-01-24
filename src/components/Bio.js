@@ -24,7 +24,8 @@ class Bio extends React.Component {
             <a href="/about">Learn more</a>
           </TextLoop>
           <br />
-          Please check it out my <a href="/words">Words App</a>
+          Please check it out my{' '}
+          <a href="https://linguabook.github.io">LinguaBook App</a>
         </div>
       </div>
     );
