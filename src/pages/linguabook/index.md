@@ -3,6 +3,7 @@ title: Micro app for learning languages
 date: '2021-01-24'
 spoiler: Basic English Handbook
 tags: ['reactjs', 'javascript', 'app']
+reddit: 'https://www.reddit.com/r/reactjs/comments/l42kpd/react_app_for_learning_basic_english'
 ---
 
 I am building [a micro app](https://linguabook.github.io/) for learning [Ogden's Basic English](http://basic-english.org/).
