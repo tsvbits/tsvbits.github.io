@@ -5,7 +5,7 @@ spoiler: Latest version of online CV
 tags: ["cv", "pr"]
 ---
 
-Latest updated: :calendar: 3 September 2020<br>
+Latest updated: :calendar: Feb 8, 2021<br>
 
 > **TL;DR** [This printed version](./resume.pdf) has less details, but might be useful
 
@@ -28,13 +28,13 @@ Latest updated: :calendar: 3 September 2020<br>
 
 I'm a software engineer with 18 years of professional experience.
 I have expert knowledge in C#, TypeScript and many other languages I use to develop amazing products.
-I am proactive doer, simplifier and optimizer. Efficiency, readability and simplicity matters for me.
+I am still productive and do things proactively. I am simplifier and optimizer. Efficiency, readability and simplicity matters for me.
 
 Please learn more [about me](/cover) acting as software engineer.
 
 ## Languages
 
-* English - Level B2 (IELTS academic)
+* English - Level B2+ (IELTS academic 2018)
 * Russian - native
 
 ## Skills
@@ -44,7 +44,9 @@ Please learn more [about me](/cover) acting as software engineer.
 * System-level programming
 * DevOps automation
 
-Technical skills (summary of all projects with number of years):
+### Technical Skills
+
+Summary of all projects with years of experience:
 
 | Backend          | Frontend            | Databases            | DevOps & Tools   |
 | ---------------- | ------------------- | -------------------- | ---------------- |
@@ -85,8 +87,13 @@ Faculty of Information Technologies. Master degree. 4+ GPA. Computers, Complexes
 
 ### Senior Full-Stack Developer at [Turing](https://turing.com) <span class="calendar icon right">`Oct 2020 - now`</span>
 
-Making language tools to help people communicate better
+Making language tools to help people communicate better and more efficiently
 
+* **Responsibilities**:
+  * Leading development of a project
+* Number of team members: 4
+* PM Organization: Lean
+* Tools: **NodeJS**, **ExpressJS**, **TypeScript**, **React**, **Jest**, **Webpack**
 ### Tech Lead at [GrapeCity](https://grapecity.com/) <span class="calendar icon right">`Oct 2018 - Oct 2020`</span>
 
 [**DataViewsJS**](https://www.grapecity.com/dataviewsjs/) - JavaScript Data Presentation and DataGrid platform
@@ -98,14 +105,14 @@ Making language tools to help people communicate better
   * Making Web Components with efficient data processing and visualizations
 * Number of team members: 5
 * PM Organization: Lean
-* Used technologies: **NodeJS**, **ExpressJS**, **TypeScript**, **React**, **Angular**, **VueJS**, **Jest**, **Webpack**, **GulpJS**
+* Tools: **NodeJS**, **ExpressJS**, **TypeScript**, **React**, **Angular**, **VueJS**, **Jest**, **Webpack**, **GulpJS**
 
 **WebAssembly Research**
 
 * **Responsibilities**: Adopting Rust and WebAssembly to build new features in spreadsheet product line
 * Number of team members:  7
 * PM Organization: Lean
-* Used technologies: **Rust**, **WebAssemly**, **Webpack**, **JavaScript**
+* Tools: **Rust**, **WebAssemly**, **Webpack**, **JavaScript**
 
 ### Tech Lead at [Xored](http://www.xored.com/) <span class="calendar icon right">`Jan 2016 - Jun 2018`</span>
 
@@ -118,7 +125,7 @@ Making language tools to help people communicate better
   * Direct communication with product owner and management groups helping solving business problems using the full spectrum of technologies available and knowledge of the product capabilities
 * Number of team members: 20+ (distributed team)
 * PM Organization: Agile Waterfall
-* Used technologies: **Java 8**, **PostgreSQL**, **ElasticSearch**, **WildFly**, **Apache Kafka**, **Spirent iTest**, **JavaScript**, **ReactJS**, **Redux**, **AngularJS**, **Python**, **Golang**
+* Tools: **Java 8**, **PostgreSQL**, **ElasticSearch**, **WildFly**, **Apache Kafka**, **Spirent iTest**, **JavaScript**, **ReactJS**, **Redux**, **AngularJS**, **Python**, **Golang**
 
 ### Full Stack Software Engineer at [DataWorks](http://dataworks.co/) <span class="calendar icon right">`Jun 2007 - Jan 2016`</span>
 
@@ -127,7 +134,7 @@ Making language tools to help people communicate better
 * Principal developer of [PageFX compiler](https://github.com/GrapeCity/pagefx) from .NET to AVM (Flash Player VM) bytecode successfully used to build multi-platform report viewer
 * Number of team members: 20+ (distributed team)
 * PM Organization: Scrum
-* Used technologies: **C#**, **.NET**, **WinForms**, **JavaScript**, **ReactJS**, **Knockout**, **jQuery**, **Microsoft SQL Reporting Services**, **Microsoft VisualStudio**
+* Tools: **C#**, **.NET**, **WinForms**, **JavaScript**, **ReactJS**, **Knockout**, **jQuery**, **Microsoft SQL Reporting Services**, **Microsoft VisualStudio**
 
 ### Full Stack Software Engineer at [IAE](https://www.iae.nsk.su/en/) <span class="calendar icon right">`Jun 2002 - Aug 2007`</span>
 
@@ -135,7 +142,7 @@ Making language tools to help people communicate better
 * Automation of [laser writing machines](/clws)
 * Development of computer aided tools for [interferometry and tomography](/interferometry)
 * Number of team members: 4
-* Used technologies: **C++**, **Windows DDK**, **Microsoft Foundation Classes**, **C#**, **WinForms**
+* Tools: **C++**, **Windows DDK**, **Microsoft Foundation Classes**, **C#**, **WinForms**
 
 ## Projects
 
