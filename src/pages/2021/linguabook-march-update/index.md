@@ -1,5 +1,5 @@
 ---
-title: LinguaBook Update I
+title: LinguaBook March Update
 date: '2021-03-20'
 spoiler: Sexy UI based on Chakra UI
 tags: ["pr", "meta"]
