@@ -7,6 +7,13 @@ spoiler: My major projects written by bare hands :)
 This page lists projects that I've been involved as software engineer.
 Some of them are still being used by somebody.
 
+## LinguaBook
+:calendar:<span class="calendar">`2020 - now`</span>
+[![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](/linguabook)
+![GitHub](https://img.shields.io/github/license/sergeyt/pandora?style=flat-square)
+
+All in one dictionary that helps you searching more semantics when working with words. [More about it](/linguabook).
+
 ## Merlin
 :calendar:<span class="calendar">`2019 - now`</span>
 [![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](/merlin)
