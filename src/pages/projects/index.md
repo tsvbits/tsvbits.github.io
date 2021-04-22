@@ -73,8 +73,8 @@ Status **dead**, but it can be reanimated for example to allow using C# to devel
 ## CarbonDocs
 :calendar:<span class="calendar">`2004 - 2010`</span>
 
-This .NET library allows to generate PDF docs from HTML. More info is [here](https://carbondocs.windows10compatible.com/).
-I've been developing it almost solely after being graduated university.
+CarbonDocs is used by .NET developers to create dynamic PDFs. It enables developers to use HTML and CSS along with inline ASP.NET-style scripts to generate dynamic content. With just a few lines of code, CarbonDocs inserts tabular data, charts, barcodes, and sparklines. CarbonDocs supports right-to-left text, font embedding, forms, scripting, attachments, viewer options, security, digital signatures and more.
+I've been developing it almost solely after being graduated university. More information can be found [here](https://carbondocs.windows10compatible.com/).
 
 ## Circle Laser Writing Systems
 :calendar:<span class="calendar">`2002 - 2007`</span>
