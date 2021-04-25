@@ -5,8 +5,10 @@ spoiler: Composable basis to build fully-featured backend in few days
 tags: ["project", "hobby", "side-project"]
 ---
 
-Started as learning new technologies. It is collection of solutions that can be easily composed to build concrete system.
-Please find [more on github](https://github.com/sergeyt/pandora).
+It was started as learning new tech staff. It is collection of solutions that can be easily composed to build concrete system.
+Please find [code on github](https://github.com/sergeyt/pandora).
+
+Basically it is incomplete BaaS (Backend-as-a-Service) without UI and crafted during random hackathons and challenges I was involved occasionally.
 
 ## Use Cases
 
