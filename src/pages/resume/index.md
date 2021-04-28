@@ -97,6 +97,7 @@ Here I am unicorn developer in this startup doing all core development of multip
 * Number of team members: 3
 * PM Organization: Lean
 * Tools: **NodeJS**, **ExpressJS**, **TypeScript**, **React**, **Jest**, **Webpack**, **AWS**, **MongoDB**, **Metabase**
+
 ### Senior Full-Stack Developer at [Turing](https://turing.com) <span class="calendar icon right">`Oct 2020 - Jan 2021`</span>
 
 Making language tools to help people communicate better and more efficiently
