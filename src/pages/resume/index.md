@@ -85,7 +85,19 @@ Faculty of Information Technologies. Master degree. 4+ GPA. Computers, Complexes
 
 ## Work Experience <span class="calendar icon right">`Jan 2002 - now`</span>
 
-### Senior Full-Stack Developer at [Turing](https://turing.com) <span class="calendar icon right">`Oct 2020 - now`</span>
+### Senior Full-Stack Developer at [DEI.AI](https://dei.ai) <span class="calendar icon right">`Oct 2020 - now`</span>
+
+Here I am unicorn developer in this startup doing all core development of multiple services and product lines.
+
+* **Responsibilities**:
+  * Leading development of a project
+  * Assisting junior developers
+  * Managing AWS resources and services
+  * Automating error-prone operations
+* Number of team members: 3
+* PM Organization: Lean
+* Tools: **NodeJS**, **ExpressJS**, **TypeScript**, **React**, **Jest**, **Webpack**, **AWS**, **MongoDB**, **Metabase**
+### Senior Full-Stack Developer at [Turing](https://turing.com) <span class="calendar icon right">`Oct 2020 - Jan 2021`</span>
 
 Making language tools to help people communicate better and more efficiently
 
