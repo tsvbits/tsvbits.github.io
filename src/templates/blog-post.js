@@ -164,10 +164,6 @@ const BlogPostTemplate = ({ pageContext }) => {
   // TODO: this curried function is annoying
   const languageLink = createLanguageLink(slug, lang);
   const enSlug = languageLink('en');
-  const editUrl = `https://github.com/${GITHUB_USERNAME}/${GITHUB_REPO_NAME}/edit/dev/src/pages/${enSlug.slice(
-    1,
-    enSlug.length - 1
-  )}/index${lang === 'en' ? '' : '.' + lang}.md`;
 
   const showByemeacoffee = !['resume', 'cover', 'about', 'sponsor'].some(
     (s) => slug.toLowerCase().indexOf(s) >= 0
@@ -214,10 +210,6 @@ const BlogPostTemplate = ({ pageContext }) => {
               <RedditLink reddit={reddit} />
               {` • `}
               <TwitterLink enSlug={enSlug} />
-              {` • `}
-              <a href={editUrl} target="_blank">
-                Edit on GitHub
-              </a>
             </p>
           </footer>
         </article>
