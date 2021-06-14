@@ -9,7 +9,7 @@ tags: ["pr", "meta"]
 
 ![SergeyT's github stats](https://github-readme-stats.vercel.app/api?username=sergeyt&show_icons=true)
 
-Hey there! I am Sergey Todyshev. I am software engineer with over 15 years of professional experience making software products. Usually I play full-stack roles. You can [email me](mailto:stodyshev@gmail.com) to get [technical support](/support) or maybe even hire me.
+Hey there! I am Sergey Todyshev. I am software engineer with over 15 years of professional experience making software products for humans. Usually I play full-stack roles. You can [email me](mailto:stodyshev@gmail.com) to get [technical support](/support) or maybe even hire me.
 
 ## I can do
 
