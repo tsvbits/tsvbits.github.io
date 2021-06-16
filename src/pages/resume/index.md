@@ -37,12 +37,13 @@ Please learn more [about me](/cover) acting as software engineer.
 * English - Level B2+ (IELTS academic 2018)
 * Russian - native
 
-## Skills
+## Skills Overview
 
 * Development of complex web apps usually fullstack
 * Application-level programming
 * System-level programming
 * DevOps automation
+* Testing automation
 
 ### Technical Skills
 
