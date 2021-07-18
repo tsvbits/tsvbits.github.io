@@ -63,8 +63,7 @@ export interface File extends Item {
 }
 
 export interface Folder extends Item {
-  getFiles(): Promise<File[]>;
-  getFolders(): Promise<Folder[]>;
+  getItems(): Promise<Item[]>;
 }
 
 export interface Drive extends Folder {
@@ -80,7 +79,7 @@ Just using [axios](https://github.com/axios/axios) and the [API docs](https://up
 
 ```typescript
 import axios, { AxiosResponse } from "axios";
-import { Drive, File, Folder, ItemType } from "../types";
+import { Drive, Item, File, ItemType } from "../types";
 
 type Options = {
   type: string;
@@ -126,7 +125,7 @@ export default class UploadcareDrive implements Drive {
     });
   }
 
-  async getFiles(): Promise<File[]> {
+  async getItems(): Promise<Item[]> {
     const resp = await this.axios().get("https://api.uploadcare.com/files/");
     checkResponseOK(resp);
     return resp.data.results.map(
@@ -141,10 +140,6 @@ export default class UploadcareDrive implements Drive {
           size: f.size,
         } as File)
     );
-  }
-
-  async getFolders(): Promise<Folder[]> {
-    return [];
   }
 
   async deleteFile(fileId: string): Promise<void> {
@@ -249,7 +244,6 @@ import { Box } from "@material-ui/core";
 import { Widget } from "@uploadcare/react-widget";
 import { getDrive } from "../../core/store";
 import Loader from "../../components/Loader";
-import { Item } from "../../types";
 import ItemList from "../../components/ItemList";
 
 export default function DriveView() {
@@ -258,9 +252,8 @@ export default function DriveView() {
 
   const { data, revalidate } = useSWR(`/drive/${id}`, async () => {
     const drive = await getDrive(String(id));
-    const folders = await drive.getFolders();
-    const files = await drive.getFiles();
-    return { drive, items: (folders as Item[]).concat(files) };
+    const items = await drive.getItems();
+    return { drive, items };
   });
   if (!data) {
     return <Loader />;
