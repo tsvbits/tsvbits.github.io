@@ -9,7 +9,7 @@ tags: ["sample", "tutorial", "draft"]
 
 TODO: add cover screenshot
 
-I am going to show you how to quickly build a small Google Drive app powered by [Uploadcare](https://uploadcare.com) platform. Believe me or not but I've built the app within one morning.
+I am going to show you how to quickly build a small Google Drive app powered by [Uploadcare](https://uploadcare.com) platform. I know "Google Drive" may sound a bit provocative, but it is done just to raise some chunk of your attention :smile:. Also believe me or not but I've made the app within one morning. Below is some details about what I've done and how.
 
 ## What I've done
 
