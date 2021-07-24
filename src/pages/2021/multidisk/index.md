@@ -25,7 +25,7 @@ In terms of features the app includes the following capabilities:
 - Upload, download and deleting files
 - At this point I've implemented drives for *Uploadcare* and *Dropbox*, but I'd like to add support for Google Drive, etc. Especially if the app gains some attention
 
-You can just briefly watch [this short video](https://www.youtube.com/watch?v=DmwKfIDVKqI&ab_channel=SergeyTodyshev) to have more vision about the features mentioned above.
+You can just briefly watch [this short video](https://youtu.be/W4cYjoFQaXg) to have more vision about the features mentioned above.
 
 ## Tooling
 
