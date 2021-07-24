@@ -9,7 +9,7 @@ tags: ["webdev", "react", "sample", "tutorial", "draft"]
 
 # TODO gif with final result
 
-I am going to show you how to relatively quickly build a small Google Drive app of kind of that. I know "Google Drive" may sound a bit provocative, but it is done just to raise some chunk of your attention :smile:. Also believe me or not but I've done the app within few mornings (yep I am morning person :smile:). Below is some details about what I've done and how.
+I am going to show you how to relatively quickly build a small Google Drive app or kind of that. I know "Google Drive" may sound a bit provocative, but it is done just to raise some chunk of your attention :smile:. Also believe me or not but I've done the app within few mornings (yep I am morning person :smile:). Below is some details about what I've done and how.
 
 ## High level idea
 
