@@ -13,7 +13,7 @@ I am going to show you how to relatively quickly build a small Google Drive app 
 
 ## High level idea
 
-The idea is simple. I'd like to build a unified UI for all my drives. For sake of simplicity I selected only few platforms as starting point:
+The idea is simple. I'd like to build a unified UI for all my drives. For sake of simplicity I selected only few platforms as a starting point:
 - [Uploadcare](https://uploadcare.com) - nice and quite new one with simple APIs and have free plan
 - [Dropbox](https://www.dropbox.com/) - I assume no need any introduction
 
@@ -31,25 +31,25 @@ You can just briefly watch [this short video](https://youtu.be/W4cYjoFQaXg) to h
 
 To build the app I've chosen the following tools:
 
-- [TypeScript](https://www.typescriptlang.org/) - I prefer having typing from the start of any project nowadays. The reason for this could be discussed separately :smile:
+- [TypeScript](https://www.typescriptlang.org/) - I prefer having types from the start of any project nowadays. The reason for this could be discussed separately :smile:. Maybe just because I started typed programming first
 - [Uploadcare](https://uploadcare.com) - new one for me, lets learn something new together
 - [Next.js](https://nextjs.org/) - no need any introduction as well
 - [Material UI](https://material-ui.com/) - good React framework with plenty of components. Maybe later I'll refactor the app to use [Chakra UI](https://chakra-ui.com/) since it looking promising to me too
 
-All tools are well known to me except Uploadcare API.
+All tools are well known to me except Uploadcare and Dropbox APIs. Great, it is a learning opportunity then.
 ## How I've done this
 
 My steps were:
 - Project bootstrapping
 - Drive abstraction
 - Uploadcare Drive implementation
-- Few UI pages
 - Dropbox Drive implementation
+- Few UI pages
 
 That is it. Lets dive in and cover each step with some additional text.
 ### Project bootstrapping
 
-According to [this Next.js doc](https://nextjs.org/docs/getting-started) it is easy peasy as just running `npx create-next-app` command in your shell and you are done :smile:
+According to [this Next.js doc](https://nextjs.org/docs/getting-started) it is easy peasy as just running `npx create-next-app` command in your shell and you are literally done :smile:
 
 ### Drive interfaces
 
@@ -87,7 +87,7 @@ export interface Drive {
 
 The API docs of Uploadcare can be found at https://uploadcare.com/api-refs/rest-api/v0.5.0/.
 
-We will just use [axios](https://github.com/axios/axios) to make HTTP requests and I did not find any typed client for my needs. I happy to do a package for Uploadcare API client. BTW I know about [this one](https://github.com/uploadcare/uploadcare-upload-client), but currently it is more focussed on uploading and uploading and it does not cover all features of API.
+We will just use [axios](https://github.com/axios/axios) to make HTTP requests and I did not find any typed client for my needs. I happy to do a small NPM package for Uploadcare API client. I know about [this one](https://github.com/uploadcare/uploadcare-upload-client), but currently it is more focussed on uploading and downloading files and it does not cover all features of Uploadcare API. Maybe just need to request it on github :smile:
 
 ```typescript
 import axios from "axios";
@@ -284,7 +284,7 @@ MVP version of the app has only few pages and few dialogs:
 
 ### Home Page
 
-We will use [SWR](https://nextjs.org/docs/basic-features/data-fetching#swr) for data fetching recommended by Next.js. The home has straightforward implementation. Here a code of it:
+We will use [SWR](https://nextjs.org/docs/basic-features/data-fetching#swr) for data fetching recommended by Next.js folks. The home has straightforward implementation. Here a full script of the Home Page:
 
 ```typescript
 import isEmpty from "lodash/isEmpty";
@@ -313,7 +313,7 @@ export default function Home() {
 }
 ```
 
-Where *DriveList* component is:
+Where *DriveList* component is coded as follow:
 
 ```typescript
 import Link from "next/link";
@@ -349,7 +349,7 @@ export default function DriveList({ drives }: { drives: Drive[] }) {
 
 ### Drive View page
 
-Also simple as it is:
+Also it is simple as it is:
 
 ```typescript
 import { useRouter } from "next/router";
@@ -421,11 +421,11 @@ export default function ItemList({ data }: { data: Item[] }) {
 }
 ```
 
-As you might noticed uploading file is implemented just using super [Uploadcare](https://uploadcare.com/docs/integrations/react/#react-file-uploader) widget - another big time saver which is nice.
+As you might noticed uploading file is implemented just using [Uploadcare](https://uploadcare.com/docs/integrations/react/#react-file-uploader) widget - another big time saver which is nice.
 
 ## How I've done Dialogs?
 
-Do you really wanna read the code for dialogs? Maybe it should be enough for this blog post :smile:
+Do you really wanna read the code for dialogs? It should be boring. And maybe it should be enough for this blog post :smile:
 
 Anyway you can be gone to [the github repo](https://github.com/sergeyt/multidisk) and have some fun consuming additional bits of information :smile:
 
@@ -435,6 +435,6 @@ Next time probably I'll try adding more features in the application like:
 
 - Google Drive
 - Folders
-- Just improving UX
+- Just improving UX like making wizard to create a drive
 - Better authorization, maybe making official Dropbox or Google apps
 - Storing drives in Mongo Cloud to persist config across different devices (maybe paid feature :smile:)
