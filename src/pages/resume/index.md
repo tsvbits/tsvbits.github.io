@@ -133,7 +133,7 @@ Making language tools to help people communicate better and more efficiently
 [**Spirent Veclity**](/velocity) - Lab Automation Platform
 
 * **Responsibilities**:
-  * Leading an amazing team of 10-15 full-stack engineers including code review, writing proposals, consulting on daily basis
+  * Leading a team of 10-15 full-stack engineers having hands on coding 50% of time, also reviewing code and writing proposals
   * Finding efficient solutions especially to tackle customer-faced scalability issues
   * Direct communication with customers investigating and fixing incidents on production systems
   * Direct communication with product owner and management groups helping solving business problems using the full spectrum of technologies available and knowledge of the product capabilities
