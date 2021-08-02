@@ -434,7 +434,9 @@ Anyway you can be gone to [the github repo](https://github.com/sergeyt/multidisk
 Next time probably I'll try adding more features in the application like:
 
 - Google Drive
+- AWS S3 Drive
+- Framework-agnostic File Manager web component. Maybe using [Angular elements](https://angular.io/guide/elements)
 - Folders
 - Just improving UX like making wizard to create a drive
 - Better authorization, maybe making official Dropbox or Google apps
-- Storing drives in Mongo Cloud to persist config across different devices (maybe paid feature :smile:)
+- Storing drive connections in Mongo Cloud to persist config across different devices (maybe paid feature :smile:)
