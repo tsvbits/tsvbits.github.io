@@ -2,7 +2,7 @@
 title: Lets build mini Google Drive clone quickly
 date: '2021-07-24'
 spoiler: Yet another micro app from SergeyT's hands :)
-tags: ["webdev", "react", "sample", "tutorial", "draft"]
+tags: ["webdev", "react", "sample", "tutorial"]
 ---
 
 > TL;DR you can find code at https://github.com/sergeyt/multidisk
