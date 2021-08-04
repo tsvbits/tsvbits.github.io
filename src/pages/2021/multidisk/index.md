@@ -5,7 +5,7 @@ spoiler: Yet another micro app from SergeyT's hands :)
 tags: ["webdev", "react", "sample", "tutorial", "draft"]
 ---
 
-> TL;DR https://github.com/sergeyt/multidisk
+> TL;DR you can find code at https://github.com/sergeyt/multidisk
 
 ![MultiDisk Demo](./multidisk.gif)
 
