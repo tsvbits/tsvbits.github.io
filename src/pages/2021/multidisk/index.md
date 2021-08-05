@@ -22,7 +22,7 @@ Lets call it MultiDisk, it is like https://www.odrive.com/, but built for the We
 
 In terms of features the app includes the following capabilities:
 - Allow managing multiple drives
-- Upload, download and deleting files
+- Uploading, downloading and deleting files
 - At this point I've implemented drives for *Uploadcare* and *Dropbox*, but I'd like to add support for Google Drive, etc. Especially if the app gains some attention
 
 You can just briefly watch [this short video](https://youtu.be/W4cYjoFQaXg) to have more vision about the features mentioned above.
@@ -440,3 +440,6 @@ Next time probably I'll try adding more features in the application like:
 - Just improving UX like making wizard to create a drive
 - Better authorization, maybe making official Dropbox or Google apps
 - Storing drive connections in Mongo Cloud to persist config across different devices (maybe paid feature :smile:)
+
+
+Enjoy! EOF :smile:
