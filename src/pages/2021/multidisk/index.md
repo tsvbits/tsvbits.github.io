@@ -320,7 +320,8 @@ import Link from "next/link";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemAvatar from "@material-ui/core/ListItemAvatar";
 import Avatar from "@material-ui/core/Avatar";
-import DriveIcon from "@material-ui/icons/Work";
+import { SiDropbox as DropboxIcon } from "react-icons/si";
+import { FiHardDrive as DriveIcon } from "react-icons/fi";
 import ListItemText from "@material-ui/core/ListItemText";
 import ListItemSecondaryAction from "@material-ui/core/ListItemSecondaryAction";
 import List from "@material-ui/core/List";
@@ -333,10 +334,10 @@ export default function DriveList({ drives }: { drives: Drive[] }) {
       <ListItem style={{ cursor: "pointer" }}>
         <ListItemAvatar>
           <Avatar>
-            <DriveIcon />
+            <Icon type={d.provider} />
           </Avatar>
         </ListItemAvatar>
-        <ListItemText primary={d.name} secondary={d.driveType} />
+        <ListItemText primary={d.name} secondary={d.provider} />
         <ListItemSecondaryAction>
           <DriveMenu driveId={d.id} />
         </ListItemSecondaryAction>
@@ -345,6 +346,15 @@ export default function DriveList({ drives }: { drives: Drive[] }) {
   ));
   return <List>{items}</List>;
 }
+
+const Icon = ({ type }) => {
+  switch (type) {
+    case "dropbox":
+      return <DropboxIcon />;
+    default:
+      return <DriveIcon />;
+  }
+};
 ```
 
 ### Drive View page
@@ -355,18 +365,21 @@ Also it is simple as it is:
 import { useRouter } from "next/router";
 import useSWR from "swr";
 import { Box } from "@material-ui/core";
-import { Widget } from "@uploadcare/react-widget";
 import { getDrive } from "../../core/store";
 import Loader from "../../components/Loader";
 import ItemList from "../../components/ItemList";
+import Uploader from "../../components/Uploader";
 
 export default function DriveView() {
   const router = useRouter();
-  const { id } = router.query;
+  const { driveId, folder: folderId } = router.query;
 
-  const { data, revalidate } = useSWR(`/drive/${id}`, async () => {
-    const drive = await getDrive(String(id));
-    const items = await drive.getItems();
+  const key = folderId
+    ? `/drive/${driveId}?folder=${encodeURIComponent(String(folderId))}`
+    : `/drive/${driveId}`;
+  const { data } = useSWR(key, async () => {
+    const drive = await getDrive(String(driveId));
+    const items = await drive.getItems(folderId ? String(folderId) : "");
     return { drive, items };
   });
   if (!data) {
@@ -376,11 +389,7 @@ export default function DriveView() {
   return (
     <>
       <Box m={2} mb={2}>
-        <label>Upload a file:&nbsp;</label>
-        <Widget
-          publicKey={data.drive.options.publicKey}
-          onChange={revalidate}
-        />
+        <Uploader drive={data.drive} />
       </Box>
       <ItemList data={data.items} />
     </>
@@ -388,12 +397,37 @@ export default function DriveView() {
 }
 ```
 
-Where *ItemList* is coded as:
+Where *Uploader* component is coded as:
+
+```typescript
+import { mutate } from "swr";
+import { Widget } from "@uploadcare/react-widget";
+import { Drive } from "../types";
+
+export default function Uploader({ drive }: { drive: Drive }) {
+  if (drive.provider === "uploadcare") {
+    return (
+      <>
+        <label>Upload a file:&nbsp;</label>
+        <Widget
+          publicKey={drive.options.publicKey}
+          onChange={() => {
+            mutate(`/drive/${drive.id}`);
+          }}
+        />
+      </>
+    );
+  }
+  return null;
+}
+```
+
+And *ItemList* component is implemented as:
 
 ```typescript
 import isEmpty from "lodash/isEmpty";
 import List from "@material-ui/core/List";
-import { Item, File, Folder } from "../types";
+import { Item, File } from "../types";
 import FileItem from "./FileItem";
 import FolderItem from "./FolderItem";
 import Placeholder from "./Placeholder";
@@ -412,7 +446,7 @@ export default function ItemList({ data }: { data: Item[] }) {
       case "file":
         return <FileItem key={k} item={item as File} />;
       case "folder":
-        return <FolderItem key={k} item={item as Folder} />;
+        return <FolderItem key={k} item={item as Item} />;
       default:
         return null;
     }
