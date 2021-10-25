@@ -14,9 +14,6 @@ Latest updated: :calendar: Feb 8, 2021<br>
 | Type       | Value                                             |
 | ---------- |:-------------------------------------------------:|
 | Name       | Sergey Todyshev                                   |
-| Birth date | :calendar: 11.01.1981                             |
-| Phone      | :telephone: +79132017700                          |
-| Situation  | :hearts: Married, 2 kids, 2 funny cats            |
 | Location   | Berdsk, Russia                                    |
 | Email      | mailto:stodyshev@gmail.com                        |
 | Skype      | sergey.todyshev                                   |
