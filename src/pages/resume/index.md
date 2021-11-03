@@ -23,11 +23,11 @@ Latest updated: :calendar: Feb 8, 2021<br>
 
 ## About me
 
-I'm a software engineer with 18 years of professional experience.
-I have expert knowledge in C#, TypeScript and many other languages I use to develop amazing products.
-I am still productive and do things proactively. I am simplifier and optimizer. Efficiency, readability and simplicity matters for me.
+I'm a software engineer with 19 years of professional experience.
+I have expert knowledge in C#, TypeScript and many other programming languages.
+I am still productive and do things proactively. I am simplifier and optimizer. Relationships, efficiency, and simplicity matters for me.
 
-Please learn more [about me](/cover) acting as software engineer.
+Please learn more [about me](/cover).
 
 ## Languages
 
@@ -65,7 +65,7 @@ See [more detailed list](/skills)
 
 ### PhD student at Institute of IAE, Novosibirsk <span class="calendar icon right">`Jun 2004  – Aug 2007`</span>
 
-Put hands on implementation of:
+Done:
 * Modernization of software to control [Circle Laser Writing Systems](/clws) designed by [IA&E SB RAS](https://www.iae.nsk.su/en/)
 * [Hardware abstraction layers](/devicemanager)
 * Abstract control systems
@@ -75,17 +75,22 @@ Put hands on implementation of:
 * Computer aided tools for interferometry
 * Computer aided tools for [tomography](/voxcat)
 
-As you can see I've done tons of useful stuff here
-
 ### Master at [Novosibirsk State University](https://www.nsu.ru/) <span class="calendar icon right">`Sep 1999  –  Jun 2004`</span>
 
 Faculty of Information Technologies. Master degree. 4+ GPA. Computers, Complexes, Systems and Networks.
 
+## Highlighted Projects
+
+List of projects where I have major impact:
+* [ActiveReports](/activereports)
+* [Spirent Velocity](/velocity)
+
+See [all projects](/projects)
 ## Work Experience <span class="calendar icon right">`Jan 2002 - now`</span>
 
-### Senior Full-Stack Developer at [DEI.AI](https://dei.ai) <span class="calendar icon right">`Oct 2020 - now`</span>
+### Senior Full-Stack Developer at [REGIE.AI](https://regie.ai) <span class="calendar icon right">`Oct 2020 - now`</span>
 
-Here I am unicorn developer in this startup doing all core development of multiple services and product lines.
+I am leading developer here doing all core engineering of multiple services and product lines.
 
 * **Responsibilities**:
   * Leading development of a project
@@ -96,15 +101,6 @@ Here I am unicorn developer in this startup doing all core development of multip
 * PM Organization: Lean
 * Tools: **NodeJS**, **ExpressJS**, **TypeScript**, **React**, **Jest**, **Webpack**, **AWS**, **MongoDB**, **Metabase**
 
-### Senior Full-Stack Developer at [Turing](https://turing.com) <span class="calendar icon right">`Oct 2020 - Jan 2021`</span>
-
-Making language tools to help people communicate better and more efficiently
-
-* **Responsibilities**:
-  * Leading development of a project
-* Number of team members: 4
-* PM Organization: Lean
-* Tools: **NodeJS**, **ExpressJS**, **TypeScript**, **React**, **Jest**, **Webpack**
 ### Tech Lead at [GrapeCity](https://grapecity.com/) <span class="calendar icon right">`Oct 2018 - Oct 2020`</span>
 
 [**DataViewsJS**](https://www.grapecity.com/dataviewsjs/) - JavaScript Data Presentation and DataGrid platform
@@ -154,14 +150,6 @@ Making language tools to help people communicate better and more efficiently
 * Development of computer aided tools for [interferometry and tomography](/interferometry)
 * Number of team members: 4
 * Tools: **C++**, **Windows DDK**, **Microsoft Foundation Classes**, **C#**, **WinForms**
-
-## Projects
-
-I've done major impact on:
-* [ActiveReports](/activereports)
-* [Spirent Velocity](/velocity)
-
-See [all projects](/projects)
 
 ## References
 * Scott Willeke from Smartsheet (mailto:scott@willeke.com)
