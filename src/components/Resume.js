@@ -3,7 +3,8 @@ import { Github, Linkedin } from '@icons-pack/react-simple-icons';
 import { DateTime } from 'luxon';
 import { FaUserAstronaut as UserIcon } from 'react-icons/fa';
 
-const m = '1rem';
+const m = '0.5rem';
+const m2 = '1rem';
 
 const Resume = ({ resume, style, dark }) => {
   return (
@@ -17,7 +18,7 @@ const Resume = ({ resume, style, dark }) => {
       }}
     >
       <div style={{ display: 'flex' }}>
-        <div style={{ width: 400, marginRight: 50, flexShrink: 0 }}>
+        <div style={{ width: 250, marginRight: 50, flexShrink: 0 }}>
           <div
             style={{
               height: 150,
@@ -169,20 +170,17 @@ const Experience = ({ items, title = 'WORK EXPERIENCE' }) =>
       <h4 style={{ marginBottom: m }}>{title}</h4>
       {items.map((item, k) => (
         <div key={k} style={{ position: 'relative' }}>
-          <h4 style={{ marginBottom: 0 }}>{item.position}</h4>
-          <h5
-            style={{
-              margin: '2px 0',
-              display: 'flex',
-              justifyContent: 'space-between',
-            }}
-          >
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            <h4 style={{ marginBottom: 0, marginTop: 0 }}>{item.position}</h4>
             <a href={item.website} target="_blank">
-              {item.company || item.organization}
+              &nbsp;at {item.company || item.organization}
             </a>
+            <div style={{ flexGrow: 1 }} />
             <Period startDate={item.startDate} endDate={item.endDate} />
-          </h5>
-          <pre>{item.summary}</pre>
+          </div>
+          <pre style={{ whiteSpace: 'pre-line', marginBottom: m }}>
+            {item.summary}
+          </pre>
         </div>
       ))}
     </div>
@@ -194,20 +192,17 @@ const Education = ({ education }) =>
       <h4 style={{ marginBottom: m }}>EDUCATION</h4>
       {education.map((item, k) => (
         <div key={k} style={{ position: 'relative' }}>
-          <h5 style={{ marginBottom: 0 }}>{item.institution}</h5>
-          <h5
-            style={{
-              margin: '2px 0',
-              display: 'flex',
-              justifyContent: 'space-between',
-            }}
-          >
-            <a href={item.website} target="_blank">
-              {item.website}
-            </a>
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            <h4 style={{ marginBottom: 0, marginTop: 0 }}>
+              {item.institution}
+            </h4>
+            {/* <a href={item.website} target="_blank">
+              &nbsp;at {item.website}
+            </a> */}
+            <div style={{ flexGrow: 1 }} />
             <Period startDate={item.startDate} endDate={item.endDate} />
-          </h5>
-          <p>{item.area}</p>
+          </div>
+          <pre style={{ marginBottom: m }}>{item.area}</pre>
         </div>
       ))}
     </div>
@@ -254,7 +249,7 @@ const Timeline = ({ isLast }) => {
 };
 
 const Period = ({ startDate, endDate }) => (
-  <span style={{ width: 130 }}>
+  <b>
     <span>
       {DateTime.fromFormat(startDate, 'yyyy-MM-dd').toFormat('MMM yyyy')}
     </span>
@@ -264,7 +259,7 @@ const Period = ({ startDate, endDate }) => (
         ? DateTime.fromFormat(endDate, 'yyyy-MM-dd').toFormat('MMM yyyy')
         : 'now'}
     </span>
-  </span>
+  </b>
 );
 
 const Tag = ({ color, children }) => {
