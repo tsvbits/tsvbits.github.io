@@ -36,11 +36,11 @@ const Resume = ({ resume, style, dark }) => {
             )}
           </div>
           <div>
-            <h3 style={{ marginTop: m, marginBottom: m }}>SUMMARY</h3>
+            <h4 style={{ marginTop: m, marginBottom: m }}>SUMMARY</h4>
             <p>{resume.basics.summary}</p>
           </div>
           <div style={{ marginBottom: m }}>
-            <h3 style={{ marginBottom: m }}>CONTACT</h3>
+            <h4 style={{ marginBottom: m }}>CONTACT</h4>
             <div>
               <a href={`mailto:${resume.basics.email}`}>
                 {resume.basics.email}
@@ -60,7 +60,7 @@ const Resume = ({ resume, style, dark }) => {
             ) : null}
           </div>
           <div style={{ marginBottom: m }}>
-            <h3 style={{ marginBottom: m }}>PROFILES</h3>
+            <h4 style={{ marginBottom: m }}>PROFILES</h4>
             {(resume.basics.profiles || []).map((p, k) => (
               <div key={k}>
                 <span style={{ display: 'inline-flex', alignItems: 'center' }}>
@@ -74,7 +74,7 @@ const Resume = ({ resume, style, dark }) => {
           </div>
           {isEmpty(resume.languages) ? null : (
             <div style={{ marginBottom: m }}>
-              <h3 style={{ marginBottom: m }}>LANGUAGES</h3>
+              <h4 style={{ marginBottom: m }}>LANGUAGES</h4>
               {(resume.languages || []).map((item, k) => (
                 <div key={k}>
                   <span>{item.language}</span>
@@ -85,7 +85,7 @@ const Resume = ({ resume, style, dark }) => {
           )}
           {isEmpty(resume.interests) ? null : (
             <div>
-              <h3 style={{ marginBottom: m }}>INTERESTS</h3>
+              <h4 style={{ marginBottom: m }}>INTERESTS</h4>
               {(resume.interests || []).map((item, k) => (
                 <div key={k}>
                   <span>{item.name}</span>
@@ -117,32 +117,38 @@ const Resume = ({ resume, style, dark }) => {
               </h5>
             </div>
           </div>
-          <div style={{ marginBottom: m }}>
-            <h3 style={{ marginBottom: m }}>SKILLS</h3>
-            {(resume.skills || []).map((item, k) => (
-              <div key={k}>
-                <div>
-                  <strong>{item.name}</strong>
-                  <Tag>{item.level}</Tag>
-                </div>
-                <div>
-                  {(item.keywords || []).map((tag, k) => (
-                    <Tag key={k} color="secondary">
-                      {tag}
-                    </Tag>
-                  ))}
-                </div>
-              </div>
-            ))}
+          <div style={{ marginTop: -20 }}>
+            <Education education={resume.education || []} />
           </div>
-          <Education education={resume.education || []} />
           <Experience items={resume.work || []} />
           <Experience items={resume.volunteer || []} title="VOLUNTEER WORK" />
+          <Skills resume={resume} />
         </div>
       </div>
     </div>
   );
 };
+
+const Skills = ({ resume }) => (
+  <div style={{ marginBottom: m }}>
+    <h4 style={{ marginBottom: m }}>SKILLS</h4>
+    {(resume.skills || []).map((item, k) => (
+      <div key={k}>
+        <div>
+          <strong>{item.name}</strong>
+          {item.level ? <Tag>{item.level}</Tag> : null}
+        </div>
+        <div>
+          {(item.keywords || []).map((tag, k) => (
+            <Tag key={k} color="secondary">
+              {tag}
+            </Tag>
+          ))}
+        </div>
+      </div>
+    ))}
+  </div>
+);
 
 const Icon = ({ url }) => {
   const size = 20;
@@ -160,13 +166,10 @@ const Icon = ({ url }) => {
 const Experience = ({ items, title = 'WORK EXPERIENCE' }) =>
   isEmpty(items) ? null : (
     <div style={{ marginTop: m }}>
-      <h3 style={{ marginBottom: m }}>{title}</h3>
+      <h4 style={{ marginBottom: m }}>{title}</h4>
       {items.map((item, k) => (
         <div key={k} style={{ position: 'relative' }}>
-          {items.length === 1 ? null : (
-            <Timeline isLast={k === items.length - 1} />
-          )}
-          <h3 style={{ marginBottom: 0 }}>{item.position}</h3>
+          <h4 style={{ marginBottom: 0 }}>{item.position}</h4>
           <h5
             style={{
               margin: '2px 0',
@@ -188,13 +191,10 @@ const Experience = ({ items, title = 'WORK EXPERIENCE' }) =>
 const Education = ({ education }) =>
   isEmpty(education) ? null : (
     <div style={{ marginTop: m }}>
-      <h3 style={{ marginBottom: m }}>EDUCATION</h3>
+      <h4 style={{ marginBottom: m }}>EDUCATION</h4>
       {education.map((item, k) => (
         <div key={k} style={{ position: 'relative' }}>
-          {education.length === 1 ? null : (
-            <Timeline isLast={k === education.length - 1} />
-          )}
-          <h3 style={{ marginBottom: 0 }}>{item.institution}</h3>
+          <h5 style={{ marginBottom: 0 }}>{item.institution}</h5>
           <h5
             style={{
               margin: '2px 0',

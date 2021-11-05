@@ -1,8 +1,8 @@
 {
   "basics": {
     "name": "Sergey Todyshev",
-    "label": "Programmer, simplifier, optimizer",
-    "summary": "I'm a software engineer having unique experience in the past and having relevant experience now. Almost 20 years I am building digital things and tools with passion and still having fun doing this. And I am still productive and do things proactively. I hate to say that I am a multi-talented guy, but if you look at my accomplished projects at https://tsvbits.com/projects you can be convinced about that. I am simplifier and optimizer with iron-man like heart. Efficiency, readability, simplicity matters to me. Please learn more about me at https://tsvbits.com.",
+    "label": "Software Engineer",
+    "summary": "I am a capable software engineer with over 15 years of professional experience. Relationships, efficiency, simplicity matters to me",
     "picture": "https://avatars3.githubusercontent.com/u/190322?s=460&u=b87d4e8a9c8b452b1b96f1a6dc615865909e901f&v=4",
     "email": "stodyshev@gmail.com",
     "phone": "+79132017700",
@@ -21,21 +21,27 @@
   "skills": [
     {
       "name": "Frontend Development",
-      "level": "master",
-      "keywords": ["HTML", "CSS", "JavaScript", "TypeScript", "ReactJS"]
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "ReactJS",
+        "Rust",
+        "WebAssembly"
+      ]
     },
     {
       "name": "Backend Development",
-      "level": "master",
-      "keywords": ["C#", "Java", "JavaScript", "TypeScript"]
+      "keywords": ["C#", "Java", "JavaScript", "TypeScript", "Golang", "Python"]
     }
   ],
   "work": [
     {
       "position": "Senior Fullstack Developer",
-      "company": "Turing",
-      "website": "https://turing.com",
-      "summary": "Making language tools to help people communicate better",
+      "company": "Regie",
+      "website": "https://regie.ai",
+      "summary": "Developing sales automation platform",
       "startDate": "2020-10-01"
     },
     {
@@ -50,7 +56,7 @@
       "position": "TechLead",
       "company": "Xored",
       "website": "https://www.xored.com",
-      "summary": "Development of Spirent Velocity. Leading dev team of 10+ engineers",
+      "summary": "Development of Spirent Velocity. It is complex lab automation platform. Leading dev team of 10+ engineers",
       "startDate": "2018-10-01",
       "endDate": "2020-10-01"
     },
@@ -67,7 +73,7 @@
     {
       "institution": "Institute of Automation and Electrometry",
       "website": "https://www.iae.nsk.su",
-      "area": "Applied Mathematics",
+      "area": "Automated Control Systems",
       "studyType": "PhD",
       "startDate": "2004-09-01",
       "endDate": "2007-09-01"
