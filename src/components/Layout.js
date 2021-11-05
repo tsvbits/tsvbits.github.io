@@ -1,51 +1,56 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Helmet from 'react-helmet';
 import { ErrorBoundary } from 'react-error-boundary';
+import { useMediaQuery } from 'react-responsive';
 
 import { rhythm } from '../utils/typography';
 import ThemeSwitch from './ThemeSwitch';
 import Header from './Header';
 
-class Layout extends React.Component {
-  state = {
-    theme: null,
-  };
-
-  componentDidMount() {
-    this.setState({ theme: window.__theme });
+function useTheme() {
+  const [theme, setTheme] = useState(window.__theme);
+  useEffect(() => {
     window.__onThemeChange = () => {
-      this.setState({ theme: window.__theme });
+      setTheme(window.__theme);
     };
-  }
+  }, []);
+  return theme;
+}
 
-  render() {
-    const { children } = this.props;
+const Layout = ({ children, noThemeSwitch }) => {
+  const theme = useTheme();
+  const isPrintMedia = useMediaQuery({
+    query: 'print',
+  });
+  const appStyle = isPrintMedia
+    ? {}
+    : {
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        maxWidth: rhythm(30),
+        padding: `2.625rem ${rhythm(3 / 4)}`,
+      };
 
-    return (
-      <div
-        style={{
-          color: 'var(--textNormal)',
-          background: 'var(--bg)',
-          transition: 'color 0.2s ease-out, background 0.2s ease-out',
-          minHeight: '100vh',
-        }}
-      >
-        <Helmet
-          meta={[
-            {
-              name: 'theme-color',
-              content: this.state.theme === 'light' ? '#ffa8c5' : '#282c35',
-            },
-          ]}
-        />
-        <div
-          style={{
-            marginLeft: 'auto',
-            marginRight: 'auto',
-            maxWidth: rhythm(25),
-            padding: `2.625rem ${rhythm(3 / 4)}`,
-          }}
-        >
+  return (
+    <div
+      style={{
+        color: 'var(--textNormal)',
+        background: 'var(--bg)',
+        transition: 'color 0.2s ease-out, background 0.2s ease-out',
+        width: '100%',
+        height: '100vh',
+      }}
+    >
+      <Helmet
+        meta={[
+          {
+            name: 'theme-color',
+            content: theme === 'light' ? '#ffa8c5' : '#282c35',
+          },
+        ]}
+      />
+      <div style={appStyle}>
+        {isPrintMedia ? null : (
           <header
             style={{
               display: 'flex',
@@ -55,16 +60,14 @@ class Layout extends React.Component {
             }}
           >
             <Header />
-            {this.props.noThemeSwitch ? null : (
-              <ThemeSwitch theme={this.state.theme} />
-            )}
+            {noThemeSwitch ? null : <ThemeSwitch theme={theme} />}
           </header>
-          {children}
-        </div>
+        )}
+        {children}
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
 function ErrorFallback({ error, resetErrorBoundary }) {
   return (
