@@ -17,7 +17,7 @@ const Resume = ({ resume, style, dark }) => {
       }}
     >
       <div style={{ display: 'flex' }}>
-        <div style={{ width: 300, marginRight: 80 }}>
+        <div style={{ width: 400, marginRight: 50, flexShrink: 0 }}>
           <div
             style={{
               height: 150,
@@ -182,7 +182,7 @@ const Experience = ({ items, title = 'WORK EXPERIENCE' }) =>
             </a>
             <Period startDate={item.startDate} endDate={item.endDate} />
           </h5>
-          <p>{item.summary}</p>
+          <pre>{item.summary}</pre>
         </div>
       ))}
     </div>
