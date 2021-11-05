@@ -46,8 +46,12 @@ body.dark blockquote {
 }
 
 body.dark {
-  h1, h2, h3, h4, h5 {
-    color: white;  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: white;
   }
 }
 
@@ -117,7 +121,7 @@ body:lang(ko) article {
 body {
   code[class*='language-'],
   pre[class*='language-'] {
-    font-family: "JetBrains Mono";
+    font-family: 'JetBrains Mono';
   }
 }
 
@@ -380,5 +384,12 @@ div.tags {
         }
       }
     }
+  }
+}
+
+@media print {
+  header,
+  footer {
+    display: none !important;
   }
 }
