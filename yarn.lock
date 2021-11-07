@@ -1733,25 +1733,25 @@
   dependencies:
     "@hapi/hoek" "^9.0.0"
 
-"@iconify/icons-ant-design@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@iconify/icons-ant-design/-/icons-ant-design-1.1.0.tgz#013574b09d8dd167490e6fd6dd0b2805d7170854"
-  integrity sha512-sE4NKXMfN9arTFmfvt4zARoS+hjhd8P0z5osjWYxVkQPCri1RYpF+NRa9MsDh3ScqAcSU9wfUeQ3X4Gf8GrcNQ==
+"@iconify/icons-ant-design@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@iconify/icons-ant-design/-/icons-ant-design-1.1.1.tgz#6dc1c63c497d36bb618f99035b7504a1802512db"
+  integrity sha512-u2/G/69uCeAvUYYxpXVM8r9WQxOa25H0BytDj/x987LPThMI8VRJ885XZZ/NJkgbbANhemcr5pmOG96KwJlHNg==
 
 "@iconify/icons-uil@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@iconify/icons-uil/-/icons-uil-1.1.1.tgz#178ed400e0f4109229254212e33aa7c742b035db"
   integrity sha512-c/8HS+ghdQK3PuOVq234zrbOQLzoLNN7oLc9ftSQIQ3fquP9Up3GkPKUhzL2y2C2OC/FtYNQuHqFS/yaGi5rZg==
 
-"@iconify/react@^1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@iconify/react/-/react-1.1.4.tgz#c778eddbaf196e55705d0bedff00d039dc1de8d3"
-  integrity sha512-oxq8IMOq8q3nKGiDHbQPC8FcFuBsKve68JWBo140d5LRnj0bv5TB/FE/y01ZSvEZ7PlI2HIrnb2qivPN8kTDgw==
+"@iconify/react@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@iconify/react/-/react-3.0.1.tgz#ce2cb3f4a2b6aab5f7af082c833d869b6fb43182"
+  integrity sha512-yUskSSR80JzRSWcqNsBAG9AN802XzZgHsex8mTOkMLYcPQC3fk1XwK17ulnY5vf692OafhGCAMccR8TWKFaGdw==
 
-"@icons-pack/react-simple-icons@^4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@icons-pack/react-simple-icons/-/react-simple-icons-4.1.0.tgz#6997e44030ebbb923226a249abd29d0158a1c2fd"
-  integrity sha512-LgmzYYqC8t5g7DiBMyXTwwsA6cw8egVwkLC+CoCIrPtlp5QkPuGikrJ7V0ElELOAT2YBsh96i5EEkSuoUkKvSg==
+"@icons-pack/react-simple-icons@^4.6.1":
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/@icons-pack/react-simple-icons/-/react-simple-icons-4.6.1.tgz#47e07a43ff90ce3ff7d64806cdac76fa68b986fc"
+  integrity sha512-ICONbofFzeTkXvmbnptDv4P9cqtW/N/8EFOqyzJQJ80b8fJoLzqhM7EKslBmWziIwjY9FBnOoL2ofzQOoDG1Gg==
   dependencies:
     prop-types "^15.7.2"
 
@@ -2055,10 +2055,10 @@
     "@babel/runtime" "^7.7.2"
     regenerator-runtime "^0.13.3"
 
-"@loadable/component@^5.14.1":
-  version "5.14.1"
-  resolved "https://registry.yarnpkg.com/@loadable/component/-/component-5.14.1.tgz#cacd807162430bb85ae085945318027a600adc85"
-  integrity sha512-UQBZfZrp1FLTf8RNhljXNHFNY4QhAA1L2+GOEeABBFre9TD0aFyQh3Sai5QxcOfy+FTbjIfti5iHaNRR7yUzEQ==
+"@loadable/component@^5.15.0":
+  version "5.15.0"
+  resolved "https://registry.yarnpkg.com/@loadable/component/-/component-5.15.0.tgz#48b9524237be553f48b158f8c9152593f3f3fded"
+  integrity sha512-g63rQzypPOZi0BeGsK4ST2MYhsFR+i7bhL8k/McUoWDNMDuTTdUlQ2GACKxqh5sI/dNC/6nVoPrycMnSylnAgQ==
   dependencies:
     "@babel/runtime" "^7.7.7"
     hoist-non-react-statics "^3.3.1"
@@ -12716,10 +12716,10 @@ rc@^1.2.7, rc@^1.2.8:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-content-loader@^6.0.2:
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/react-content-loader/-/react-content-loader-6.0.2.tgz#7c72e5b133136c31c2f27036d1d7b39dab804026"
-  integrity sha512-eQrWT2KV1uPhFh9ErRhOLl4SBkzK9oxQiuEq6Dgq4D9oqKg9j/Ib8+aFoknvn1hYVx5fqSAI5BjxY9ukTOVPXw==
+react-content-loader@^6.0.3:
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/react-content-loader/-/react-content-loader-6.0.3.tgz#32e28ca7120e0a2552fc26655d0d4448cc1fc0c5"
+  integrity sha512-CIRgTHze+ls+jGDIfCitw27YkW2XcaMpsYORTUdBxsMFiKuUYMnlvY76dZE4Lsaa9vFXVw+41ieBEK7SJt0nug==
 
 react-dev-utils@^11.0.3:
   version "11.0.4"
@@ -12761,10 +12761,10 @@ react-dom@^16.13.1:
     prop-types "^15.6.2"
     scheduler "^0.19.1"
 
-react-error-boundary@^3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/react-error-boundary/-/react-error-boundary-3.1.1.tgz#932c5ca5cbab8ec4fe37fd7b415aa5c3a47597e7"
-  integrity sha512-W3xCd9zXnanqrTUeViceufD3mIW8Ut29BUD+S2f0eO2XCOU8b6UrJfY46RDGe5lxCJzfe4j0yvIfh0RbTZhKJw==
+react-error-boundary@^3.1.4:
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/react-error-boundary/-/react-error-boundary-3.1.4.tgz#255db92b23197108757a888b01e5b729919abde0"
+  integrity sha512-uM9uPzZJTF6wRQORmSrvOIgt4lJ9MC1sNgEOj2XGsDTRE4kmpWxg7ENK9EWNKJRMAOY9z0MuF4yIfl6gp4sotA==
   dependencies:
     "@babel/runtime" "^7.12.5"
 
@@ -12881,10 +12881,10 @@ react-transition-group@^4.3.0:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
 
-react-typography@^0.16.19:
-  version "0.16.19"
-  resolved "https://registry.yarnpkg.com/react-typography/-/react-typography-0.16.19.tgz#5736b47961dcf6b9605b6fa38d41980db2588e28"
-  integrity sha512-kV2qLEsdm0x9P4YXQEDVc88tDb4Vg0h/vdVZGgbqaRn8ERvNzV76JHUeOby3vvcUYU5MPd5Kz5DPH9Bhp4I/iw==
+react-typography@^0.16.20:
+  version "0.16.20"
+  resolved "https://registry.yarnpkg.com/react-typography/-/react-typography-0.16.20.tgz#6861fef52ab3156eda334cbe110fb66646340f57"
+  integrity sha512-xRDlR5mYA/NI2WAc/DPvmODWK5UvY6LsjzPEeiT5X1yXUDpqFAFnWi/m5atrAtaIOeZqT982DQM+Cy8Io+jVFg==
 
 react@^16.13.1:
   version "16.13.1"
@@ -15245,10 +15245,10 @@ typography-theme-moraga@^0.16.19:
     gray-percentage "^2.0.0"
     typography-breakpoint-constants "^0.16.19"
 
-typography@^0.16.19:
-  version "0.16.19"
-  resolved "https://registry.yarnpkg.com/typography/-/typography-0.16.19.tgz#092bf30a5a47495c955b54f40d3b55a7a9f28e8a"
-  integrity sha512-zfsyjPPB1RaK8TzU3REta6EGDZa++YQ6g/CWw7hy/8xQK1qyzFWisMIw5J+Yg1KyiVgcchmxlgMcMA6JAJ9oew==
+typography@^0.16.20:
+  version "0.16.21"
+  resolved "https://registry.yarnpkg.com/typography/-/typography-0.16.21.tgz#2cd177f20c64d0b762389464688811f980ade682"
+  integrity sha512-e8Hcg7WdvM9B9PI7hpk8Xg0jYVd0KHB26JAR+V6UZ8qe0mOsdd/Fnt8Zctrpahu6KmOy7LqUq6kYKPcYPEh9Zw==
   dependencies:
     compass-vertical-rhythm "^1.4.5"
     decamelize "^1.2.0"
