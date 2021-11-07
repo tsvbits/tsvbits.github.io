@@ -21,7 +21,7 @@ const Resume = ({ resume, style, dark }) => {
       }}
     >
       <div style={{ display: 'flex' }}>
-        <div style={{ width: 250, marginRight: 50, flexShrink: 0 }}>
+        <div style={{ width: 300, marginRight: 25, flexShrink: 0 }}>
           <div
             style={{
               height: 150,
@@ -64,8 +64,9 @@ const Resume = ({ resume, style, dark }) => {
             ) : null}
           </div>
           <Profiles resume={resume} />
-          <Languages resume={resume} />
           {/* <Interests resume={resume} /> */}
+          <Skills resume={resume} />
+          <Languages resume={resume} />
         </div>
         <div>
           <div
@@ -88,7 +89,6 @@ const Resume = ({ resume, style, dark }) => {
           </div>
           <Experience items={resume.volunteer || []} title="VOLUNTEER WORK" />
           <Education education={resume.education || []} />
-          <Skills resume={resume} />
         </div>
       </div>
     </div>

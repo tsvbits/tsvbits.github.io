@@ -44,10 +44,6 @@
         "Rust",
         "Microservices"
       ]
-    },
-    {
-      "name": "Cloud Platforms",
-      "keywords": ["AWS", "Google Cloud Platform", "Azure"]
     }
   ],
   "work": [
