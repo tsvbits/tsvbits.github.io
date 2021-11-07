@@ -1,7 +1,9 @@
 import React from 'react';
-import { Github, Linkedin } from '@icons-pack/react-simple-icons';
+import { Github, Linkedin, Twitter } from '@icons-pack/react-simple-icons';
 import { DateTime } from 'luxon';
 import { FaUserAstronaut as UserIcon } from 'react-icons/fa';
+import last from 'lodash/last';
+import isEmpty from 'lodash/isEmpty';
 
 const m = '0.5rem';
 const m2 = '1rem';
@@ -40,7 +42,7 @@ const Resume = ({ resume, style, dark }) => {
             <h4 style={{ marginTop: m, marginBottom: m }}>SUMMARY</h4>
             <p>{resume.basics.summary}</p>
           </div>
-          <div style={{ marginBottom: m }}>
+          <div style={{ marginBottom: m2 }}>
             <h4 style={{ marginBottom: m }}>CONTACT</h4>
             <div>
               <a href={`mailto:${resume.basics.email}`}>
@@ -60,21 +62,9 @@ const Resume = ({ resume, style, dark }) => {
               </div>
             ) : null}
           </div>
-          <div style={{ marginBottom: m }}>
-            <h4 style={{ marginBottom: m }}>PROFILES</h4>
-            {(resume.basics.profiles || []).map((p, k) => (
-              <div key={k}>
-                <span style={{ display: 'inline-flex', alignItems: 'center' }}>
-                  <Icon url={p.url} />
-                  <a href={p.url} target="_blank">
-                    {p.username}
-                  </a>
-                </span>
-              </div>
-            ))}
-          </div>
+          <Profiles resume={resume} />
           {isEmpty(resume.languages) ? null : (
-            <div style={{ marginBottom: m }}>
+            <div style={{ marginBottom: m2 }}>
               <h4 style={{ marginBottom: m }}>LANGUAGES</h4>
               {(resume.languages || []).map((item, k) => (
                 <div key={k}>
@@ -84,23 +74,7 @@ const Resume = ({ resume, style, dark }) => {
               ))}
             </div>
           )}
-          {isEmpty(resume.interests) ? null : (
-            <div>
-              <h4 style={{ marginBottom: m }}>INTERESTS</h4>
-              {(resume.interests || []).map((item, k) => (
-                <div key={k}>
-                  <span>{item.name}</span>
-                  <div>
-                    {(item.keywords || []).map((tag, k) => (
-                      <Tag key={k} color="secondary">
-                        {tag}
-                      </Tag>
-                    ))}
-                  </div>
-                </div>
-              ))}
-            </div>
-          )}
+          <Interests resume={resume} />
         </div>
         <div>
           <div
@@ -118,11 +92,11 @@ const Resume = ({ resume, style, dark }) => {
               </h5>
             </div>
           </div>
-          <div style={{ marginTop: -20 }}>
-            <Education education={resume.education || []} />
+          <div style={{ marginTop: -10 }}>
+            <Experience items={resume.work || []} />
           </div>
-          <Experience items={resume.work || []} />
           <Experience items={resume.volunteer || []} title="VOLUNTEER WORK" />
+          <Education education={resume.education || []} />
           <Skills resume={resume} />
         </div>
       </div>
@@ -130,26 +104,75 @@ const Resume = ({ resume, style, dark }) => {
   );
 };
 
-const Skills = ({ resume }) => (
-  <div style={{ marginBottom: m }}>
-    <h4 style={{ marginBottom: m }}>SKILLS</h4>
-    {(resume.skills || []).map((item, k) => (
-      <div key={k}>
-        <div>
-          <strong>{item.name}</strong>
-          {item.level ? <Tag>{item.level}</Tag> : null}
+const Profiles = ({ resume }) => {
+  if (isEmpty(resume.basics.profiles)) {
+    return null;
+  }
+  return (
+    <div style={{ marginBottom: m2 }}>
+      <h4 style={{ marginBottom: m }}>PROFILES</h4>
+      {(resume.basics.profiles || []).map((p, k) => (
+        <div key={k}>
+          <span style={{ display: 'inline-flex', alignItems: 'center' }}>
+            <Icon url={p.url} />
+            <a href={p.url} target="_blank">
+              {p.username || last(p.url.split('/').filter((s) => !!s))}
+            </a>
+          </span>
         </div>
-        <div>
-          {(item.keywords || []).map((tag, k) => (
-            <Tag key={k} color="secondary">
-              {tag}
-            </Tag>
-          ))}
+      ))}
+    </div>
+  );
+};
+
+const Interests = ({ resume }) => {
+  if (isEmpty(resume.interests)) {
+    return null;
+  }
+  return (
+    <div>
+      <h4 style={{ marginBottom: m2 }}>INTERESTS</h4>
+      {(resume.interests || []).map((item, k) => (
+        <div key={k}>
+          <span>{item.name}</span>
+          <div>
+            {(item.keywords || []).map((tag, k) => (
+              <Tag key={k} color="secondary">
+                {tag}
+              </Tag>
+            ))}
+          </div>
         </div>
-      </div>
-    ))}
-  </div>
-);
+      ))}
+    </div>
+  );
+};
+
+const Skills = ({ resume }) => {
+  if (isEmpty(resume.skills)) {
+    return null;
+  }
+  return (
+    <div style={{ marginBottom: m }}>
+      <h4 style={{ marginBottom: m }}>SKILLS</h4>
+      {(resume.skills || []).map((item, k) => (
+        <div key={k}>
+          <div>
+            <strong>{item.name}</strong>
+            {item.level ? <Tag>{item.level}</Tag> : null}
+          </div>
+          <div>
+            {(item.keywords || []).map((tag, k) => (
+              <Tag key={k} color="secondary">
+                {tag}
+              </Tag>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+};
 
 const Icon = ({ url }) => {
   const size = 20;
@@ -160,6 +183,9 @@ const Icon = ({ url }) => {
   }
   if (u.indexOf('linkedin') >= 0) {
     return <Linkedin size={size} style={style} />;
+  }
+  if (u.indexOf('twitter') >= 0) {
+    return <Twitter size={size} style={style} />;
   }
   return null;
 };
@@ -250,23 +276,36 @@ const Timeline = ({ isLast }) => {
 
 const Period = ({ startDate, endDate }) => (
   <b>
-    <span>
-      {DateTime.fromFormat(startDate, 'yyyy-MM-dd').toFormat('MMM yyyy')}
-    </span>
+    <span>{formatPeriod(startDate)}</span>
     <span>&nbsp;-&nbsp;</span>
-    <span>
-      {endDate
-        ? DateTime.fromFormat(endDate, 'yyyy-MM-dd').toFormat('MMM yyyy')
-        : 'now'}
-    </span>
+    <span>{endDate ? formatPeriod(endDate) : 'now'}</span>
   </b>
 );
+
+function formatPeriod(s) {
+  const d = parsePeriod(s);
+  return d ? d.toFormat('MMM yyyy') : 'invalid date';
+}
+
+function parsePeriod(s) {
+  if (!s) {
+    return undefined;
+  }
+  for (const f of ['yyyy-MM-dd', 'yyyy-MM']) {
+    const d = DateTime.fromFormat(s, f);
+    if (d.isValid) {
+      return d;
+    }
+  }
+  console.warn('invalid time period', s);
+  return undefined;
+}
 
 const Tag = ({ color, children }) => {
   return (
     <span
       style={{
-        backgroundColor: color === 'secondary' ? '#48BFE3' : 'blueviolet',
+        backgroundColor: 'blueviolet',
         color: 'white',
         borderRadius: 4,
         padding: '0px 4px 2px 4px',
@@ -280,9 +319,5 @@ const Tag = ({ color, children }) => {
     </span>
   );
 };
-
-function isEmpty(a) {
-  return !a || a.length === 0;
-}
 
 export default Resume;

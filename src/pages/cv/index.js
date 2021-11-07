@@ -1,3 +1,4 @@
+import filter from 'lodash/filter';
 import React from 'react';
 import qs from 'query-string';
 import useSWR from 'swr';
@@ -24,13 +25,62 @@ function useResume(src) {
     return { data: resume };
   }
   return useSWR(`resume.json?src=${src}`, () => {
-    if (src.match(/[A-Fa-f0-9]{32}/)) {
-      return fetch(`https://api.github.com/gists/${src}`)
-        .then((r) => r.json())
-        .then((r) => JSON.parse(r.files[Object.keys(r.files)[0]].content));
+    const cr = /cr-([\w\d]+)/;
+    const m = cr.exec(src);
+    if (m) {
+      const username = m[1];
+      return fetchCodersRankResume(username);
     }
-    return fetch(cors(q.src)).then((r) => r.json());
+    if (src === 'cr') {
+      return fetchCodersRankResume('sergeyt');
+    }
+    if (src.match(/[A-Fa-f0-9]{32}/)) {
+      return fetchJSON(`https://api.github.com/gists/${src}`).then((r) =>
+        JSON.parse(r.files[Object.keys(r.files)[0]].content)
+      );
+    }
+    return fetchJSON(q.src, true);
   });
+}
+
+async function fetchCodersRankResume(username) {
+  const user = await fetchJSON(
+    `https://api.codersrank.io/v2/users/${username}?get_by=username`
+  );
+  const exp = await fetchJSON(
+    `https://api.codersrank.io/v2/users/${username}/work_experiences?get_by=username`
+  );
+  const ed = await fetchJSON(
+    `https://api.codersrank.io/v2/users/${username}/education?get_by=username`
+  );
+  return {
+    basics: {
+      name: [user.first_name, user.last_name].filter((s) => !!s).join(' '),
+      summary: user.intro,
+      website: user.social_links?.personal_website,
+      picture: user.avatar_url,
+      profiles: filter(
+        user.social_links,
+        (t, k) => k !== 'personal_website'
+      ).map((url) => ({ url })),
+    },
+    work: exp.work_experiences.map((x) => ({
+      position: x.title,
+      company: x.company,
+      summary: x.description,
+      startDate: x.start_date,
+      endDate: x.end_date,
+    })),
+    education: ed.education.map((x) => ({
+      institution: x.name,
+      startDate: x.start_date,
+      endDate: x.end_date,
+    })),
+  };
+}
+
+function fetchJSON(url, useCorsProxy = false) {
+  return fetch(useCorsProxy ? cors(url) : url).then((r) => r.json());
 }
 
 const Page = ({ location }) => {
