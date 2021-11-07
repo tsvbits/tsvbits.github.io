@@ -8,11 +8,13 @@ import ThemeSwitch from './ThemeSwitch';
 import Header from './Header';
 
 function useTheme() {
-  const [theme, setTheme] = useState(window.__theme);
+  const [theme, setTheme] = useState(window?.__theme);
   useEffect(() => {
-    window.__onThemeChange = () => {
-      setTheme(window.__theme);
-    };
+    if (window) {
+      window.__onThemeChange = () => {
+        setTheme(window.__theme);
+      };
+    }
   }, []);
   return theme;
 }
