@@ -8,13 +8,12 @@ import ThemeSwitch from './ThemeSwitch';
 import Header from './Header';
 
 function useTheme() {
-  const [theme, setTheme] = useState(window?.__theme);
+  const win = typeof window === 'undefined' ? {} : window;
+  const [theme, setTheme] = useState(win.__theme);
   useEffect(() => {
-    if (window) {
-      window.__onThemeChange = () => {
-        setTheme(window.__theme);
-      };
-    }
+    win.__onThemeChange = () => {
+      setTheme(win.__theme);
+    };
   }, []);
   return theme;
 }
