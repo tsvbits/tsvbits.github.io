@@ -1,3 +1,5 @@
+import _ from 'lodash';
+
 export function formatReadingTime(minutes) {
   let cups = Math.round(minutes / 5);
   let bowls = 0;
@@ -22,4 +24,29 @@ export function formatPostDate(date, lang) {
     { day: 'numeric', month: 'long', year: 'numeric' },
   ].filter(Boolean);
   return date.toLocaleDateString(...args);
+}
+
+export function compact(value) {
+  if (_.isArray(value)) {
+    return value.map(compact).filter(_.identity);
+  }
+  if (_.isPlainObject(value)) {
+    return _.reduce(
+      value,
+      (acc, val, key) => {
+        if (_.isNil(val)) {
+          return acc;
+        }
+        if (_.isArray(val) || _.isPlainObject(val)) {
+          val = compact(val);
+          if (_.isEmpty(val)) {
+            return acc;
+          }
+        }
+        return _.assign(acc, { [key]: val });
+      },
+      {}
+    );
+  }
+  return value;
 }

@@ -1,14 +1,15 @@
-import map from 'lodash/map';
-import filter from 'lodash/filter';
 import React from 'react';
 import qs from 'query-string';
 import useSWR from 'swr';
+import isEmpty from 'lodash/isEmpty';
 import Layout from '../../components/Layout';
 import Footer from '../../components/Footer';
 import useTheme from '../../utils/use-theme';
 import Resume from '../../components/Resume';
 import resume from './resume.json';
 import Loader from '../../components/Loader';
+import { fetchCodersRankResume } from '../../utils/codersrank';
+import { compact } from '../../utils/helpers';
 
 function useQuery(location) {
   return qs.parse(location ? location.search : '');
@@ -44,46 +45,6 @@ function useResume(src) {
   });
 }
 
-async function fetchCodersRankResume(username) {
-  const user = await fetchJSON(
-    `https://api.codersrank.io/v2/users/${username}?get_by=username`
-  );
-  const exp = await fetchJSON(
-    `https://api.codersrank.io/v2/users/${username}/work_experiences?get_by=username`
-  );
-  const ed = await fetchJSON(
-    `https://api.codersrank.io/v2/users/${username}/education?get_by=username`
-  );
-  return {
-    basics: {
-      name: [user.first_name, user.last_name].filter((s) => !!s).join(' '),
-      summary: user.intro,
-      website: user.social_links?.personal_website,
-      picture: user.avatar_url,
-      profiles: filter(
-        user.social_links,
-        (t, k) => k !== 'personal_website'
-      ).map((url) => ({ url })),
-    },
-    languages: map(user.spoken_languages, (x) => ({
-      language: x.language,
-      fluency: x.proficiency,
-    })),
-    work: map(exp.work_experiences, (x) => ({
-      position: x.title,
-      company: x.company,
-      summary: x.description,
-      startDate: x.start_date,
-      endDate: x.end_date,
-    })),
-    education: ed.education.map((x) => ({
-      institution: x.name,
-      startDate: x.start_date,
-      endDate: x.end_date,
-    })),
-  };
-}
-
 function fetchJSON(url, useCorsProxy = false) {
   return fetch(useCorsProxy ? cors(url) : url).then((r) => r.json());
 }
@@ -117,10 +78,46 @@ const Page = ({ location }) => {
   return (
     <Layout>
       <main className="post-page">
+        <SourceToggle q={q} />
         <Resume resume={data} style={{ marginTop: 50 }} dark={dark} />
         <Footer />
       </main>
     </Layout>
+  );
+};
+
+const SourceToggle = ({ q }) => {
+  return (
+    <div
+      className="screen-only"
+      style={{
+        position: 'relative',
+      }}
+    >
+      <div
+        style={{
+          position: 'absolute',
+          right: 0,
+          top: '50px',
+        }}
+      >
+        <span
+          style={{
+            color: 'var(--textLink)',
+            cursor: 'pointer',
+          }}
+          onClick={(e) => {
+            const t = compact({
+              ...q,
+              src: q.src === 'cr' ? undefined : 'cr',
+            });
+            window.location.search = isEmpty(t) ? '' : qs.stringify(t);
+          }}
+        >
+          {q.src === 'cr' ? 'See Less' : 'See More'}
+        </span>
+      </div>
+    </div>
   );
 };
 
