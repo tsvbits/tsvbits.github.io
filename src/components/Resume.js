@@ -4,6 +4,7 @@ import { DateTime } from 'luxon';
 import { FaUserAstronaut as UserIcon } from 'react-icons/fa';
 import last from 'lodash/last';
 import isEmpty from 'lodash/isEmpty';
+import trim from 'lodash/trim';
 
 const m = '0.5rem';
 const m2 = '1rem';
@@ -40,7 +41,7 @@ const Resume = ({ resume, style, dark }) => {
           </div>
           <div>
             <h4 style={{ marginTop: m, marginBottom: m }}>SUMMARY</h4>
-            <p>{resume.basics.summary}</p>
+            <p>{trim(resume.basics.summary)}</p>
           </div>
           <div style={{ marginBottom: m2 }}>
             <h4 style={{ marginBottom: m }}>CONTACT</h4>
@@ -63,18 +64,8 @@ const Resume = ({ resume, style, dark }) => {
             ) : null}
           </div>
           <Profiles resume={resume} />
-          {isEmpty(resume.languages) ? null : (
-            <div style={{ marginBottom: m2 }}>
-              <h4 style={{ marginBottom: m }}>LANGUAGES</h4>
-              {(resume.languages || []).map((item, k) => (
-                <div key={k}>
-                  <span>{item.language}</span>
-                  <Tag>{item.fluency}</Tag>
-                </div>
-              ))}
-            </div>
-          )}
-          <Interests resume={resume} />
+          <Languages resume={resume} />
+          {/* <Interests resume={resume} /> */}
         </div>
         <div>
           <div
@@ -119,6 +110,23 @@ const Profiles = ({ resume }) => {
               {p.username || last(p.url.split('/').filter((s) => !!s))}
             </a>
           </span>
+        </div>
+      ))}
+    </div>
+  );
+};
+
+const Languages = ({ resume }) => {
+  if (isEmpty(resume.languages)) {
+    return null;
+  }
+  return (
+    <div style={{ marginBottom: m2 }}>
+      <h4 style={{ marginBottom: m }}>LANGUAGES</h4>
+      {(resume.languages || []).map((item, k) => (
+        <div key={k}>
+          <span>{item.language}</span>
+          <Tag>{item.fluency}</Tag>
         </div>
       ))}
     </div>
@@ -205,7 +213,7 @@ const Experience = ({ items, title = 'WORK EXPERIENCE' }) =>
             <Period startDate={item.startDate} endDate={item.endDate} />
           </div>
           <pre style={{ whiteSpace: 'pre-line', marginBottom: m }}>
-            {item.summary}
+            {trim(item.summary)}
           </pre>
         </div>
       ))}

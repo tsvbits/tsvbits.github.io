@@ -1,3 +1,4 @@
+import map from 'lodash/map';
 import filter from 'lodash/filter';
 import React from 'react';
 import qs from 'query-string';
@@ -64,7 +65,11 @@ async function fetchCodersRankResume(username) {
         (t, k) => k !== 'personal_website'
       ).map((url) => ({ url })),
     },
-    work: exp.work_experiences.map((x) => ({
+    languages: map(user.spoken_languages, (x) => ({
+      language: x.language,
+      fluency: x.proficiency,
+    })),
+    work: map(exp.work_experiences, (x) => ({
       position: x.title,
       company: x.company,
       summary: x.description,

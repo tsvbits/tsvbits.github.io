@@ -41,6 +41,7 @@
         "Python",
         "Kotlin",
         "Java",
+        "Rust",
         "Microservices"
       ]
     },
@@ -61,7 +62,7 @@
       "position": "TechLead",
       "company": "GrapeCity",
       "website": "https://www.grapecity.com",
-      "summary": "- Making complex web components and tools for developers\n- Implemented efficient data processing engine as WebAssembly module",
+      "summary": "- Full-cycle development of complex web components and tools for developers\n- Implemented efficient data processing engine as WebAssembly module",
       "startDate": "2018-10-01",
       "endDate": "2020-10-01"
     },
@@ -104,11 +105,11 @@
   "languages": [
     {
       "language": "English",
-      "fluency": "Advanced B2/C1"
+      "fluency": "professional"
     },
     {
       "language": "Russian",
-      "fluency": "Native Speaker"
+      "fluency": "native"
     }
   ],
   "interests": [
