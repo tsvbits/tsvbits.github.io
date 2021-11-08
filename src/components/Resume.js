@@ -229,7 +229,7 @@ const Education = ({ education }) =>
               &nbsp;at {item.website}
             </a> */}
             <div style={{ flexGrow: 1 }} />
-            <Period endDate={item.endDate} />
+            <Period startDate={item.startDate} endDate={item.endDate} />
           </div>
           <pre style={{ marginBottom: m }}>{item.area}</pre>
         </div>
@@ -251,7 +251,7 @@ const Period = ({ startDate, endDate }) => (
 
 function formatPeriod(s) {
   const d = parsePeriod(s);
-  return d ? d.toFormat('MMM yyyy') : 'invalid date';
+  return d ? d.toFormat('yyyy') : 'invalid date';
 }
 
 function parsePeriod(s) {
