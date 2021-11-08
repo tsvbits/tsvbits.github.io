@@ -67,6 +67,9 @@ const Resume = ({ resume, style, dark }) => {
           {/* <Interests resume={resume} /> */}
           <Skills resume={resume} />
           <Languages resume={resume} />
+          <div style={{ pageBreakBefore: 'always' }}>
+            <Education education={resume.education || []} />
+          </div>
         </div>
         <div>
           <div
@@ -88,7 +91,6 @@ const Resume = ({ resume, style, dark }) => {
             <Experience items={resume.work || []} />
           </div>
           <Experience items={resume.volunteer || []} title="VOLUNTEER WORK" />
-          <Education education={resume.education || []} />
         </div>
       </div>
     </div>
@@ -227,7 +229,7 @@ const Education = ({ education }) =>
               &nbsp;at {item.website}
             </a> */}
             <div style={{ flexGrow: 1 }} />
-            <Period startDate={item.startDate} endDate={item.endDate} />
+            <Period endDate={item.endDate} />
           </div>
           <pre style={{ marginBottom: m }}>{item.area}</pre>
         </div>
@@ -237,8 +239,12 @@ const Education = ({ education }) =>
 
 const Period = ({ startDate, endDate }) => (
   <b>
-    <span>{formatPeriod(startDate)}</span>
-    <span>&nbsp;-&nbsp;</span>
+    {startDate ? (
+      <>
+        <span>{formatPeriod(startDate)}</span>
+        <span>&nbsp;-&nbsp;</span>
+      </>
+    ) : null}
     <span>{endDate ? formatPeriod(endDate) : 'now'}</span>
   </b>
 );
