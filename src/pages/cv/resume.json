@@ -20,30 +20,48 @@
   },
   "skills": [
     {
-      "name": "Frontend Development",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "TypeScript",
-        "ReactJS",
-        "Rust",
-        "WebAssembly"
-      ]
+      "name": "HTML",
+      "level": "10"
     },
     {
-      "name": "Backend Development",
-      "keywords": [
-        "C#",
-        "JavaScript",
-        "TypeScript",
-        "Golang",
-        "Python",
-        "Kotlin",
-        "Java",
-        "Rust",
-        "Microservices"
-      ]
+      "name": "CSS",
+      "level": "10"
+    },
+    {
+      "name": "JavaScript",
+      "level": "10"
+    },
+    {
+      "name": "TypeScript",
+      "level": "10"
+    },
+    {
+      "name": "ReactJS",
+      "level": "10"
+    },
+    {
+      "name": "C#",
+      "level": "10"
+    },
+    {
+      "name": "Python",
+      "level": "5"
+    },
+    {
+      "name": "Golang",
+      "level": "5"
+    },
+    {
+      "name": "Java",
+      "level": "5"
+    },
+    {
+      "name": "Kotlin",
+      "level": "5"
+    },
+    {
+      "name": "Rust",
+      "level": "1"
     }
   ],
   "work": [

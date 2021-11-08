@@ -1,16 +1,14 @@
 import map from 'lodash/map';
 import filter from 'lodash/filter';
+import orderBy from 'lodash/orderBy';
 
 export async function fetchCodersRankResume(username) {
-  const user = await fetchJSON(
-    `https://api.codersrank.io/v2/users/${username}?get_by=username`
-  );
-  const exp = await fetchJSON(
-    `https://api.codersrank.io/v2/users/${username}/work_experiences?get_by=username`
-  );
-  const ed = await fetchJSON(
-    `https://api.codersrank.io/v2/users/${username}/education?get_by=username`
-  );
+  const base = `https://api.codersrank.io/v2/users/${username}`;
+  const user = await fetchJSON(`${base}?get_by=username`);
+  const exp = await fetchJSON(`${base}/work_experiences?get_by=username`);
+  const ed = await fetchJSON(`${base}/education?get_by=username`);
+  const tech = await fetchJSON(`${base}/manually_added_tech_stacks`);
+  const skills = map(tech, (v, k) => ({ name: k, level: v }));
   return {
     basics: {
       name: [user.first_name, user.last_name].filter((s) => !!s).join(' '),
@@ -38,7 +36,9 @@ export async function fetchCodersRankResume(username) {
       institution: x.name,
       startDate: x.start_date,
       endDate: x.end_date,
+      area: x.field_of_study,
     })),
+    skills: orderBy(skills, (t) => t.level, 'desc'),
   };
 }
 

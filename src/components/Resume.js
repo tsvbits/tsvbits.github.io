@@ -164,18 +164,11 @@ const Skills = ({ resume }) => {
     <div style={{ marginBottom: m }}>
       <h4 style={{ marginBottom: m }}>SKILLS</h4>
       {(resume.skills || []).map((item, k) => (
-        <div key={k}>
-          <div>
-            <strong>{item.name}</strong>
-            {item.level ? <Tag>{item.level}</Tag> : null}
-          </div>
-          <div>
-            {(item.keywords || []).map((tag, k) => (
-              <Tag key={k} color="secondary">
-                {tag}
-              </Tag>
-            ))}
-          </div>
+        <div key={k} style={{ display: 'inline-flex', flexWrap: 'wrap' }}>
+          <Tag>
+            {item.name}
+            {item.level ? ': ' + item.level : ''}
+          </Tag>
         </div>
       ))}
     </div>
