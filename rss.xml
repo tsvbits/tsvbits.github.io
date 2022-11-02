@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Sergey Todyshev's Blog RSS Feed]]></title><description><![CDATA[Personal blog by Sergey Todyshev]]></description><link>https://tsvbits.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 17 Nov 2021 05:30:04 GMT</lastBuildDate><item><title><![CDATA[Small update of CV micro-app]]></title><description><![CDATA[Now it supports CodersRank profile as data source]]></description><link>https://tsvbits.com/2021/cv-update/</link><guid isPermaLink="false">https://tsvbits.com/2021/cv-update/</guid><pubDate>Mon, 08 Nov 2021 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Sergey Todyshev's Blog RSS Feed]]></title><description><![CDATA[Personal blog by Sergey Todyshev]]></description><link>https://tsvbits.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 02 Nov 2022 06:05:23 GMT</lastBuildDate><item><title><![CDATA[Small update of CV micro-app]]></title><description><![CDATA[Now it supports CodersRank profile as data source]]></description><link>https://tsvbits.com/2021/cv-update/</link><guid isPermaLink="false">https://tsvbits.com/2021/cv-update/</guid><pubDate>Mon, 08 Nov 2021 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;TL;DR you can CV page at &lt;a href=&quot;https://tsvbits.com/cv&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;I’ve updated the CV micro-app I mentioned sometime ago in &lt;a href=&quot;https://tsvbits.com/cv-micro-app&quot;&gt;this post&lt;/a&gt;.
@@ -1808,15 +1808,14 @@ td:nth-child(2) {
 &lt;/table&gt;
 &lt;p&gt;See also &lt;a href=&quot;https://tsvbits.com/resume&quot;&gt;resume&lt;/a&gt;&lt;/p&gt;
                 &lt;div style=&quot;margin-top=55px; font-style: italic;&quot;&gt;(This is an article posted to my blog at tsvbits.com. You can read it online by &lt;a href=&quot;https://tsvbits.com/skills/&quot;&gt;clicking here&lt;/a&gt;.)&lt;/div&gt;
-              </content:encoded></item><item><title><![CDATA[Cover letter]]></title><description><![CDATA[Reusable cover letter to pitch me out]]></description><link>https://tsvbits.com/cover/</link><guid isPermaLink="false">https://tsvbits.com/cover/</guid><pubDate>Thu, 26 Mar 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hello friend or stranger 😄&lt;/p&gt;
+              </content:encoded></item><item><title><![CDATA[Cover letter]]></title><description><![CDATA[Reusable cover letter to pitch me out]]></description><link>https://tsvbits.com/cover/</link><guid isPermaLink="false">https://tsvbits.com/cover/</guid><pubDate>Thu, 26 Mar 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hey,&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; 18 years of experience in server and client-side development. Areas of expertise: Architecture, Web and API development, .NET, C#, SQL, Web API, HTML, CSS, TypeScript, Java, Go, Rust, Git, Agile. I don’t afraid to learn and try new things and make crazy stuff like &lt;a href=&quot;https://github.com/grapecity/pagefx&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;a cross compiler&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;I am SergeyT. I can say that I am a legendary hero sailing a powerful ship on an epic journey 😄
-I am software engineer with over 15 years of professional experience making software products. Usually I play full-stack roles.&lt;/p&gt;
-&lt;p&gt;I’ve been writing computer programs with passion for half of my life.
+&lt;p&gt;I am SergeyT. I am software engineer with over 15 years of professional experience making world to be better writing computer programs. Usually I play full-stack roles.&lt;/p&gt;
+&lt;p&gt;I’ve been coding with passion for half of my life.
 I solved a ton of puzzles and fixed no end of bugs.
-And I am still engineer writing code almost every day.&lt;/p&gt;
+And I am still writing code almost every day.&lt;/p&gt;
 &lt;p&gt;I love working on complex projects with positive and smart people around me.&lt;/p&gt;
 &lt;p&gt;I’ve been involved in challenging projects ranging from&lt;/p&gt;
 &lt;ul&gt;
@@ -1825,9 +1824,12 @@ And I am still engineer writing code almost every day.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.grapecity.com/activereports&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;report generators&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.spirent.com/products/lab-as-a-service-automation-velocity&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;distributed systems&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;I try to solve problems pragmatically and proactively. When working on a particular project I care about finding efficient and simple solutions.
-I care about making friendly interfaces that are &lt;a href=&quot;https://www.aristeia.com/Papers/IEEE_Software_JulAug_2004_revised.htm&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;easy to use correctly and hard to use incorrectly&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I’m currently happily employed by GrapeCity Inc and just keep doing digital things and doing it with calm and passion. Usually having fun :)&lt;/p&gt;
+&lt;p&gt;I tend to solve problems pragmatically and proactively. And also I care about:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;finding efficient and simple solutions.&lt;/li&gt;
+&lt;li&gt;making friendly interfaces that are &lt;a href=&quot;https://www.aristeia.com/Papers/IEEE_Software_JulAug_2004_revised.htm&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;easy to use correctly and hard to use incorrectly&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I’m currently happily employed by &lt;a href=&quot;https://www.regie.ai&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;regie.ai&lt;/a&gt; and just keep it doing and doing it with calm and passion. Usually having fun :)&lt;/p&gt;
 &lt;p&gt;See &lt;a href=&quot;https://tsvbits.com/resume&quot;&gt;also resume&lt;/a&gt; and &lt;a href=&quot;https://tsvbits.com/projects&quot;&gt;projects&lt;/a&gt; I’ve done&lt;/p&gt;
 &lt;p&gt;Thanks for reading :)&lt;/p&gt;
                 &lt;div style=&quot;margin-top=55px; font-style: italic;&quot;&gt;(This is an article posted to my blog at tsvbits.com. You can read it online by &lt;a href=&quot;https://tsvbits.com/cover/&quot;&gt;clicking here&lt;/a&gt;.)&lt;/div&gt;
