@@ -9,15 +9,9 @@ Hey,
 
 > __TL;DR__ 18 years of experience in server and client-side development. Areas of expertise: Architecture, Web and API development, .NET, C#, SQL, Web API, HTML, CSS, TypeScript, Java, Go, Rust, Git, Agile. I don't afraid to learn and try new things and make crazy stuff like [a cross compiler](https://github.com/grapecity/pagefx)
 
-I am SergeyT. I am software engineer with over 15 years of professional experience making world to be better writing computer programs. Usually I play full-stack roles.
+I am SergeyT. I am software engineer with over 15 years of professional experience making world to be better writing computer programs. Usually I play full-stack roles. I've been coding with passion for half of my life. I solved a ton of puzzles and fixed no end of bugs. And I am still writing code almost every day.
 
-I've been coding with passion for half of my life.
-I solved a ton of puzzles and fixed no end of bugs.
-And I am still writing code almost every day.
-
-I love working on complex projects with positive and smart people around me.
-
-I've been involved in challenging projects ranging from
+I love working on complex projects with positive and smart people around me. I've been involved in challenging projects ranging from
 * [hardware abstraction layers](https://www.youtube.com/watch?v=sCEM6Z3KvU0&list=PLQR99hR6kJODS8Nehz1PkfvNYTlFJR9fj&index=2)
 * [cross-compilers](https://github.com/GrapeCity/pagefx)
 * [report generators](https://www.grapecity.com/activereports)
