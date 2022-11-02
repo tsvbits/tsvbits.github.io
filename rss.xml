@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Sergey Todyshev's Blog RSS Feed]]></title><description><![CDATA[Personal blog by Sergey Todyshev]]></description><link>https://tsvbits.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 02 Nov 2022 06:05:23 GMT</lastBuildDate><item><title><![CDATA[Small update of CV micro-app]]></title><description><![CDATA[Now it supports CodersRank profile as data source]]></description><link>https://tsvbits.com/2021/cv-update/</link><guid isPermaLink="false">https://tsvbits.com/2021/cv-update/</guid><pubDate>Mon, 08 Nov 2021 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Sergey Todyshev's Blog RSS Feed]]></title><description><![CDATA[Personal blog by Sergey Todyshev]]></description><link>https://tsvbits.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 02 Nov 2022 06:31:11 GMT</lastBuildDate><item><title><![CDATA[Small update of CV micro-app]]></title><description><![CDATA[Now it supports CodersRank profile as data source]]></description><link>https://tsvbits.com/2021/cv-update/</link><guid isPermaLink="false">https://tsvbits.com/2021/cv-update/</guid><pubDate>Mon, 08 Nov 2021 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;TL;DR you can CV page at &lt;a href=&quot;https://tsvbits.com/cv&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;I’ve updated the CV micro-app I mentioned sometime ago in &lt;a href=&quot;https://tsvbits.com/cv-micro-app&quot;&gt;this post&lt;/a&gt;.
@@ -1812,12 +1812,8 @@ td:nth-child(2) {
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; 18 years of experience in server and client-side development. Areas of expertise: Architecture, Web and API development, .NET, C#, SQL, Web API, HTML, CSS, TypeScript, Java, Go, Rust, Git, Agile. I don’t afraid to learn and try new things and make crazy stuff like &lt;a href=&quot;https://github.com/grapecity/pagefx&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;a cross compiler&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;I am SergeyT. I am software engineer with over 15 years of professional experience making world to be better writing computer programs. Usually I play full-stack roles.&lt;/p&gt;
-&lt;p&gt;I’ve been coding with passion for half of my life.
-I solved a ton of puzzles and fixed no end of bugs.
-And I am still writing code almost every day.&lt;/p&gt;
-&lt;p&gt;I love working on complex projects with positive and smart people around me.&lt;/p&gt;
-&lt;p&gt;I’ve been involved in challenging projects ranging from&lt;/p&gt;
+&lt;p&gt;I am SergeyT. I am software engineer with over 15 years of professional experience making world to be better writing computer programs. Usually I play full-stack roles. I’ve been coding with passion for half of my life. I solved a ton of puzzles and fixed no end of bugs. And I am still writing code almost every day.&lt;/p&gt;
+&lt;p&gt;I love working on complex projects with positive and smart people around me. I’ve been involved in challenging projects ranging from&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=sCEM6Z3KvU0&amp;#x26;list=PLQR99hR6kJODS8Nehz1PkfvNYTlFJR9fj&amp;#x26;index=2&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;hardware abstraction layers&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/GrapeCity/pagefx&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;cross-compilers&lt;/a&gt;&lt;/li&gt;
