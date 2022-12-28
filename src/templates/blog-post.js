@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import loadable from '@loadable/component';
+import { useMediaQuery } from 'react-responsive';
 
 import '../fonts/fonts-post.css';
 import Layout from '../components/Layout';
@@ -141,6 +142,9 @@ const BlogPostTemplate = ({ pageContext }) => {
     reddit,
     langKey: lang,
   } = pageContext;
+  const isPrintMedia = useMediaQuery({
+    query: 'print',
+  });
 
   // Replace original links with translated when available.
   translatedLinks.forEach((link) => {
@@ -203,15 +207,17 @@ const BlogPostTemplate = ({ pageContext }) => {
             )}
           </header>
           <div dangerouslySetInnerHTML={{ __html: html }} />
-          <footer>
-            {showByemeacoffee ? <Buymeacoffee /> : null}
-            <Reddit reddit={reddit} />
-            <p>
-              <RedditLink reddit={reddit} />
-              {` • `}
-              <TwitterLink enSlug={enSlug} />
-            </p>
-          </footer>
+          {!isPrintMedia && (
+            <footer>
+              {showByemeacoffee ? <Buymeacoffee /> : null}
+              <Reddit reddit={reddit} />
+              <p>
+                <RedditLink reddit={reddit} />
+                {` • `}
+                <TwitterLink enSlug={enSlug} />
+              </p>
+            </footer>
+          )}
         </article>
       </main>
       <aside>
