@@ -23,7 +23,7 @@ I tend to solve problems pragmatically and proactively. And also I care about:
 
 I’m currently happily employed by [regie.ai](https://www.regie.ai) and just keep it doing and doing it with calm and passion. Usually having fun :)
 
-See [also resume](/resume) and [projects](/projects) I've done
+See [also my resume](/resume) and [my projects](/projects).
 
 Thanks,\
 Sergey
