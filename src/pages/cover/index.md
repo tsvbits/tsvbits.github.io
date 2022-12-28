@@ -25,5 +25,5 @@ I’m currently happily employed by [regie.ai](https://www.regie.ai) and just ke
 
 See [also resume](/resume) and [projects](/projects) I've done
 
-Thanks,
+Thanks,\
 Sergey
