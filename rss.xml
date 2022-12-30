@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Sergey Todyshev's Blog RSS Feed]]></title><description><![CDATA[Personal blog by Sergey Todyshev]]></description><link>https://tsvbits.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 28 Dec 2022 18:00:37 GMT</lastBuildDate><item><title><![CDATA[Small update of CV micro-app]]></title><description><![CDATA[Now it supports CodersRank profile as data source]]></description><link>https://tsvbits.com/2021/cv-update/</link><guid isPermaLink="false">https://tsvbits.com/2021/cv-update/</guid><pubDate>Mon, 08 Nov 2021 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Sergey Todyshev's Blog RSS Feed]]></title><description><![CDATA[Personal blog by Sergey Todyshev]]></description><link>https://tsvbits.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 30 Dec 2022 01:43:56 GMT</lastBuildDate><item><title><![CDATA[Small update of CV micro-app]]></title><description><![CDATA[Now it supports CodersRank profile as data source]]></description><link>https://tsvbits.com/2021/cv-update/</link><guid isPermaLink="false">https://tsvbits.com/2021/cv-update/</guid><pubDate>Mon, 08 Nov 2021 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;TL;DR you can CV page at &lt;a href=&quot;https://tsvbits.com/cv&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;I’ve updated the CV micro-app I mentioned sometime ago in &lt;a href=&quot;https://tsvbits.com/cv-micro-app&quot;&gt;this post&lt;/a&gt;.
@@ -1812,7 +1812,7 @@ td:nth-child(2) {
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; 20 years of experience as full-stack engineer. Areas of expertise: Architecture, Web and API development, .NET, C#, SQL, Web API, HTML, CSS, TypeScript, Java, Go, Rust, Git, Agile. I don’t afraid to learn and try new things and make crazy stuff like &lt;a href=&quot;https://github.com/grapecity/pagefx&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;a cross compiler&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;I am SergeyT. I am software engineer with 20 years of professional experience making world better by writing useful computer programs. Usually I play full-stack roles. I’ve been coding with passion for half of my life. I solved a ton of puzzles and fixed no end of bugs. And I am still writing code almost every day.&lt;/p&gt;
+&lt;p&gt;I am SergeyT. I am software engineer with 20 years of professional experience making world better by writing useful computer programs. Usually I play full-stack roles. I’ve been programming with passion for half of my life. I solved a ton of puzzles and fixed no end of bugs. And I am still writing code almost every day.&lt;/p&gt;
 &lt;p&gt;I love working on complex projects with positive and smart people around me. I’ve been involved in challenging projects ranging from&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=sCEM6Z3KvU0&amp;#x26;list=PLQR99hR6kJODS8Nehz1PkfvNYTlFJR9fj&amp;#x26;index=2&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;hardware abstraction layers&lt;/a&gt;&lt;/li&gt;
@@ -1825,7 +1825,7 @@ td:nth-child(2) {
 &lt;li&gt;finding efficient and simple solutions.&lt;/li&gt;
 &lt;li&gt;making friendly interfaces that are &lt;a href=&quot;https://www.aristeia.com/Papers/IEEE_Software_JulAug_2004_revised.htm&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;easy to use correctly and hard to use incorrectly&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;I’m currently happily employed by &lt;a href=&quot;https://www.regie.ai&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;regie.ai&lt;/a&gt; and just keep it doing and doing it with calm and passion. Usually having fun :)&lt;/p&gt;
+&lt;p&gt;I’m just keep doing and doing it with calm and passion, usually having fun :)&lt;/p&gt;
 &lt;p&gt;See &lt;a href=&quot;https://tsvbits.com/resume&quot;&gt;also my resume&lt;/a&gt; and &lt;a href=&quot;https://tsvbits.com/projects&quot;&gt;my projects&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Thanks,&lt;br&gt;
 Sergey&lt;/p&gt;
