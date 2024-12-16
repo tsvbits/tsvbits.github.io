@@ -10,13 +10,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2.3.1
+    - uses: actions/checkout@v4
       with:
         persist-credentials: false
         token: ${{ secrets.GH_TOKEN }}
 
     - name: set up nodejs version
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v4
       with:
         node-version: '12.x'
 
