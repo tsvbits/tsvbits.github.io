@@ -5,7 +5,7 @@ spoiler: Latest version of online CV
 tags: ["cv", "pr"]
 ---
 
-Latest updated: :calendar: Dev 16, 2024<br>
+Latest updated: :calendar: Dec 16, 2024<br>
 
 > **TL;DR** [This printed version](./resume.pdf) has less details, but might be useful
 
