@@ -60,7 +60,7 @@ Summary of all projects with years of experience:
 
 ## Education
 
-### PhD student at Institute of IAE, Novosibirsk <span class="calendar icon right">`Jun 2004  – Aug 2007`</span>
+### PhD Student | Institute of IAE, Novosibirsk <span class="calendar icon right">`Jun 2004  – Aug 2007`</span>
 
 Accomplishments:
 * Modernized software for Circle Laser Writing Systems ([CLWS](/clws))
@@ -68,7 +68,7 @@ Accomplishments:
 * Built user interfaces using C++ MFC and C# WinForms
 * Created tools for interferometry and tomography ([voxcat](/voxcat))
 
-### Master at [Novosibirsk State University](https://www.nsu.ru/) <span class="calendar icon right">`Sep 1999  –  Jun 2004`</span>
+### Master's Degree | [Novosibirsk State University](https://www.nsu.ru/) <span class="calendar icon right">`Sep 1999  –  Jun 2004`</span>
 
 * Faculty: Information Technologies
 * GPA: 4.0+
