@@ -11,9 +11,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-      with:
-        persist-credentials: false
-        token: ${{ secrets.GH_TOKEN }}
 
     - name: set up nodejs version
       uses: actions/setup-node@v4
