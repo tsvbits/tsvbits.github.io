@@ -79,7 +79,7 @@ Accomplishments:
 ### Senior Full-Stack Developer | [REGIE.AI](https://regie.ai) <span class="calendar icon right">`Oct 2020 - now`</span>
 
 * Lead core engineering for multiple services and product lines
-* Time Size: 10+
+* Team size: 10+ (distributed team)
 * Tools: **NodeJS**, **NestJS**, **TypeScript**, **React**, **Jest**, **Webpack**, **AWS**, **MongoDB**, **Metabase**
 
 ### Tech Lead | [GrapeCity](https://grapecity.com/) <span class="calendar icon right">`Oct 2018 - Oct 2020`</span>
@@ -87,7 +87,7 @@ Accomplishments:
 * Directed development of [**DataViewsJS**](https://www.grapecity.com/dataviewsjs/) - a JavaScript data presentation platform
 * Modernized architecture, tooling, and automated testing frameworks
 * Led WebAssembly research using Rust to enhance spreadsheet features
-* Team size: 7
+* Team size: 7 (distributed team)
 * Tools: **NodeJS**, **ExpressJS**, **TypeScript**, **React**, **Angular**, **VueJS**, **Jest**, **Webpack**, **GulpJS**
 
 ### Tech Lead | [Xored](http://www.xored.com/) <span class="calendar icon right">`Jan 2016 - Jun 2018`</span>
@@ -95,14 +95,14 @@ Accomplishments:
 * Led a team of 10-15 engineers for [**Spirent Veclity**](/velocity), a lab automation platform
 * Resolved customer-facing scalability issues and provided direct client support
 * Collaborated with product owners to address business challenges effectively
-* Team size: 20+ (distributed)
+* Team size: 20+ (distributed team)
 * Tools: **Java**, **PostgreSQL**, **ElasticSearch**, **WildFly**, **Apache Kafka**, **ReactJS**, **AngularJS**, **Python**, **Golang**
 
 ### Full-Stack Software Engineer | [DataWorks](http://dataworks.co/) <span class="calendar icon right">`Jun 2007 - Jan 2016`</span>
 
 * Optimized RDL report engine performance (10x improvement)
 * Principal developer of [PageFX compiler](https://github.com/GrapeCity/pagefx), enabling multi-platform report viewing
-* Team size: 20+ (distributed)
+* Team size: 20+ (distributed team)
 * Tools: **C#**, **.NET**, **WinForms**, **JavaScript**, **ReactJS**, **Knockout**, **jQuery**, **Microsoft SQL Reporting Services**
 
 ### Software Engineer | [IAE](https://www.iae.nsk.su/en/) <span class="calendar icon right">`Jun 2002 - Aug 2007`</span>
