@@ -23,7 +23,7 @@ Latest updated: :calendar: Dec 16, 2024<br>
 
 ## About me
 
-A seasoned software engineer with 19 years of professional experience. Proficient in C#, TypeScript, and multiple programming languages, I excel in developing complex systems, optimizing workflows, and fostering productive relationships. Efficiency, simplicity, and collaboration are the cornerstones of my professional philosophy.
+I'm a father of two kids, explorer, simplifier and optimizer. I am software engineer with over 20 years delivering high-impact solutions across web, cloud, and AI. I've built many complex software projects using different programming languages and tools, optimizing workflows, and continuously improving user experience. My core values: relationships matter, solve for the customer and playful entusiasm.
 
 [More about me](/cover).
 
