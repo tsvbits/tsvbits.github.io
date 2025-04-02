@@ -5,58 +5,37 @@ spoiler: Latest version of online CV
 tags: ["cv", "pr"]
 ---
 
-Latest updated: :calendar: Dec 16, 2024<br>
-
-> **TL;DR** [This printed version](./resume.pdf) has less details, but might be useful
-
-## Personal Details
-
-| Type       | Value                                             |
 | ---------- |:-------------------------------------------------:|
 | Name       | Sergey Todyshev                                   |
-| Location   | Berdsk, Russia                                    |
 | Email      | mailto:stodyshev@gmail.com                        |
-| Skype      | sergey.todyshev                                   |
-| Telegram   | [sergey_todyshev](https://t.me/sergey_todyshev)   |
-| GitHub     | :link: https://github.com/sergeyt                 |
 | Linkedin   | :link: https://www.linkedin.com/in/sergeytodyshev |
+| GitHub     | :link: https://github.com/sergeyt                 |
+| Updated    | March 31, 2025                                    |
 
 ## About me
 
-I'm a father of two kids, explorer, simplifier and optimizer. I am software engineer with over 20 years delivering high-impact solutions across web, cloud, and AI. I've built many complex software projects using different programming languages and tools, optimizing workflows, and continuously improving user experience. My core values: relationships matter, solve for the customer and playful entusiasm.
+I am engineer with over 20 years of experience delivering software across web, cloud, and AI. I am interested in building high-performance scalable applications with RESP/WS APIs optimizing workflows, and continuously improving user experience.
 
-[More about me](/cover).
+Skills and knowledge:
+- Strong technical background in various areas
+- Intimate knowledge of software lifecycle, enterprise software
+- Strong understanding of Web and Cloud technologies
+- Front-end/back-end development experience
+- Cross-platform development experience (Windows, Linux, Mac)
+- High-performance solutions, scaling, multi-threading
+- Truly polyglot (TypeScript, Golang, C#, Java, ...)
+- DevOps, CICD, Jenkins pipeline, GH Actions, AWS CodeBuild
+- Databases (PostgreSQL, MongoDD, DGraph, ...)
+- Automated testing frameworks (Playwright, NUnit, JUnit, ...)
 
-## Languages
+Languages:
+- English - B2+ IELTS Academic, 2019
+- Russian - Native Speaker
 
-* English - Proficient (B2+ IELTS Academic, 2018)
-* Russian - Native Speaker
-
-## Skills Overview
-
-* Full-stack development of complex web applications
-* Application and system-level programming
-* DevOps automation
-* Automated testing frameworks
-
-### Technical Skills
-
-Summary of all projects with years of experience:
-
-| Backend                | Frontend                  | Databases                  | DevOps & Tools         |
-| ---------------------- | ------------------------- | -------------------------- | ---------------------- |
-| **C#** (10+ yrs)       | **TypeScript** (5+ yrs)   | **PostgreSQL** (5+ yrs)    | **Git** (10+ yrs)      |
-| **Java** (3+ yrs)      | **JavaScript** (10+ yrs)  | **MongoDB** (1+ yrs)       | **Bash** (5+ yrs)      | 
-| **Golang** 3+ yrs      | **HTML5** (5+ yrs)        | **SQLite** (10+ yrs)       | **Linux** (5+ yrs)     | 
-| **.NET Core** (1+ yrs) | **CSS3** (5+ yrs)         | **MS SQL Server** (1+ yrs) | **Docker** (5+ yrs)    |
-| **.NET** (10+ yrs)     | **ReactJS** (5+ yrs)      | **Dgraph** (1+ yrs)        | **Jenkins** (3+ yrs)   |
-| **WildFly** (3+ yrs)   | **Redux** (3+ yrs)        | **ElasticSearch** (5+ yrs) | **TeamCity** (10+ yrs) |
-| **NodeJS** (5+ yrs)    | **VueJS** (1+ yrs)        |                            | **Jest** (5+ yrs)      |
-| **ExpressJS** (5+ yrs) | **Angular** (1+ yrs)      |                            | **Webpack** (5+ yrs)   |
-|                        | **GraphQL** (1+ yrs)      |                            | **GulpJS** (5+ yrs)    |
-|                        | **WebAssembly** (0.5 yrs) |
-
-[Detailed Skills List](/skills)
+Core values: 
+- Relationships matter
+- Solve for the customer
+- Playful entusiasm
 
 ## Education
 
@@ -64,8 +43,8 @@ Summary of all projects with years of experience:
 
 Accomplishments:
 * Modernized software for Circle Laser Writing Systems ([CLWS](/clws))
-* Developed hardware abstraction layers and client/server architecture for CLWS
-* Built user interfaces using C++ MFC and C# WinForms
+* Implemented hardware abstraction layers and client/server architecture for CLWS
+* Built desktop user interfaces using C++ MFC and C# WinForms
 * Created tools for interferometry and tomography ([voxcat](/voxcat))
 
 ### Master's Degree | [Novosibirsk State University](https://www.nsu.ru/) <span class="calendar icon right">`Sep 1999  –  Jun 2004`</span>
@@ -110,11 +89,11 @@ Accomplishments:
 * Automated laser writing systems and developed computer-aided tools
 * Tools: **C++**, **Windows DDK**, **C#**, **WinForms**
 
-## Projects
+## Highligted Projects
 
-Highligted projects:
 * [ActiveReports](/activereports)
 * [Spirent Velocity](/velocity)
+* [PageFX](/pagefx)
 
 [Full Project List](/projects)
 
@@ -129,4 +108,4 @@ Available upon request:
 * [Table tennis](/table-tennis)
 * Travelling with family
 * Open Source contribution
-* Self-development
+
