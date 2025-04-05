@@ -5,47 +5,40 @@ spoiler: Latest version of online CV
 tags: ["cv", "pr"]
 ---
 
-| ---------- |:-------------------------------------------------:|
-| Name       | Sergey Todyshev                                   |
-| Email      | mailto:stodyshev@gmail.com                        |
-| Linkedin   | :link: https://www.linkedin.com/in/sergeytodyshev |
-| GitHub     | :link: https://github.com/sergeyt                 |
-| Updated    | March 31, 2025                                    |
+**Name**: Sergey Todyshev
+**Email**: [stodyshev@gmail.com](mailto:stodyshev@gmail.com)  
+**LinkedIn**: [linkedin.com/in/sergeytodyshev](https://www.linkedin.com/in/sergeytodyshev)  
+**GitHub**: [github.com/sergeyt](https://github.com/sergeyt)
+**WebSite**: [sergeyt.dev](https://sergeyt.dev)
+**Blog**: [tsvbits](https://tsvbits.com)
+**Updated**: April 5, 2025
 
-## About me
+## About
 
-I am engineer with over 20 years of experience delivering software across web, cloud, and AI. I am interested in building high-performance scalable applications with RESP/WS APIs optimizing workflows, and continuously improving user experience.
+I'm a passionate engineer with 20+ years of experience delivering scalable software—from AI-powered applications to cloud-native systems. I thrive on solving complex problems and crafting elegant solutions that make life easier for users and teams alike.
 
-Skills and knowledge:
-- Strong technical background in various areas
-- Intimate knowledge of software lifecycle, enterprise software
-- Strong understanding of Web and Cloud technologies
-- Front-end/back-end development experience
-- Cross-platform development experience (Windows, Linux, Mac)
-- High-performance solutions, scaling, multi-threading
-- Truly polyglot (TypeScript, Golang, C#, Java, ...)
-- DevOps, CICD, Jenkins pipeline, GH Actions, AWS CodeBuild
-- Databases (PostgreSQL, MongoDD, DGraph, ...)
-- Automated testing frameworks (Playwright, NUnit, JUnit, ...)
+### Technical Expertise
+- Strong foundation in software architecture, system design, and performance optimization
+- In-depth understanding of software development lifecycle and enterprise-grade systems
+- Full-stack development experience across front-end and back-end
+- Proficient in cross-platform development (Windows, Linux, macOS)
+- Experienced in building high-performance, scalable, and multi-threaded applications
+- Comfortable working across both statically and dynamically typed languages as a true programming polyglot
+- Familiar with modern DevOps practices including CI/CD pipelines and automation
+- Skilled in working with a variety of databases and data modeling approaches
+- Experience with test automation and quality assurance frameworks
+- Practical knowledge in integrating and developing AI-powered applications
 
-Languages:
+### Languages
 - English - B2+ IELTS Academic, 2019
 - Russian - Native Speaker
 
-Core values: 
+### Core values
 - Relationships matter
 - Solve for the customer
-- Playful entusiasm
+- Playful enthusiasm
 
 ## Education
-
-### PhD Student | Institute of IAE, Novosibirsk <span class="calendar icon right">`Jun 2004  – Aug 2007`</span>
-
-Accomplishments:
-* Modernized software for Circle Laser Writing Systems ([CLWS](/clws))
-* Implemented hardware abstraction layers and client/server architecture for CLWS
-* Built desktop user interfaces using C++ MFC and C# WinForms
-* Created tools for interferometry and tomography ([voxcat](/voxcat))
 
 ### Master's Degree | [Novosibirsk State University](https://www.nsu.ru/) <span class="calendar icon right">`Sep 1999  –  Jun 2004`</span>
 
@@ -53,9 +46,17 @@ Accomplishments:
 * GPA: 4.0+
 * Focus: Computers, Complexes, Systems, and Networks
 
+### PhD Student | Institute of IAE, Novosibirsk <span class="calendar icon right">`Jun 2004  – Aug 2007`</span>
+
+Accomplishments:
+* Modernized software for Circle Laser Writing Systems ([CLWS](/clws))
+* Implemented hardware abstraction layers for CLWS
+* Implemented client/server architecture and built desktop user interfaces using C++ MFC and C# WinForms
+* Created tools for interferometry and tomography ([voxcat](/voxcat))
+
 ## Professional Experience <span class="calendar icon right">`Jan 2002 - now`</span>
 
-### Senior Full-Stack Developer | [REGIE.AI](https://regie.ai) <span class="calendar icon right">`Oct 2020 - now`</span>
+### Senior Software Engineer | [REGIE.AI](https://regie.ai) <span class="calendar icon right">`Oct 2020 - now`</span>
 
 * Lead core engineering for multiple services and product lines
 * Team size: 10+ (distributed team)
@@ -79,23 +80,30 @@ Accomplishments:
 
 ### Full-Stack Software Engineer | [DataWorks](http://dataworks.co/) <span class="calendar icon right">`Jun 2007 - Jan 2016`</span>
 
-* Optimized RDL report engine performance (10x improvement)
-* Principal developer of [PageFX compiler](https://github.com/GrapeCity/pagefx), enabling multi-platform report viewing
+* Improved report rendering performance by 10x in legacy systems
+* Principal author of [PageFX compiler](https://github.com/GrapeCity/pagefx), enabling multi-platform report viewing
 * Team size: 20+ (distributed team)
 * Tools: **C#**, **.NET**, **WinForms**, **JavaScript**, **ReactJS**, **Knockout**, **jQuery**, **Microsoft SQL Reporting Services**
 
 ### Software Engineer | [IAE](https://www.iae.nsk.su/en/) <span class="calendar icon right">`Jun 2002 - Aug 2007`</span>
 
-* Automated laser writing systems and developed computer-aided tools
+* Developed automated laser writing systems
+* Developed computer-aided tools for laser writing and analysis
+* Team size: 3+
 * Tools: **C++**, **Windows DDK**, **C#**, **WinForms**
 
-## Highligted Projects
+## Highlighted Projects
 
-* [ActiveReports](/activereports)
-* [Spirent Velocity](/velocity)
-* [PageFX](/pagefx)
+* [ActiveReports](/activereports) - Flagship reporting platform evolving last 20 years. Proud to have contributed especially in optimization initiatives here.
+* [Spirent Velocity](/velocity) – Lab automation platform for testing and simulation. This was the largest project I've worked on.
+* [PageFX](/pagefx) - Open-source cross-platform compiler from dotnet to flash player binary code.
 
 [Full Project List](/projects)
+
+## Key Achievements
+- Built and optimized REST APIs serving 1M+ users
+- Optimized report rendering engine time by 10x in legacy systems
+- Modernized JavaScript framework for enterprise-grade spreadsheet engine
 
 ## References
 
@@ -108,4 +116,3 @@ Available upon request:
 * [Table tennis](/table-tennis)
 * Travelling with family
 * Open Source contribution
-
