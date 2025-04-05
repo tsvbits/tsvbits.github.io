@@ -56,9 +56,13 @@ Accomplishments:
 
 ## Professional Experience <span class="calendar icon right">`Jan 2002 - now`</span>
 
-### Senior Software Engineer | [REGIE.AI](https://regie.ai) <span class="calendar icon right">`Oct 2020 - now`</span>
+### Senior Software Engineer | [REGIE.AI](https://regie.ai) <span class="calendar icon right">`Oct 2020 – now`</span>
 
-* Lead core engineering for multiple services and product lines
+* Designed and built AI-powered productivity tools tailored for salespeople
+* Key contributor to the architecture and implementation of **Co-pilot** and **Auto-pilot** features
+* Collaborated cross-functionally with product, design, and research teams to deliver end-to-end solutions
+* Helped increase Co-pilot adoption by 40% through performance and UX enhancements
+* Continuously improved system reliability, scalability, and code quality across services
 * Team size: 10+ (distributed team)
 * Tools: **NodeJS**, **NestJS**, **TypeScript**, **React**, **Jest**, **Webpack**, **AWS**, **MongoDB**, **Metabase**
 
