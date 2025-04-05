@@ -98,6 +98,7 @@ Accomplishments:
 
 ## Highlighted Projects
 
+* [Regie.ai](https://regie.ai) – Contributed to AI-powered sales tools transforming how GTM teams automate outreach and boost productivity.
 * [ActiveReports](/activereports) - Flagship reporting platform evolving last 20 years. Proud to have contributed especially in optimization initiatives here.
 * [Spirent Velocity](/velocity) – Lab automation platform for testing and simulation. This was the largest project I've worked on.
 * [PageFX](/pagefx) - Open-source cross-platform compiler from dotnet to flash player binary code.
