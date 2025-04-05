@@ -5,13 +5,13 @@ spoiler: Latest version of online CV
 tags: ["cv", "pr"]
 ---
 
-**Name**: Sergey Todyshev
+**Name**: Sergey Todyshev  
 **Email**: [stodyshev@gmail.com](mailto:stodyshev@gmail.com)  
 **LinkedIn**: [linkedin.com/in/sergeytodyshev](https://www.linkedin.com/in/sergeytodyshev)  
-**GitHub**: [github.com/sergeyt](https://github.com/sergeyt)
-**WebSite**: [sergeyt.dev](https://sergeyt.dev)
-**Blog**: [tsvbits](https://tsvbits.com)
-**Updated**: April 5, 2025
+**GitHub**: [github.com/sergeyt](https://github.com/sergeyt)  
+**WebSite**: [sergeyt.dev](https://sergeyt.dev)  
+**Blog**: [tsvbits](https://tsvbits.com)  
+**Updated**: April 5, 2025  
 
 ## About
 
