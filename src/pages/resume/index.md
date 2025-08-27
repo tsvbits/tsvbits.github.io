@@ -18,26 +18,6 @@ tags: ["cv", "pr"]
 - Expert in Node.js/TypeScript, Java/C#, React, Golang, and AWS with a record of shipping robust, cross-platform solutions.
 - Skills: Node.js, TypeScript, React, Java, C#, NestJS, Golang, Rust, AWS, MongoDB, PostgreSQL, ElasticSearch, Docker, CI/CD, Microservices, System Architecture, Performance Optimization.
 
-### Languages
-- English - B2+ IELTS Academic, 2019
-- Russian - Native Speaker
-
-## Education
-
-### Master's Degree | [Novosibirsk State University](https://www.nsu.ru/) <span class="calendar icon right">`Sep 1999  –  Jun 2004`</span>
-
-* Faculty: Information Technologies
-* GPA: 4.0+
-* Focus: Computers, Complexes, Systems, and Networks
-
-### PhD Student | Institute of IAE, Novosibirsk <span class="calendar icon right">`Jun 2004  – Aug 2007`</span>
-
-Accomplishments:
-* Modernized software for Circle Laser Writing Systems ([CLWS](/clws))
-* Implemented hardware abstraction layers for CLWS
-* Implemented client/server architecture and built desktop user interfaces using C++ MFC and C# WinForms
-* Created tools for interferometry and tomography ([voxcat](/voxcat))
-
 ## Experience
 
 ### [REGIE.AI](https://regie.ai) - AI-native Sales Enablement Platform
@@ -81,7 +61,18 @@ Accomplishments:
 * Developed C++ and C# software for automated Circle Laser Writing Systems (CLWS), including hardware abstraction layers and client-server architecture for system control.
 * Tools: **C++**, **Windows DDK**, **C#**, **WinForms**
 
-## Hobbies
-* [Table tennis](/table-tennis)
-* Travelling with family
-* Open Source contribution
+## Education
+
+### Master's Degree | [Novosibirsk State University](https://www.nsu.ru/) <span class="calendar icon right">`Sep 1999  –  Jun 2004`</span>
+
+* Faculty: Information Technologies
+* GPA: 4.0+
+* Focus: Computers, Complexes, Systems, and Networks
+
+### PhD Student | Institute of IAE, Novosibirsk <span class="calendar icon right">`Jun 2004  – Aug 2007`</span>
+
+Accomplishments:
+* Modernized software for Circle Laser Writing Systems ([CLWS](/clws))
+* Implemented hardware abstraction layers for CLWS
+* Implemented client/server architecture and built desktop user interfaces using C++ MFC and C# WinForms
+* Created tools for interferometry and tomography ([voxcat](/voxcat))
