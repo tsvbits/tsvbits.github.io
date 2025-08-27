@@ -40,7 +40,7 @@ Accomplishments:
 
 ## Experience
 
-### [REGIE.AI](https://regie.ai) | AI-native Sales Enablement Platform
+### [REGIE.AI](https://regie.ai) - AI-native Sales Enablement Platform
 **Senior Software Engineer** | Oct 2020 – present
 
 * Architected Auto-pilot backend with NestJS + MongoDB, powering automated multi-step campaigns for 1,000+ enterprise users.
@@ -50,7 +50,7 @@ Accomplishments:
 * Team size: 10+ (distributed team)
 * Tools: **NodeJS**, **NestJS**, **TypeScript**, **React**, **Jest**, **Webpack**, **AWS**, **MongoDB**, **Metabase**
 
-### [GrapeCity](https://grapecity.com/) | JavaScript Data Presentation Platform
+### [GrapeCity](https://grapecity.com/) - JavaScript Data Presentation Platform
 **Tech Lead** | Oct 2018 - Oct 2020
 
 * Led a distributed team of 7 engineers in the development of [**DataViewsJS**](https://www.grapecity.com/dataviewsjs/), a JavaScript data presentation library used by Fortune 500 clients.
@@ -58,7 +58,7 @@ Accomplishments:
 * Proved a 5x performance gain with Rust + WebAssembly prototype for spreadsheet calcs, influencing product roadmap.
 * Tools: **NodeJS**, **ExpressJS**, **TypeScript**, **React**, **Angular**, **VueJS**, **Jest**, **Webpack**
 
-### [Xored](http://www.xored.com/) | (Lab Automation Platform)
+### [Xored](http://www.xored.com/) - Lab Automation Platform
 **Tech Lead** |  Jan 2016 - Jun 2018
 
 * Led and mentored a team of 15 engineers developing [**Spirent Veclity**](/velocity), a lab automation platform for a major telecommunications client.
@@ -67,7 +67,7 @@ Accomplishments:
 * Team size: 20+ (distributed team)
 * Tools: **Java**, **PostgreSQL**, **ElasticSearch**, **WildFly**, **Apache Kafka**, **ReactJS**, **AngularJS**, **Python**, **Golang**
 
-### [DataWorks](http://dataworks.co/) | (Reporting Solutions)
+### [DataWorks](http://dataworks.co/) - Reporting Solutions
 **Full-Stack Software Engineer** |  Jun 2007 - Jan 2016
 
 * Boosted legacy report rendering 10x by re-engineering the C# engine and optimizing layout and data processing subsystems.
@@ -75,7 +75,7 @@ Accomplishments:
 * Team size: 20+ (distributed team)
 * Tools: **C#**, **.NET**, **WinForms**, **JavaScript**, **ReactJS**, **Knockout**, **jQuery**, **Microsoft SQL Reporting Services**
 
-### [IAE](https://www.iae.nsk.su/en/) | (Research Lab)
+### [IAE](https://www.iae.nsk.su/en/) - Research Lab
 **Software Engineer** |  Jun 2002 - Aug 2007
 
 * Developed C++ and C# software for automated Circle Laser Writing Systems (CLWS), including hardware abstraction layers and client-server architecture for system control.
