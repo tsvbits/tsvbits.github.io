@@ -63,13 +63,15 @@ tags: ["cv", "pr"]
 
 ## Education
 
-### Master's Degree | [Novosibirsk State University](https://www.nsu.ru/) | Sep 1999  –  Jun 2004
+### [Novosibirsk State University](https://www.nsu.ru/)
+**Master's Degree** | Sep 1999  –  Jun 2004
 
 * Faculty: Information Technologies
 * GPA: 4.0+
 * Focus: Computers, Complexes, Systems, and Networks
 
-### PhD Student | Institute of IAE, Novosibirsk | Jun 2004  – Aug 2007
+### Institute of IAE, Novosibirsk
+**PhD Student** | Jun 2004  – Aug 2007
 
 Accomplishments:
 * Modernized software for Circle Laser Writing Systems ([CLWS](/clws))
