@@ -62,7 +62,6 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "chokidar": "4.0.3",
     "fsevents": "2.3.3",
     "eslint": "^7.22.0",
     "eslint-plugin-react": "^7.22.0",
@@ -73,7 +72,6 @@
     "sass": "^1.32.8"
   },
   "resolutions": {
-    "chokidar": "4.0.3",
     "fsevents": "2.3.3"
   },
   "homepage": "https://tsvbits.com",
