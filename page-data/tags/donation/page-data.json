@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-js","path":"/tags/donation/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/sponsor/"},"frontmatter":{"title":"Sponsor"}}}]}},"pageContext":{"tag":"donation"}},"staticQueryHashes":[]}
+{
+    "componentChunkName": "component---src-templates-tags-js",
+    "path": "/tags/donation/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/sponsor/"},"frontmatter":{"title":"Sponsor"}}}]}},"pageContext":{"tag":"donation"}},
+    "staticQueryHashes": []}

@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-js","path":"/tags/collection/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/rust/"},"frontmatter":{"title":"Rust"}}}]}},"pageContext":{"tag":"collection"}},"staticQueryHashes":[]}
+{
+    "componentChunkName": "component---src-templates-tags-js",
+    "path": "/tags/collection/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/rust/"},"frontmatter":{"title":"Rust"}}}]}},"pageContext":{"tag":"collection"}},
+    "staticQueryHashes": []}

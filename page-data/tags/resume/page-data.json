@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-js","path":"/tags/resume/","result":{"data":{"allMarkdownRemark":{"totalCount":2,"edges":[{"node":{"fields":{"slug":"/2021/cv-update/"},"frontmatter":{"title":"Small update of CV micro-app"}}},{"node":{"fields":{"slug":"/skills/"},"frontmatter":{"title":"Skills"}}}]}},"pageContext":{"tag":"resume"}},"staticQueryHashes":[]}
+{
+    "componentChunkName": "component---src-templates-tags-js",
+    "path": "/tags/resume/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":2,"edges":[{"node":{"fields":{"slug":"/2021/cv-update/"},"frontmatter":{"title":"Small update of CV micro-app"}}},{"node":{"fields":{"slug":"/skills/"},"frontmatter":{"title":"Skills"}}}]}},"pageContext":{"tag":"resume"}},
+    "staticQueryHashes": []}

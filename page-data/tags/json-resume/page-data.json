@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-js","path":"/tags/json-resume/","result":{"data":{"allMarkdownRemark":{"totalCount":2,"edges":[{"node":{"fields":{"slug":"/cv-micro-app/"},"frontmatter":{"title":"Micro app to render your JSON resume"}}},{"node":{"fields":{"slug":"/json-resume/"},"frontmatter":{"title":"React component to render JSON Resume"}}}]}},"pageContext":{"tag":"json-resume"}},"staticQueryHashes":[]}
+{
+    "componentChunkName": "component---src-templates-tags-js",
+    "path": "/tags/json-resume/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":2,"edges":[{"node":{"fields":{"slug":"/cv-micro-app/"},"frontmatter":{"title":"Micro app to render your JSON resume"}}},{"node":{"fields":{"slug":"/json-resume/"},"frontmatter":{"title":"React component to render JSON Resume"}}}]}},"pageContext":{"tag":"json-resume"}},
+    "staticQueryHashes": []}

@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-js","path":"/tags/philosophy/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/solidless/"},"frontmatter":{"title":"SOLIDless"}}}]}},"pageContext":{"tag":"philosophy"}},"staticQueryHashes":[]}
+{
+    "componentChunkName": "component---src-templates-tags-js",
+    "path": "/tags/philosophy/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/solidless/"},"frontmatter":{"title":"SOLIDless"}}}]}},"pageContext":{"tag":"philosophy"}},
+    "staticQueryHashes": []}

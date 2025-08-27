@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-js","path":"/tags/webdev/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/2021/multidisk/"},"frontmatter":{"title":"Lets build mini Google Drive clone quickly"}}}]}},"pageContext":{"tag":"webdev"}},"staticQueryHashes":[]}
+{
+    "componentChunkName": "component---src-templates-tags-js",
+    "path": "/tags/webdev/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/2021/multidisk/"},"frontmatter":{"title":"Lets build mini Google Drive clone quickly"}}}]}},"pageContext":{"tag":"webdev"}},
+    "staticQueryHashes": []}

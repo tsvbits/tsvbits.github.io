@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-js","path":"/tags/jamstack/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/jam-comments/"},"frontmatter":{"title":"Jamstack comments"}}}]}},"pageContext":{"tag":"jamstack"}},"staticQueryHashes":[]}
+{
+    "componentChunkName": "component---src-templates-tags-js",
+    "path": "/tags/jamstack/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/jam-comments/"},"frontmatter":{"title":"Jamstack comments"}}}]}},"pageContext":{"tag":"jamstack"}},
+    "staticQueryHashes": []}

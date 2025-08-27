@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-js","path":"/tags/meta/","result":{"data":{"allMarkdownRemark":{"totalCount":4,"edges":[{"node":{"fields":{"slug":"/2021/codersrank/"},"frontmatter":{"title":"My CodersRank Profile"}}},{"node":{"fields":{"slug":"/telepromter/"},"frontmatter":{"title":"Telepromter Sample"}}},{"node":{"fields":{"slug":"/about/"},"frontmatter":{"title":"About"}}},{"node":{"fields":{"slug":"/init/"},"frontmatter":{"title":"Restarted my blog"}}}]}},"pageContext":{"tag":"meta"}},"staticQueryHashes":[]}
+{
+    "componentChunkName": "component---src-templates-tags-js",
+    "path": "/tags/meta/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":4,"edges":[{"node":{"fields":{"slug":"/2021/codersrank/"},"frontmatter":{"title":"My CodersRank Profile"}}},{"node":{"fields":{"slug":"/telepromter/"},"frontmatter":{"title":"Telepromter Sample"}}},{"node":{"fields":{"slug":"/about/"},"frontmatter":{"title":"About"}}},{"node":{"fields":{"slug":"/init/"},"frontmatter":{"title":"Restarted my blog"}}}]}},"pageContext":{"tag":"meta"}},
+    "staticQueryHashes": []}

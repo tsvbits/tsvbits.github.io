@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-js","path":"/tags/typescript/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/create-state/"},"frontmatter":{"title":"createState function using React Context and ImmerJS"}}}]}},"pageContext":{"tag":"typescript"}},"staticQueryHashes":[]}
+{
+    "componentChunkName": "component---src-templates-tags-js",
+    "path": "/tags/typescript/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/create-state/"},"frontmatter":{"title":"createState function using React Context and ImmerJS"}}}]}},"pageContext":{"tag":"typescript"}},
+    "staticQueryHashes": []}

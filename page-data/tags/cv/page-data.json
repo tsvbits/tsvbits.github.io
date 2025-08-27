@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-js","path":"/tags/cv/","result":{"data":{"allMarkdownRemark":{"totalCount":5,"edges":[{"node":{"fields":{"slug":"/resume/"},"frontmatter":{"title":"Resume"}}},{"node":{"fields":{"slug":"/2021/cv-update/"},"frontmatter":{"title":"Small update of CV micro-app"}}},{"node":{"fields":{"slug":"/cv-micro-app/"},"frontmatter":{"title":"Micro app to render your JSON resume"}}},{"node":{"fields":{"slug":"/skills/"},"frontmatter":{"title":"Skills"}}},{"node":{"fields":{"slug":"/cover/"},"frontmatter":{"title":"Cover letter"}}}]}},"pageContext":{"tag":"cv"}},"staticQueryHashes":[]}
+{
+    "componentChunkName": "component---src-templates-tags-js",
+    "path": "/tags/cv/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":5,"edges":[{"node":{"fields":{"slug":"/resume/"},"frontmatter":{"title":"Resume"}}},{"node":{"fields":{"slug":"/2021/cv-update/"},"frontmatter":{"title":"Small update of CV micro-app"}}},{"node":{"fields":{"slug":"/cv-micro-app/"},"frontmatter":{"title":"Micro app to render your JSON resume"}}},{"node":{"fields":{"slug":"/skills/"},"frontmatter":{"title":"Skills"}}},{"node":{"fields":{"slug":"/cover/"},"frontmatter":{"title":"Cover letter"}}}]}},"pageContext":{"tag":"cv"}},
+    "staticQueryHashes": []}

@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-blog-index-js","path":"/zh-hant/","result":{"data":{"site":{"siteMetadata":{"title":"tsvbits","description":"Personal blog by Sergey Todyshev"}},"allMarkdownRemark":{"edges":[]}},"pageContext":{"langKey":"zh-hant"}},"staticQueryHashes":["336482444"]}
+{
+    "componentChunkName": "component---src-templates-blog-index-js",
+    "path": "/zh-hant/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"tsvbits","description":"Personal blog by Sergey Todyshev"}},"allMarkdownRemark":{"edges":[]}},"pageContext":{"langKey":"zh-hant"}},
+    "staticQueryHashes": ["336482444"]}

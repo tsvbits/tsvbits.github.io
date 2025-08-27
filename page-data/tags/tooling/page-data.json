@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-js","path":"/tags/tooling/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/webpack-sass/"},"frontmatter":{"title":"How to add style loaders to webpack"}}}]}},"pageContext":{"tag":"tooling"}},"staticQueryHashes":[]}
+{
+    "componentChunkName": "component---src-templates-tags-js",
+    "path": "/tags/tooling/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/webpack-sass/"},"frontmatter":{"title":"How to add style loaders to webpack"}}}]}},"pageContext":{"tag":"tooling"}},
+    "staticQueryHashes": []}

@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-js","path":"/tags/tt/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/table-tennis/"},"frontmatter":{"title":"Table tennis"}}}]}},"pageContext":{"tag":"tt"}},"staticQueryHashes":[]}
+{
+    "componentChunkName": "component---src-templates-tags-js",
+    "path": "/tags/tt/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/table-tennis/"},"frontmatter":{"title":"Table tennis"}}}]}},"pageContext":{"tag":"tt"}},
+    "staticQueryHashes": []}

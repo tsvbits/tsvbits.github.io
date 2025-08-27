@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-js","path":"/tags/lecture/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/reflection/comptechnsk/2018/"},"frontmatter":{"title":"About golang at CompTechNSK 2018"}}}]}},"pageContext":{"tag":"lecture"}},"staticQueryHashes":[]}
+{
+    "componentChunkName": "component---src-templates-tags-js",
+    "path": "/tags/lecture/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/reflection/comptechnsk/2018/"},"frontmatter":{"title":"About golang at CompTechNSK 2018"}}}]}},"pageContext":{"tag":"lecture"}},
+    "staticQueryHashes": []}
