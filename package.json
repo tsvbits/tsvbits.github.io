@@ -62,7 +62,6 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "fsevents": "2.3.3",
     "eslint": "^7.22.0",
     "eslint-plugin-react": "^7.22.0",
     "gh-pages": "3.1.0",
@@ -70,9 +69,6 @@
     "lint-staged": "^10.5.4",
     "prettier": "^2.4.1",
     "sass": "^1.32.8"
-  },
-  "resolutions": {
-    "fsevents": "2.3.3"
   },
   "homepage": "https://tsvbits.com",
   "license": "CC",
