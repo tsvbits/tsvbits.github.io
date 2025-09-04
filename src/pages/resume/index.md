@@ -21,7 +21,7 @@ tags: ["cv", "pr"]
 ## Experience
 
 ### [REGIE.AI](https://regie.ai) - AI-native Sales Enablement Platform
-**Senior Software Engineer** | Oct 2020 – present
+**Senior Software Engineer** | Oct 2020 – Aug 2025
 
 * Architected Auto-pilot backend with NestJS + MongoDB, powering automated multi-step campaigns for 1,000+ enterprise users.
 * Drove 40% adoption growth of Co-pilot by slashing API response times and streamlining React components.
