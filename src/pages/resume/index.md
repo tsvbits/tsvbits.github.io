@@ -25,7 +25,6 @@ tags: ["cv", "pr"]
 
 * Architected Auto-pilot backend with NestJS + MongoDB, powering automated multi-step campaigns for 1,000+ enterprise users.
 * Drove 40% adoption growth of Co-pilot by slashing API response times and streamlining React components.
-* Consolidated three legacy endpoints into a single REST API, cutting server costs 15% through leaner AWS usage.
 * Halved bug resolution times by rolling out standardized logging/monitoring with New Relic + Sentry.
 * Team size: 10+ (distributed team)
 * Tools: **NodeJS**, **NestJS**, **TypeScript**, **React**, **Jest**, **Webpack**, **AWS**, **MongoDB**, **Metabase**
