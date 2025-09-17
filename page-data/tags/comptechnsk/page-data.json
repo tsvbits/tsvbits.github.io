@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-tags-js",
     "path": "/tags/comptechnsk/",
-    "result": {"data":{"allMarkdownRemark":{"totalCount":2,"edges":[{"node":{"fields":{"slug":"/reflection/comptechnsk/2018/"},"frontmatter":{"title":"About golang at CompTechNSK 2018"}}},{"node":{"fields":{"slug":"/reflection/comptechnsk/2019/"},"frontmatter":{"title":"About JavaScript at CompTechNSK 2019"}}}]}},"pageContext":{"tag":"comptechnsk"}},
+    "result": {"data":{"allMarkdownRemark":{"totalCount":2,"edges":[{"node":{"fields":{"slug":"/reflection/comptechnsk/2019/"},"frontmatter":{"title":"About JavaScript at CompTechNSK 2019"}}},{"node":{"fields":{"slug":"/reflection/comptechnsk/2018/"},"frontmatter":{"title":"About golang at CompTechNSK 2018"}}}]}},"pageContext":{"tag":"comptechnsk"}},
     "staticQueryHashes": []}
