@@ -2,7 +2,7 @@
 title: Resume
 date: '2024-12-16'
 spoiler: Latest version of online CV
-tags: ["cv", "pr"]
+tags: ["cv", "resume"]
 ---
 
 **Sergey Todyshev**  
@@ -74,6 +74,6 @@ tags: ["cv", "pr"]
 
 Accomplishments:
 * Modernized software for Circle Laser Writing Systems ([CLWS](/clws))
-* Implemented hardware abstraction layers for CLWS
-* Implemented client/server architecture and built desktop user interfaces using C++ MFC and C# WinForms
-* Created tools for interferometry and tomography ([voxcat](/voxcat))
+* Developed hardware abstraction layers for CLWS
+* Designed and implemented client/server architecture and built desktop user interfaces using C++ MFC and C# WinForms
+* Built specialized tools for interferometry and tomography ([voxcat](/voxcat))
