@@ -69,7 +69,7 @@ tags: ["cv", "resume"]
 * GPA: 4.0+
 * Focus: Computers, Complexes, Systems, and Networks
 
-### Institute of IAE, Novosibirsk
+### [Institute of Automation and Electrometry](https://www.iae.nsk.su/en/)
 **PhD Student** | Jun 2004  – Aug 2007
 
 Accomplishments:
