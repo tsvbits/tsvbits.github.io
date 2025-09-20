@@ -7,7 +7,7 @@ tags: ["cv", "resume"]
 
 **Sergey Todyshev**  
 **Senior Software Engineer** | **AI-Powered Systems** | **Cloud Architecture**  
-**Sochi, Russia** (**open to relocation**)  
+**Batumi, Georgia** (**open to relocation**)  
 [stodyshev@gmail.com](mailto:stodyshev@gmail.com) | [linkedin.com/in/sergeytodyshev](https://www.linkedin.com/in/sergeytodyshev) | [github/sergeyt](https://github.com/sergeyt)  
 
 ## Summary
@@ -44,7 +44,7 @@ tags: ["cv", "resume"]
 * Eliminated outages by re-architecting PostgreSQL transactions, hitting 99.9% uptime and preventing churn.
 * Cut feature cycles from 8 to 4 weeks by automating CI/CD and creating a shared React component library.
 * Team size: 20+ (distributed team)
-* Tools: **Java**, **PostgreSQL**, **ElasticSearch**, **WildFly**, **Apache Kafka**, **ReactJS**, **AngularJS**, **Python**, **Golang**
+* Tools: **Java**, **PostgreSQL**, **ElasticSearch**, **WildFly**, **Apache Kafka**, **React**, **AngularJS**, **Python**, **Golang**
 
 ### [DataWorks](http://dataworks.co/) - Reporting Solutions
 **Full-Stack Software Engineer** |  Jun 2007 - Jan 2016
@@ -52,7 +52,7 @@ tags: ["cv", "resume"]
 * Boosted legacy report rendering 10x by re-engineering the C# engine and optimizing layout and data processing subsystems.
 * Authored [PageFX compiler](https://github.com/GrapeCity/pagefx) compiler, an open-source .NET → Adobe Flash compiler, enabling cross-platform reporting.
 * Team size: 20+ (distributed team)
-* Tools: **C#**, **.NET**, **WinForms**, **JavaScript**, **ReactJS**, **Knockout**, **jQuery**, **Microsoft SQL Reporting Services**
+* Tools: **C#**, **.NET**, **WinForms**, **JavaScript**, **React**, **Knockout**, **jQuery**, **Microsoft SQL Reporting Services**
 
 ### [IAE](https://www.iae.nsk.su/en/) - Research Lab
 **Software Engineer** |  Jun 2002 - Aug 2007
