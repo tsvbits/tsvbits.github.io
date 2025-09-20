@@ -20,9 +20,7 @@ const Reddit = loadable(() => import('../components/Reddit'));
 
 const GITHUB_USERNAME = 'tsvbits';
 const GITHUB_REPO_NAME = 'tsvbits.com';
-const systemFont = `system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-    "Droid Sans", "Helvetica Neue", sans-serif`;
+const systemFont = `Inter, sans-serif`;
 
 class Translations extends React.Component {
   render() {
@@ -220,10 +218,10 @@ const BlogPostTemplate = ({ pageContext }) => {
           )}
         </article>
       </main>
-      <aside>
+      <aside className="screen-only">
         <h3
           style={{
-            fontFamily: 'Montserrat, sans-serif',
+            fontFamily: 'Inter, sans-serif',
             marginTop: rhythm(0.25),
           }}
         >

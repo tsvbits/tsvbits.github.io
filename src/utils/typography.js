@@ -38,6 +38,9 @@ theme.overrideThemeStyles = () => ({
   },
 });
 
+theme.bodyFontFamily = ['Inter', 'sans-serif'];
+theme.headerFontFamily = ['Inter', 'sans-serif'];
+
 const typography = new Typography(theme);
 
 // Hot reload typography in development.
