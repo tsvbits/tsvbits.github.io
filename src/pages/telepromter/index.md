@@ -5,10 +5,10 @@ spoiler: I can use this text in video introductions
 tags: ["pr", "meta"]
 ---
 
-Hello! My name is Sergey. I am a software engineer from Russia.
-I have wonderful experience with more than 15 years programming different kind of computers for life. 
-I am still having fun making money this way and probably more importantly for you I am still productive.
-I have technology-agnostic mindset so learning and trying new things is my hobby.
-Usually I play full stack roles, but it is ok to me focusing only on frontend development.
-I might be the one who will write a lot of useful bits in your next gig.
+Hey, I’m Sergey. I’ve been in software engineering for over 20 years, working on everything from AI systems to big cloud platforms. Most recently I was one of the first engineers at Regie.ai, where I helped build and scale their AI-native sales enablement platform.
+
+I’ve touched a lot of different tech — Node.js, TypeScript, React, Golang, AWS — you name it. I like solving tricky problems around performance and scalability, and I really enjoy building things that people actually use. Along the way, I’ve led teams, modernized legacy systems, and built products that Fortune 500 companies rely on.
+
+Excited to meet new people, share ideas, and work on cool projects together.
+
 Thank you for watching this video and have a nice day.
