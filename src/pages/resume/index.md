@@ -41,7 +41,7 @@ tags: ["cv", "resume"]
 ### [Xored](http://www.xored.com/)
 **Tech Lead** (Jan 2016 - Jun 2018)
 
-* Led and mentored a team of 15 engineers developing [**Spirent Veclity**](/velocity), a Lab Automation Platform for a major telecommunications client.
+* Led and mentored a team of 15 engineers developing [**Spirent Velocity**](/velocity), a Lab Automation Platform for a major telecommunications client.
 * Eliminated outages by re-architecting PostgreSQL transactions, hitting 99.9% uptime and preventing churn.
 * Cut feature cycles from 8 to 4 weeks by automating CI/CD and creating a shared React component library.
 * Team size: 20+ (distributed team)
